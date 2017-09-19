@@ -31,6 +31,12 @@ Government will gain
   - improve its capacity as regulator of digital economy
   - insight to the operations of the economy through data
 
+Documentation and Other Works in Progress
+-----------------------------------------
+
+As we build out our understanding of what the Verified Organization Network could/should be we are share the work products via a Google Drive (https://drive.google.com/open?id=0B4DUXk_qFFhvb0otNlNHMVNvUzg). You are free to browse the documents and contact us if you have comments, contributions or questions. A GitHub Issue would be fine, pull requests on GitHub docs, or comments in Google Docs.
+
+
 About BC DevEx and Devops
 -------------------------
 The BC Developers&#39; Exchange and Devops Branch (BC DevEx and Devops) is growing an ecosystem of co-creation, commercialization and rapid adoption of innovation between the British Columbia&#39;s technology industry and the B.C. public sector.
