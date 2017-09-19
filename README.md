@@ -34,7 +34,7 @@ Government will gain
 Documentation and Other Works in Progress
 -----------------------------------------
 
-As we build out our understanding of what the Verified Organization Network could/should be we are share the work products via a Google Drive (https://drive.google.com/open?id=0B4DUXk_qFFhvb0otNlNHMVNvUzg). You are free to browse the documents and contact us if you have comments, contributions or questions. A GitHub Issue would be fine, pull requests on GitHub docs, or comments in Google Docs.
+As we build out our understanding of what the Verified Organization Network could/should be we are sharing the work products via a Google Drive (https://drive.google.com/open?id=0B4DUXk_qFFhvb0otNlNHMVNvUzg). You are free to browse the documents and contact us if you have comments, contributions or questions. A GitHub Issue would be fine, pull requests on GitHub docs, or comments in Google Docs.
 
 
 About BC DevEx and Devops
