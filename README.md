@@ -2,7 +2,7 @@
 
 The Verifiable Organizations Network (VON)
 ---------------------------------------
-The goal of this Verifiable Organizations Network (VON) project is to explore the design of an open unified and trusted network of organizational data for use by people and services across British Columbia. This could reduce the effort put forward by people looking to use services requiring data about their organization since it is readily available from trusted sources.
+The goal of the Verifiable Organizations Network (VON) project is to explore the design of an open, unified and trusted network of organizational data for use by people and services across British Columbia. This could reduce the effort put forward by people looking to use services requiring data about their organization since it is readily available from trusted sources.
 
 The VON could offer government digital service providers the possibility of dramatically simplifying their users&#39; service experience. This would be accomplished through open and simple access to unified organizational data so their users don&#39;t need to find it and re-enter it. Data is simply shared when its open, or shared with authorized consent.
 
@@ -35,7 +35,7 @@ Documentation and Other Works in Progress
 -----------------------------------------
 As we build out our understanding of what the Verifiable Organizations Network could/should be we are sharing the work products via a Google Drive (https://drive.google.com/open?id=0B4DUXk_qFFhvb0otNlNHMVNvUzg). You are free to browse the documents and contact us if you have comments, contributions or questions. A GitHub Issue would be fine, pull requests on GitHub docs, or comments in Google Docs.
 
-There is also another GitHub repo where we are working on a specific component of the VON codenamed "TheOrgBook. You can read about it in the Google Docs above and checkout early code at http://github.com/bcgov/theorgbook.
+There is also another GitHub repo where we are working on a specific component of the VON codenamed "TheOrgBook. You can read about it in the Google Docs above and checkout its webpage at http://bcgov.github.io/TheOrgBook or go directly to the repo at https://github.com/bcgov/TheOrgBook.
 
 About BC DevEx and Devops
 -------------------------
