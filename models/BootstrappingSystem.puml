@@ -1,0 +1,67 @@
+@startuml
+skinparam ParticipantPadding 20
+skinparam BoxPadding 20
+
+title VON Connector Bootstrap and Startup Cycle
+scale 1.0
+
+
+box "Sovrin" #LightBlue
+  participant "Ledger" as Ledger
+  actor "Trust Anchor" as TA
+endbox
+
+participant "Agent" as Ag
+
+
+=== BOOTSTRAP - from ZERO to HERO ==
+note over Ledger, Ag
+We are starting from a clean node set. No data exist yet
+endnote
+
+
+note over Ledger, Ag
+Trust Anchor is Establishing itself
+endnote
+TA -> Ledger: Look up own nym <agent-nym-lookup>
+alt Nym Exists case
+  Ledger -> TA: returns Nym
+else Nym not present case
+  TA --[#blue]> Ledger: write Nym if needed <agent-nym-send>
+  Ledger --[#blue]> TA: returns Nym
+end
+
+TA -> Ledger: Look up EndAttr <agent-endpoint-lookup>
+alt End Attribution Exists
+  Ledger -> TA: returns <agent-endpoint>
+else Endpoint Attribution does NOT exist
+  TA --[#blue]> Ledger: <agent-endpoint-send>
+  Ledger --[#blue]> TA: returns <agent-endpoint>
+end
+
+
+note over Ledger, Ag
+Agents are bootstrapping/confirming presence
+TODO: add alt/else for nym / EndAttr existence
+endnote
+Ag -> Ledger: Look up own nym <agent-nym-lookup>
+alt Nym Exists case
+  Ledger -> Ag: returns Nym
+else Nym not present case
+  Ag --[#blue]> TA: write Nym <agent-nym-send>
+  TA --[#blue]> Ledger: write Nym <agent-nym-send>
+  Ledger --[#blue]> Ag: returns Nym
+end
+
+Ag -> Ledger: Look up own Agent Endpoints <agent-endpoint-lookup>
+alt Agent Endpoint Attributes Exist
+  Ledger -> TA: returns <agent-endpoint>
+else Endpoint Attribution does NOT exist
+  Ag --[#blue]> TA: <agent-endpoint-send>
+    TA --[#blue]> Ledger: <agent-endpoint-send>
+    Ledger --[#blue]> TA: returns <agent-endpoint>
+    TA --[#blue]> Ag: returns <agent-endpoint>
+end
+
+
+@enduml
