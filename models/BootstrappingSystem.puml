@@ -22,6 +22,7 @@ endnote
 
 note over Ledger, Ag
 Trust Anchor is Establishing itself
+Creates itself if this network is a clean start.
 endnote
 TA -> Ledger: Look up own nym <agent-nym-lookup>
 alt Nym Exists case
@@ -42,7 +43,7 @@ end
 
 note over Ledger, Ag
 Agents are bootstrapping/confirming presence
-TODO: add alt/else for nym / EndAttr existence
+Creates itself if this network is a clean start.
 endnote
 Ag -> Ledger: Look up own nym <agent-nym-lookup>
 alt Nym Exists case
