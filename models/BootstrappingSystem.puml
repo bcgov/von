@@ -3,7 +3,7 @@ skinparam ParticipantPadding 20
 skinparam BoxPadding 20
 
 title VON Connector Bootstrap and Startup Cycle
-scale 1.0
+
 
 
 box "Sovrin" #LightBlue
