@@ -25,10 +25,10 @@ Trust Anchor is Establishing itself
 endnote
 TA -> Ledger: Look up own nym <agent-nym-lookup>
 alt Nym Exists case
-  Ledger -> TA: returns Nym
+  Ledger -> TA: returns <agent-nym>
 else Nym not present case
-  TA --[#blue]> Ledger: write Nym if needed <agent-nym-send>
-  Ledger --[#blue]> TA: returns Nym
+  TA --[#blue]> Ledger: <agent-nym-send>
+  Ledger --[#blue]> TA: returns <agent-nym>
 end
 
 TA -> Ledger: Look up EndAttr <agent-endpoint-lookup>
@@ -46,11 +46,11 @@ TODO: add alt/else for nym / EndAttr existence
 endnote
 Ag -> Ledger: Look up own nym <agent-nym-lookup>
 alt Nym Exists case
-  Ledger -> Ag: returns Nym
+  Ledger -> Ag: returns <agent-nym>
 else Nym not present case
-  Ag --[#blue]> TA: write Nym <agent-nym-send>
-  TA --[#blue]> Ledger: write Nym <agent-nym-send>
-  Ledger --[#blue]> Ag: returns Nym
+  Ag --[#blue]> TA: <agent-nym-send>
+  TA --[#blue]> Ledger: <agent-nym-send>
+  Ledger --[#blue]> Ag: returns <agent-nym>
 end
 
 Ag -> Ledger: Look up own Agent Endpoints <agent-endpoint-lookup>
