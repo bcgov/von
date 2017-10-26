@@ -12,7 +12,7 @@ box "Sovrin" #LightBlue
 endbox
 
 participant "Agent" as Ag
-
+participant "Prover" as P
 
 === BOOTSTRAP - from ZERO to HERO ==
 note over Ledger, Ag
@@ -63,6 +63,16 @@ else Endpoint Attribution does NOT exist
     Ledger --[#blue]> TA: returns <agent-endpoint>
     TA --[#blue]> Ag: returns <agent-endpoint>
 end
+note over Ag, P
+  Each Prover needs to set a Master Key.
+endnote
+P -> Ag: Bootstrap My Master Secret
+activate Ag
+Ag -> P: Create Master Secret
+destroy Ag
+P -> P: Store Master Secret
 
+note over Ledger, P
 
+endnote
 @enduml
