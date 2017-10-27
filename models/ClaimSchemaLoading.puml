@@ -1,0 +1,43 @@
+@startuml
+skinparam ParticipantPadding 20
+skinparam BoxPadding 20
+
+title VON Claim Definition Loading
+scale 1.0
+
+
+participant "Ledger" as Ledger
+box "Origin System"
+  actor "Origin Agent" as OAg
+  participant "Origin System" as OSys
+endbox
+box "EACH Participating System"
+  actor "Agent" as Ag
+  participant "Participant's System" as Part
+endbox
+
+
+=== CLAIM DEFINITION CREATION PHASE ==
+
+OAg -> Ledger: <schema-send>
+note over Ledger, Part
+ClaimDef - VON Level Schema (DID, seq_no, VON version number, Claim JSON...)
+json-dict - need example
+TODO: refine payloads here
+endnote
+Ledger -> OAg: returns ClaimDef <seq_no>
+OAg -> OSys: store Current ClaimDef
+OSys -> Part: Relay new ClaimDef (OUT OF BAND)
+Part -> Ag: GetClaimDef(...)
+Ag -> Ledger: confirm ClaimDef <schema-lookup>
+Ledger -> Ag: <json-dict>
+Ag -> Part: ClaimDef
+
+note over Ledger, Part
+  -- [WRONG] the Origin looks up the schema on the ledger and sends it if it's not there
+  -- all non-Origin agents look up the schema on the ledger
+  -- each Issuer sends a claim def to the ledger
+  -- the Prover sets a master secret internally
+endnote
+
+@enduml
