@@ -1,0 +1,68 @@
+@startuml
+skinparam ParticipantPadding 20
+skinparam BoxPadding 20
+
+title VON Claim Definition Loading
+
+
+
+participant "Ledger" as Ledger
+box "BC Registry"
+actor "Issuer" as I
+endbox
+
+
+box "TheOrgBook"
+  actor "Holder" as H
+  actor "Prover" as P
+endbox
+
+box "VON Loader"
+  actor "User" as U
+endbox
+
+actor "Verifier" as V
+
+
+note over Ledger, U
+- The claim loading cycle posts:
+  -- one initial claim-hello from Issuer to Prover (=holder for us), then, for each claim,
+  -- one claim-create, user to Issuer,
+  -- and one claim-store, Issuer to Prover/holder for each claim
+endnote
+
+
+=== Claim Comms Check ==
+
+I -> H: <claim-hello>
+H -> I: <how-you-doin?>
+
+=== Claim Issuing ==
+
+loop for each Claim
+  U -> I: <claim-create>
+  I -> Ledger: send claim request
+  Ledger -> I: <update revoc reg>, <claim>
+  I -> H: store Claim
+
+end
+
+
+=== Claim Retrieval ==
+
+note over Ledger, U
+- The claim retrieval cycle has the Verifier post a claim-request to the Prover and get back (best case)
+  one claim, or else a multitude of claims and applies filters to prune them to one
+- A user invokes the Verifier to post a proof-request, on the resulting claim structure, to the Prover
+- The user then packs the results into a verification-request and posts it to the Verifier, and displays the result.
+
+endnote
+
+U -> H: GetClaim(ClaimID)
+H -> U: <Claim>
+activate V
+  U -> V: ProveClaim(Claim)
+destroy V
+V -> U: <ReceiveProof>
+
+@enduml
