@@ -9,6 +9,7 @@ title VON Claim Definition Loading
 participant "Ledger" as Ledger
 box "BC Registry"
 actor "Issuer" as I
+participant "DB" as DB
 endbox
 
 
@@ -37,32 +38,37 @@ endnote
 I -> H: <claim-hello>
 H -> I: <how-you-doin?>
 
-=== Claim Issuing ==
+=== Claim Issuing (Bulk Load) ==
+group Bulk Load
+  U -> DB: Get List of Current Claim candidates
+  DB -> U: List Returned <bulk claim data>
+end group
 
 loop for each Claim
-  U -> I: <claim-create>
-  I -> Ledger: send claim request
-  Ledger -> I: <update revoc reg>, <claim>
-  I -> H: store Claim
-
+  U -> U: AssembleClaimData()
+  U -> I: CreateAndIssueClaim(payload)
+  I -> Ledger: Indy send claim request
+  Ledger -> I: Indy <update revoc reg>, <claim>
+  I -> U: <Claim>
+  U -> H: StoreClaim(Claim)
+  H -> H: storeClaim
+  H -> U: <ClaimID>
 end
 
 
-=== Claim Retrieval ==
+=== Claim Retrieval and Proof ==
 
-note over Ledger, U
-- The claim retrieval cycle has the Verifier post a claim-request to the Prover and get back (best case)
-  one claim, or else a multitude of claims and applies filters to prune them to one
-- A user invokes the Verifier to post a proof-request, on the resulting claim structure, to the Prover
-- The user then packs the results into a verification-request and posts it to the Verifier, and displays the result.
-
+note over Ledger, V
+Basic proving of the full claim. No need to select particular
+attributes to include/exclude.
 endnote
 
-U -> H: GetClaim(ClaimID)
-H -> U: <Claim>
+P -> H: GetClaim(ClaimID)
+H -> P: <Claim>
+P -> V: ProveClaim(Claim)
 activate V
-  U -> V: ProveClaim(Claim)
+  V -> V: Indy Verification magic
+  V -> P: <ReceiveProof>
 destroy V
-V -> U: <ReceiveProof>
 
 @enduml
