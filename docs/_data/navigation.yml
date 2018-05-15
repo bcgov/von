@@ -1,0 +1,113 @@
+# main links
+main:
+  - title: "Getting Started"
+    url: /getting_started/quick-start-guide/
+  - title: "About"
+    url: /about/
+  - title: "News"
+    url: /year-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
+
+
+# documentation links
+getting_started:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /getting_started/quick-start-guide/
+      - title: "Structure"
+        url: /getting_started/structure/
+      - title: "Installation"
+        url: /getting_started/installation/
+      - title: "Upgrading"
+        url: /getting_started/upgrading/
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /getting_started/configuration/
+      - title: "Overriding Theme Defaults"
+        url: /getting_started/overriding-theme-defaults/
+      - title: "Navigation"
+        url: /getting_started/navigation/
+      - title: "UI Text"
+        url: /getting_started/ui-text/
+      - title: "Authors"
+        url: /getting_started/authors/
+      - title: "Layouts"
+        url: /getting_started/layouts/
+  - title: Content
+    children:
+      - title: "Working with Posts"
+        url: /getting_started/posts/
+      - title: "Working with Pages"
+        url: /getting_started/pages/
+      - title: "Working with Collections"
+        url: /getting_started/collections/
+      - title: "Helpers"
+        url: /getting_started/helpers/
+      - title: "Utility Classes"
+        url: /getting_started/utility-classes/
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+        url: /getting_started/stylesheets/
+      - title: "JavaScript"
+        url: /getting_started/javascript/
+  - title: Meta
+    children:
+      - title: "History"
+        url: /getting_started/history/
+      - title: "Contributing"
+        url: /getting_started/contributing/
+      - title: "Old 2.2 Docs"
+        url: /getting_started/docs-2-2/
+      - title: "License"
+        url: /getting_started/license/
+      - title: "Terms &amp; Privacy Policy"
+        url: /terms/
+
+# sidebar navigation list sample
+sidebar-sample:
+  - title: "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+      - title: "Child Page A3"
+        url: /
+      - title: "Child Page A4"
+        url: /
+  - title: "Parent Page B"
+    children:
+      - title: "Child Page B1"
+        url: /
+      - title: "Child Page B2"
+        url: /
+      - title: "Child Page B3"
+        url: /
+      - title: "Child Page B4"
+        url: /
+      - title: "Child Page B5"
+        url: /
+  - title: "Parent Page C"
+    children:
+      - title: "Child Page C1"
+        url: /
+      - title: "Child Page C2"
+        url: /
+      - title: "Child Page C3"
+        url: /
+      - title: "Child Page C4"
+        url: /
+      - title: "Child Page C5"
+        url: /
+  - title: "Parent Page D"
+    children:
+      - title: "Child Page D1"
+        url: /
+      - title: "Child Page D2"
+        url: /
