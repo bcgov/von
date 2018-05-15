@@ -6,8 +6,6 @@ main:
     url: /about/
   - title: "News"
     url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
 
