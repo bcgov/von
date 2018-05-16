@@ -6,7 +6,7 @@ The goal of the Verifiable Organizations Network (VON) project is to explore the
 
 The VON could offer government digital service providers the possibility of dramatically simplifying their users&#39; service experience. This would be accomplished through open and simple access to unified organizational data so their users don&#39;t need to find it and re-enter it. Data is simply shared when its open, or shared with authorized consent.
 
-*Most up to date website* http://von.pathfinder.gc.ca
+*Most up to date website* http://von.pathfinder.gov.bc.ca
 
 Objectives
 ----------
