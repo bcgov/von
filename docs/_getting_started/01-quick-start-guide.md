@@ -1,182 +1,88 @@
 ---
 title: "Quick-Start Guide"
 permalink: /getting_started/quick-start-guide/
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-last_modified_at: 2018-03-20T15:58:49-04:00
+excerpt: "Getting Started with the Verifiable Organizations Network (VON), Self-Sovereign Identity and Verifiable Credentials to empower business."
+last_modified_at: 2018-05-16T16:36:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true
 ---
 
-Minimal Mistakes has been developed as a [Jekyll theme gem](http://jekyllrb.com/docs/themes/) for easier use. It is also 100% compatible with GitHub Pages --- just with slightly different installation process.
+You know a few things about [Self Sovereign Identity](https://bitsonblocks.net/2017/05/17/a-gentle-introduction-to-self-sovereign-identity/), [Decentralized Identifiers](https://w3c-ccg.github.io/did-spec/), the [Decentralized Identity Foundation](http://identity.foundation/), [Verifiable Credentials](https://w3c.github.io/vc-data-model/), and [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy) and you are excited to start to play around. You've heard about the [Verifiable Organizations Network (VON)](https://von.pathfinder.gov.bc.ca/) as being a great way to get going. We agree!  And this is the place to start!
 
-## Installing the Theme
+We assume you also know a bit about VON and TheOrgBook from reading our [About page]({{ "/about/" | relative_url }})
 
-If you're running Jekyll v3.5+ and self-hosting you can quickly install the theme as a Ruby gem.
+## Sit Back and Watch
 
-[^structure]: See [**Structure** page]({{ "/getting_started/structure/" | relative_url }}) for a list of theme files and what they do.
+If you want to start easy, begin by [watching Alice](https://www.youtube.com/watch?v=cz-6BldajiA) get her self-sovereign identity, some Verifiable Credentials and use those Credentials to get a job and a loan. This video is from IBM's Identity Group and uses VON components and Permitify under the covers. IBM has a [github repo](https://github.com/IBM-Blockchain-Identity/indy-ssivc-tutorial) with the demo configured that you can run with docker. Or, stick around here and can follow on to the next step and start to build up your own version of the VON components from the original source.
 
-**ProTip:** Be sure to remove `/docs` and `/test` if you forked Minimal Mistakes. These folders contain documentation and test pages for the theme and you probably don't want them littering up your repo.
-{: .notice--info}
+**Tip:** The current IBM demo is based on the same components you will find here. In the following we'll guide you through starting up the same components to run a slightly different demo.{: .notice--info}
 
-### Ruby Gem Method
+## Try the Demos
 
-Add this line to your Jekyll site's `Gemfile`:
+We also have some demos up and running that you can try out on your (or get in touch for a walkthrough):
 
-```ruby
-gem "minimal-mistakes-jekyll"
-```
+* Run the [Alice demo](https://indyworld.vcreds.org/en/recipe/indy_world) yourself - courtesy of IBM's Blockchain Identity Group
+* Check out [Getting a Restaurant Permit Demo](https://devex-von-test.pathfinder.gov.bc.ca/en/recipe/start_a_restaurant) - like the Alice demo, but for Permits and Licenses
+* Access a test instance of [TheOrgBook](https://devex-von-test.pathfinder.gov.bc.ca/)
+* Curious about the Blockchain?  Take a look at [what's on the Public Ledger](http://159.89.115.24/). Be warned - it's technical.
 
-Add this line to your Jekyll site's `_config.yml` file:
+Ready to run the code yourself? Jump to the section [I Want To Run The Code]({{ "/getting_started/quick-start-guide/#i-want-to-run-the-code" | relative_url }}).  If not, maybe the next section is for you...
 
-```yaml
-theme: minimal-mistakes-jekyll
-```
+## The "I'm Not a Techy" Path
 
-Then run Bundler to install the theme gem and dependencies:
+If you are not a techy, and you aren't going to run VON software on your system, you are probably here to learn about VON and how the capabilities inherent in VON might be useful in your business. Here are some places you can go to learn more:
 
-```bash
-bundle install
-```
+### Corporate Registries
 
-### GitHub Pages Method
+Part of a Corporate Registries organization? You could lay the foundation of a VON in your jurisdiction! Registries is a key "base of identity" for Organizations, just as a Driver's License issuer is a key "base of identity" for a Person. You should start with the [VON Participants]({{ "/getting_started/von_participants/" | relative_url }}) page, and then move on to [Running TheOrgBook Instance]({{ "/getting_started/running-tob-instance/" | relative_url }}).
 
-GitHub Pages has added [full support](https://github.com/blog/2464-use-any-theme-with-github-pages) for any GitHub-hosted theme.
+### Permits and Licences Issuer
 
-Replace `gem "jekyll"` with:		
-		
-```ruby		
-gem "github-pages", group: :jekyll_plugins			
-```		
-		
-Run `bundle update` and verify that all gems install properly.
+If your organization issues Permits and Licences, you can use VON to make it easier for your clients, improve your data and make it easier for organizations that rely on the Permits and Licences you issue. Pheww!  You should start with the [VON Participants]({{ "/getting_started/von_participants/" | relative_url }}) page, and then move on to [Running TheOrgBook Instance]({{ "/getting_started/issuing-permits-licences/" | relative_url }}).
 
-Add `remote_theme: "mmistakes/minimal-mistakes"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
+### Technical Architect
 
-You may also optionally specify a branch, [tag](https://github.com/mmistakes/minimal-mistakes/tags), or commit to use by appending an @ and the Git ref (e.g., `mmistakes/minimal-mistakes@4.9.0` or `mmistakes/minimal-mistakes@bbf3cbc5fd64a3e1885f3f99eb90ba92af84063d`). If you don't specify a Git ref, the master branch will be used.
+If you've heard your organization is thinking of deploying some VON components, you probably want to know what those components are and how you would run them. You should start with the [BC VON Architecture]({{ "/getting_started/bc-architecture/" | relative_url }}) page, and then move on the pages about the Operating Components, starting with [VON Network]({{ "/getting_started/von-network/" | relative_url }}).
 
----
+## I Want to Run the Code
 
-**Note:** Your Jekyll site should be viewable immediately at <http://USERNAME.github.io>. If it's not, you can force a rebuild by **Customizing Your Site** (see below for more details).
+Sounds good! Here are the steps you can follow to run some code with Docker.  There are a couple of prerequisites that you will need, some terminal windows and then we'll direct you to the details about how to get started.
+
+### Prerequisites
+
+To run the VON components, you need the following prerequisites. 
+
+**Heads Up**: If you don't know what these are this might be a little advanced. We assume you are pretty familiar with running commands in a terminal window, using git and github to clone source code repositories to your computer and get Docker installed and running. You've been warned!
 {: .notice--warning}
 
-If you're hosting several Jekyll based sites under the same GitHub username you will have to use Project Pages instead of User Pages. Essentially you rename the repo to something other than **USERNAME.github.io** and create a `gh-pages` branch off of `master`. For more details on how to set things up check [GitHub's documentation](https://help.github.com/articles/user-organization-and-project-pages/).
+* A relatively beefy (8GB of memory, a modern CPU and ideally an SSD drive) computer running MacOS, Linux or Windows 10 Professional
+* **Docker Community Edition**  If you are new to Docker, you have a fair bit of learning to do before you can get going.  [Start here](https://docs.docker.com/install/) and then go to their [Getting Started](https://docs.docker.com/get-started/) section.
+* **git** and if you are on Windows, **git-bash**. If you are new to git, you again have some learning. You can [start that journey here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+    * **git-bash** is a command line shell to use on Windows that is (sort of) on par with what you get on Linux or MacOS. You will need that for the scripts we will be using.
+* **s2i** This is a Docker related tool from Red Hat's OpenShift project. Get the [executable for your computer from here](https://github.com/openshift/source-to-image/releases). Unzip the file and move the executable file (e.g. "s2i" or "s2i.exe") to a directory on your path (as described [here](https://github.com/openshift/source-to-image#installation)).
+
+### Run the Code
+
+To run a local installation of VON, with an Indy Network, an instance of TheOrgBook, and an instance of Permitify, start with the following steps. We've provided links to the installation steps for each component. As we said above - you do need to know how to use git to clone a repo and use a terminal to navigate on the command line to your local repo instances.
+
+1. Use git to clone the repos of each of the the three components:
+    * **von-network**: https://github.com/bcgov/von-network 
+    * **TheOrgBook**: https://github.com/bcgov/TheOrgBook 
+    * **Permitify**: https://github.com/bcgov/permitify
+2. Open up three terminal windows running bash - one for **von-network**, one for **TheOrgBook** and one for **Permitify**
+3. Follow the instructions in the **[Quick Start Guide](https://github.com/bcgov/TheOrgBook/blob/master/docker/README.md#quick-start-guide)**
+
+:boom: Boom! On your computer, you have running:
+
+* A Four-node [Hyperledger Indy Blockchain Network]({{ "/getting_started/von-network/" | relative_url }}). It is listening for Identities (like TheOrgBook and the Permitify services) writing and reading (DIDs, Schema, and Credential Definitions) to and from the Ledger.
+  * In your browser, you can see the status and contents of the Ledger at: http://localhost:9000
+* An instance of the [TheOrgBook]({{ "/getting_started/theorgbook/" | relative_url }}), including a Web Interface (try it at: http://localhost:8080/en/home) , an Indy Agent and Wallet that can talk to the Indy Network, and a Postgres database holding information from received Credentials about the Organizations in TheOrgBook
+* [Permitify]({{ "/getting_started/von-x-permitify/" | relative_url }}) - A set of simulated Permit and Licence Issuers each running an instance of VON-X - an Indy Agent and Wallet, configured to requesting TheOrgBook send proof of Claims about an Organization, and issuing a new Credential to TheOrgBook. 
+
+From there, you can [start here](http://localhost:8080/en/recipe/start_a_restaurant) to walk through the Permitify Demo to Register a Business and receive the Credentials that are the prerequsites for getting a Restaurent Business License.
 
 <figure>
-  <img src="{{ '/assets/images/mm-gh-pages.gif' | relative_url }}" alt="creating a new branch on GitHub">
+  <img src="{{ '/assets/images/VON-Logo.png' | relative_url }}" alt="creating a new branch on GitHub">
 </figure>
 
-You can also install the theme by copying all of the theme files[^structure] into your project.
-
-To do so fork the [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes/fork), then rename the repo to **USERNAME.github.io** --- replacing **USERNAME** with your GitHub username.
-
-<figure>
-  <img src="{{ '/assets/images/mm-theme-fork-repo.png' | relative_url }}" alt="fork Minimal Mistakes">
-</figure>
-
-**GitHub Pages Alternatives:** Looking to host your site for free and install/update the theme painlessly? [Netflify][netlify-jekyll], [GitLab Pages][gitlab-jekyll], and [Continuous Integration (CI) services][ci-jekyll] have you covered. In most cases all you need to do is connect your repository to them, create a simple configuration file, and install the theme following the [Ruby Gem Method](#ruby-gem-method) above.
-{: .notice--info}
-
-[netlify-jekyll]: https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/
-[gitlab-jekyll]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
-[ci-jekyll]: https://jekyllrb.com/docs/continuous-integration/
-
-### Remove the Unnecessary
-
-If you forked or downloaded the `minimal-mistakes-jekyll` repo you can safely remove the following folders and files:
-
-- `.editorconfig`
-- `.gitattributes`
-- `.github`
-- `/docs`
-- `/test`
-- `CHANGELOG.md`
-- `minimal-mistakes-jekyll.gemspec`
-- `README.md`
-- `screenshot-layouts.png`
-- `screenshot.png`
-
-## Setup Your Site
-
-Depending on the path you took installing Minimal Mistakes you'll setup things a little differently.
-
-**ProTip:** The source code and content files for this site can be found in the [`/docs` folder](https://github.com/mmistakes/minimal-mistakes/tree/master/docs) if you want to copy or learn from them.
-{: .notice--info}
-
-### Starting Fresh
-
-Starting with an empty folder and `Gemfile` you'll need to copy or re-create this [default `_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml) file. For a full explanation of every setting be sure to read the [**Configuration**]({{ "/getting_started/configuration/" | relative_url }}) section.
-
-From `v4.5.0` onwards, Minimal Mistakes theme-gem comes bundled with the necessary data files and will automatically use them via the [`jekyll-data`](https://github.com/ashmaroli/jekyll-data) plugin. So you no longer need to maintain a copy of these data files at your project directory.
-
-However like all other bundled files, you'll need to create and edit these data files to customize them.
-The bundled data files are:
-
-- [`_data/ui-text.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml) - UI text [documentation]({{ "/getting_started/ui-text/" | relative_url }})
-- [`_data/navigation.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml) - navigation [documentation]({{ "/getting_started/navigation/" | relative_url }})
-
-### Starting from `jekyll new`
-
-Scaffolding out a site with the `jekyll new` command requires you to modify a few files that it creates.
-
-Edit `_config.yml`. Then:
-
-- Replace `<site root>/index.md` with a modified [Minimal Mistakes `index.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/index.html). Be sure to enable pagination if using the [`home` layout]({{ "/getting_started/layouts/#home-page" | relative_url }}) by adding the necessary lines to **_config.yml**.
-- Change `layout: post` in `_posts/0000-00-00-welcome-to-jekyll.markdown` to `layout: single`.
-- Remove `about.md`, or at the very least change `layout: page` to `layout: single` and remove references to `icon-github.html` (or [copy to your `_includes`](https://github.com/jekyll/minima/tree/master/_includes) if using it).
-
-### Migrating to Gem Version
-
-If you're migrating a site already using Minimal Mistakes and haven't customized any of the theme files things upgrading will be easier for you.
-
-Start by removing the following folders and any files within them: 
-
-```terminal
-├── _includes
-├── _layouts
-├── _sass
-├── assets
-|  ├── css
-|  ├── fonts
-|  └── js
-```
-
-You won't need these anymore as they're bundled with the theme gem --- unless you intend to [override them](http://jekyllrb.com/docs/themes/#overriding-theme-defaults).
-
-**Note:** When clearing out the `assets` folder be sure to leave any files you've added and need. This includes images, CSS, or JavaScript that aren't already [bundled in the theme](https://github.com/mmistakes/minimal-mistakes/tree/master/assets). 
-{: .notice--warning}
-
-From `v4.5.0` onwards, you don't have to maintain a copy of the default data files viz. `_data/ui-text.yml` and `_data/navigation.yml` either.
-The default files are read-in automatically via the [`jekyll-data`](https://github.com/ashmaroli/jekyll-data) plugin.
-
-If you customized any of these files leave them alone, and only remove the untouched ones. If done correctly your modified versions should [override](http://jekyllrb.com/docs/themes/#overriding-theme-defaults) the versions bundled with the theme and be used by Jekyll instead.
-
-#### Update Gemfile
-
-Replace `gem "github-pages` or `gem "jekyll"` with `gem "jekyll", "~> 3.5"`. You'll need the latest version of Jekyll[^update-jekyll] for Minimal Mistakes to work and load all of the theme's assets properly, this line forces Bundler to do that.
-
-[^update-jekyll]: You could also run `bundle update jekyll` to update Jekyll.
-
-Add the Minimal Mistakes theme gem: 
-
-```ruby
-gem "minimal-mistakes-jekyll"
-```
-
-When finished your `Gemfile` should look something like this:
-
-```ruby
-source "https://rubygems.org"
-
-gem "jekyll", "~> 3.5"
-gem "minimal-mistakes-jekyll"
-```
-
-Then run `bundle update` and add `theme: minimal-mistakes-jekyll` to your `_config.yml`.
-
-**v4 Breaking Change:** Paths for image headers, overlays, teasers, [galleries]({{ "/getting_started/helpers/#gallery" | relative_url }}), and [feature rows]({{ "/getting_started/helpers/#feature-row" | relative_url }}) have changed and now require a full path. Instead of just `image: filename.jpg` you'll need to use the full path eg: `image: /assets/images/filename.jpg`. The preferred location is now `/assets/images/` but can be placed elsewhere or externally hosted. This applies to image references in `_config.yml` and `author.yml` as well.
-{: .notice--danger}
-
----
-
-That's it! If all goes well running `bundle exec jekyll serve` should spin-up your site.
