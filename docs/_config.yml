@@ -101,7 +101,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/VON-Logo.png"
-  bio              : "A collaboration between the Governments of British Columbia, Ontario and Canada."
+  bio              : "An Open Source collaboration initiated by the Governments of British Columbia, Ontario and Canada."
   location         : "Victoria, BC"
   email            :
   uri              : "https://von.pathfinder.gov.bc.ca"
@@ -136,6 +136,7 @@ include:
   - .htaccess
   - _pages
   - _getting_started
+  - _how_to
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -192,6 +193,9 @@ collections:
   getting_started:
     output: true
     permalink: /:collection/:path/
+  how_to:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -226,6 +230,18 @@ defaults:
       comments: false
       sidebar:
         nav: "getting_started"
+  # _how_to
+  - scope:
+      path: "_how_to"
+      type: how_to
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "how_to"
 
 # Sass/SCSS
 sass:

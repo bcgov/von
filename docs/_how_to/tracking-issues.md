@@ -1,3 +1,13 @@
+---
+title: "Tracking Issues, Epics and Sprints"
+permalink: /how_to/tracking-issues/
+excerpt: "How and why we use ZenHub for VON Issue, Sprint and Epic Tracking."
+last_modified_at: 2018-05-23T17:00:00-07:00
+redirect_from:
+  - /theme-setup/
+toc: true
+---
+
 # Using ZenHub for VON Project Tracking
 
 To this point, we have primarily been using [Trello](https://trello.com/b/fHox971V/von) to track progress on the VON umbrella of initiatives. Trello is easy to get started with, easy to use and has enabled a fairly good workflow for the team. However, Trello does not play as well with github issues as we'd like and as a result, we are not getting good connection between changes to the code and the issues that drove those changes. Having a tight connection between business drivers (issues) and code changes is a crucial development artifact - free, accurate documentation.
