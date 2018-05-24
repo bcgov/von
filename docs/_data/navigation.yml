@@ -1,0 +1,113 @@
+# main links
+main:
+  - title: "Getting Started"
+    url: /getting_started/quick-start-guide/
+  - title: "About"
+    url: /about/
+  - title: "How To"
+    url: /how_to/contributing/
+  - title: "News"
+    url: /year-archive/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
+
+
+# documentation links
+getting_started:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /getting_started/quick-start-guide/
+      - title: "A VON Overview"
+        url: /getting_started/von-overview/
+      - title: "VON Participants"
+        url: /getting_started/von-participants/
+      - title: "Running an Instance of TheOrgBook"
+        url: /getting_started/running-tob-instance/
+      - title: "Issuing Permits and Licenses"
+        url: /getting_started/issuing-permits-licences/
+      - title: "Contributing to VON"
+        url: /getting_started/contributing/
+  - title: Operating Components
+    children:
+      - title: "VON-Network"
+        url: /getting_started/von-network/
+      - title: "VON-Agent"
+        url: /getting_started/von-agent/
+      - title: "VON-X and Permitify"
+        url: /getting_started/von-x-permitify/
+      - title: "VON-Image"
+        url: /getting_started/von-image/
+      - title: "TheOrgBook"
+        url: /getting_started/theorgbook/
+      - title: "DID-Auth"
+        url: /getting_started/did-auth/
+  - title: Collaborating
+    children:
+      - title: "VON Glossary"
+        url: /getting_started/von-glossary/
+      - title: "Documentation"
+        url: /getting_started/documentation/
+      - title: "BC's VON Architecture"
+        url: /getting_started/bc-architecture/
+      - title: "SRI's VON Architecture"
+        url: /getting_started/sri-architecture/
+      - title: "Ontario's VON Architecture"
+        url: /getting_started/ontario-architecture/
+
+how_to:
+  - title: Contributing
+    children:
+      - title: "Contributing to the VON Project"
+        url: /how_to/contributing/
+  - title: Tools and Practices
+    children:
+      - title: "Tracking Sprints, Epics and Issues"
+        url: /how_to/tracking-issues/
+      - title: "Updating Project Documentation"
+        url: /how_to/updating-docs/
+      - title: "Generating Code Documentation"
+        url: /how_to/generating-code-docs/
+
+# sidebar navigation list sample
+sidebar-sample:
+  - title: "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+      - title: "Child Page A3"
+        url: /
+      - title: "Child Page A4"
+        url: /
+  - title: "Parent Page B"
+    children:
+      - title: "Child Page B1"
+        url: /
+      - title: "Child Page B2"
+        url: /
+      - title: "Child Page B3"
+        url: /
+      - title: "Child Page B4"
+        url: /
+      - title: "Child Page B5"
+        url: /
+  - title: "Parent Page C"
+    children:
+      - title: "Child Page C1"
+        url: /
+      - title: "Child Page C2"
+        url: /
+      - title: "Child Page C3"
+        url: /
+      - title: "Child Page C4"
+        url: /
+      - title: "Child Page C5"
+        url: /
+  - title: "Parent Page D"
+    children:
+      - title: "Child Page D1"
+        url: /
+      - title: "Child Page D2"
+        url: /

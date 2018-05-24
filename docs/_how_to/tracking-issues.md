@@ -1,4 +1,14 @@
-# Using ZenHub for VON Project Tracking
+---
+title: "Tracking Issues, Epics and Sprints"
+permalink: /how_to/tracking-issues/
+excerpt: "How and why we use ZenHub for VON Issue, Sprint and Epic Tracking."
+last_modified_at: 2018-05-23T17:00:00-07:00
+redirect_from:
+  - /theme-setup/
+toc: true
+---
+
+## Using ZenHub for VON Project Tracking
 
 To this point, we have primarily been using [Trello](https://trello.com/b/fHox971V/von) to track progress on the VON umbrella of initiatives. Trello is easy to get started with, easy to use and has enabled a fairly good workflow for the team. However, Trello does not play as well with github issues as we'd like and as a result, we are not getting good connection between changes to the code and the issues that drove those changes. Having a tight connection between business drivers (issues) and code changes is a crucial development artifact - free, accurate documentation.
 
@@ -6,7 +16,7 @@ As of this next Sprint (18.9(18) - as yet unnamed) we are switching to github Is
 
 The remainder of the document covers some of the key features that are found in ZenHub that influenced our decision, and some guidance on how we are using ZenHub for VON.
 
-# Key Features in ZenHub for VON
+## Key Features in ZenHub for VON
 
 These are the features that pushed us to trying ZenHub. These features were either missing or sadly lacking in github Projects.
 
@@ -19,19 +29,19 @@ These are the features that pushed us to trying ZenHub. These features were eith
 * Good filtering support for focusing on issues
 * Advanced abilities - Move issues between repos, issues dependencies, bulk updates, estimating, Slack Integration and reporting.
 
-# Tips and Tricks For Using ZenHub
+## Tips and Tricks For Using ZenHub
 
-## ZenHub Web App and Chrome Extension
+### ZenHub Web App and Chrome Extension
 
 ZenHub has a [Web/Mobile App](https://app.zenhub.com) for using ZenHub Kanban boards, and [Chrome and Firefox Extensions](https://www.zenhub.com/extension) that add ZenHub functionality directly to github. With the Browser extensions, a "ZenHub" menu item is added to the top of each main repo page, and the Issue editing page is dynamically extended with ZenHub data and functionality.
 
 The only oddity with the two mechanisms is evidently some advanced functionality is only available in the Extension - for example, moving issues from one repo to another. I've found Googling "zenhub" and a needed feature tells me if the feature exists and is limited to the Extension.
 
-## Creating Issues From ZenHub
+### Creating Issues From ZenHub
 
 The ZenHub Board has a "New Issue +" button in the top corner. Just clicking the "New Issue" button will allow you to create a new issue (doh!) that is in the "von" project - which may not be what you want. I suggest clicking the "+" part of the button to make sure you are creating the issue in the right repo. As a bonus - there are other things that you create in the "+" drop down.
 
-## Issues, Epics and Milestones, Oh My!
+### Issues, Epics and Milestones, Oh My!
 
 This topic is covered well in the [ZenHub Getting Started Guide](https://www.zenhub.com/guides#getting-started), but for a quick summary, here is the concepts of github Issues and Milestones, and ZenHub Epics are related:
 
@@ -43,11 +53,11 @@ The key point? Epics and Issues are connected to related functionality, while Mi
 
 Note that ZenHub supports converting Issues to Epics and vice versa. However, connections between Epics and the Issues they contain are lost when going back and forth.
 
-## Issue Dependencies
+### Issue Dependencies
 
 ZenHub supports the creation of dependencies between Issues, allowing for the tracking of "Blocking" and "Is Blocked By" relationships between issues.
 
-## The ZenHub VON Pipeline
+### The ZenHub VON Pipeline
 
 The VON Pipeline will be pretty much as it was in Trello, with the exception that ZenHub does not support Archiving Tickets and Lists, so the displayed lists will always be the same. During a sprint, the active lists are "Sprint Backlog", "In Progress", "Review/QA", and "Done". At the end of a Sprint, Issues will be moved to Closed as appropriate.
 
@@ -60,11 +70,11 @@ As recommended by ZenHub, we've included both a Backlog list and an Icebox list,
 
 As noted, ZenHub has a "collapse list" features that allows for toggling between showing and hiding the issues within a list. As well, using the Board configuration capability (left menu "Boards", settings gear icon) you can show or hide the "Closed" list.
 
-## Advanced Issues
+### Advanced Issues
 
 ZenHub adds a bunch of features that are not in Trello that we may or may not use, including Story Point estimates and reporting. As we ramp up on ZenHub, we may decide to use those capabilities to increase project predictability at the cost of some spending time doing creating the estimates.
 
-# What's Not In github Projects
+## What's Not In github Projects
 
 For completion and future reference, here are a list of things that I found were going to be challenging in trying to use github Projects:
 
