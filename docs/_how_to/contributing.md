@@ -8,17 +8,20 @@ redirect_from:
 toc: true
 ---
 
-This section of the VON documentation is about contributing to the project. If you and/or your team are interested in joining the fun, read on for some guidance on how to participate in alignment with how we are running this Open Source project.
+This section of the documentation is about contributing to the VON Project. If you and/or your team are interested in joining the fun, read on for some guidance on how to participate in alignment with how we are running this project.
 
-Of course, if all you want to do is fork the project repos and submit issues and/or pull requests, we're happy with that. The practices covered here are if you want to be more tightly tied to the project - joining the team meetings, tracking our sprints, and contributing documentation.
+Of course, if all you want to do is fork the project repos and submit issues and/or pull requests, we're happy with that as well. The practices covered here are if you want to be more tightly tied to the project - joining the team meetings, tracking our sprints, and contributing documentation.
 
 # Overview
 
 ## Sprints
 
-The current team meets every second Wednesday (from May 23, 2018) at 10AM Pacific, 1PM Eastern for Sprint Planning - let us know if you would like to join us and we'll add you to the invitation. At that time, we review work accomplished, roadblocks, and work planned for the next Sprint. Sprints are tracked using github issues and [zenhub](https://zenhub.com), as described in [this document]({{ "/how_to/tracking-issues/" | relative_url }}).
+The current team meets every second Wednesday (from May 23, 2018) at 10AM Pacific, 1PM Eastern for Sprint Planning - let us know if you would like to join us and we'll add you to the invitation. At that time, we review work accomplished, roadblocks, and work planned for the next Sprint. Sprints are tracked using github issues in the project repos and [zenhub](https://app.zenhub.com/workspace/o/bcgov/von-bc-registries-agent/boards?repos=113071139,104127743,98577443,126396819), as described in [this document]({{ "/how_to/tracking-issues/" | relative_url }}). You need a github account to access ZenHub, or you can just look at the list of issues on github:
 
-The team meets Monday, Friday, and non-Sprint planning Wednesdays at 8:45AM Pacific/11:45AM Eastern for daily standups.
+* VON: https://github.com/bcgov/von/issues
+* TheOrgBook: https://github.com/bcgov/TheOrgBook/issues
+* Permitify: https://github.com/bcgov/permitify/issues
+* BC Registries VON Agent: https://github.com/bcgov/von-bc-registries-agent/issues
 
 ## Documentation
 

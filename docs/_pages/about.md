@@ -2,77 +2,56 @@
 permalink: /about/
 title: "About Verifiable Organizations Network"
 excerpt: "About Verifiable Organizations Network - what we've started and where we're going"
-last_modified_at: 2018-05-17T16:30:00-07:00
+last_modified_at: 2018-05-28T12:00:00-07:00
 toc: true
 ---
 
 # Background - Adding Trust to the Internet
 
-Putting Internet users - and organizations - in control of their own online Identity has been a growing challenge since the start of the internet. With the creation of massive centralized stores of private data (e.g. Equifax, Google, Facebook, etc.), the ability for holders to use that data in ways that are not always in the best interest of the data owner (you!). Further, given the rise of cyber-hacking which exposes that data, a change is needed in how our data is handled. [Self-Sovereign Identity](https://bitsonblocks.net/2017/05/17/a-gentle-introduction-to-self-sovereign-identity/)  (SSI) is a promising approach to decentralize the control and location of our data, giving control of our data back to us. Taken further, SSI enables a higher level of trust on the Internet by providing mechanisms that enable verifiable identification of parties to a transaction, reducing the need for high-cost mechanisms to establish trust.
+Putting Internet users - and organizations - in control of their own online Identity has been a growing need since the start of the Internet. With the creation of massive centralized stores of private data (e.g. Equifax, Google, Facebook, etc.), has grown the ability for holders of that data to use (and misuse) that data in ways that are not always in the best interest of the data owner - You. Compounding that problem is the corresponding rise of cyber-hacks that expose user's personal data held in those centralized stores. This has created an urgency to change how our data - data we (should) own - is handled. [Self-Sovereign Identity](https://bitsonblocks.net/2017/05/17/a-gentle-introduction-to-self-sovereign-identity/) (SSI) is a promising approach to decentralize the handling of personal data that gives the control of that data back to us, where it belongs. SSI enables a higher level of trust on the Internet by providing mechanisms that enable verifiable identification of parties to a transaction, reducing the need for high-cost, in person mechanisms to establish trust.
 
-This project is particularly interested in the trust attribute of the SSI approach. We aim to create a trusted digital network of verifiable data about organizations which is globally connected, interoperable, secure, and easy to join. We believe the novel capabilities of  distributed ledger based Self-Sovereign Identity ecosystems to provide increased levels of trust for online transactions will foster economic activity for BC companies locally and across the globe. We call this the [Verifiable Organizations Network](https://github.com/bcgov/von).
+The Verifiable Organization Network (VON) project is particularly interested in the trust attribute of the SSI approach. We aim to create a trusted digital network of verifiable data about organizations which is globally connected, interoperable, secure, and easy to join. We believe the novel capabilities of  distributed ledger based Self-Sovereign Identity ecosystems to provide increased levels of trust for online transactions will foster economic activity for BC companies locally and across the globe.
 
 ## Our first step - Creating a Network Effect
 
-We recognize that there is a particular problem we face in creating a Verifiable Organizations Network. The challenge we face is the lack of government services whom can issue [Verifiable Claims](https://www.w3.org/2017/vc/) about organizations, as well as the fact that there are no organizations who have the ability to hold these claims. Therefore we are going to use strategies suggested in the very helpful [presentation](https://a16z.com/2016/03/07/all-about-network-effects/) by the venture capital firm [Andreessen Horowitz](https://a16z.com) which describes approaches to building network effects. A network effect occurs when a product or service becomes more valuable to its users as more people use it. This effect is easily observed in any communications network from the telephone network to Facebook.
+We recognize there is an immediate problem in creating VON - a network of Verifiable Credential Issuers/Verifiers and Holders. The checken-and-egg challenge is there is a lack of Services (for example, government organizations) that issue [Verifiable Credentials](https://www.w3.org/2017/vc/) about organizations, and a lack of organizations who have the ability to hold Verifiable Credentials. To bootstrap VON we are using strategies suggested in this excellent [presentation](https://a16z.com/2016/03/07/all-about-network-effects/) by the venture capital firm [Andreessen Horowitz](https://a16z.com) on building network effects. A network effect is needed when a product or service becomes more valuable to its users only when there enough people they know using it. This effect has been observed in any successful communications network from the telephones to Facebook.
 
-The particular strategy we are putting into action is similar to the one which was deployed by Facebook. [TheFaceBook](http://www.thecrimson.com/article/2004/2/9/hundreds-register-for-new-facebook-website/) at Harvard used a very clever network effect to bootstrap the new world of Social Networks. Mark Zuckerberg pre-loaded TheFacebook with accounts that provided a core of users with one common attribute (they went to Harvard) as an effective starting point for building an ever growing network. This approach bootstrapped the network effect which magnified subsequent actions of users, resulting in the ever-faster growth of TheFaceBook's, and ultimately, Facebook's network. Without seeding the network, there growth may never have come.
+The particular strategy we are putting into action is similar to the one which was deployed by Facebook. [TheFaceBook](http://www.thecrimson.com/article/2004/2/9/hundreds-register-for-new-facebook-website/) at Harvard used a very clever network effect to bootstrap the new world of Social Networks. Mark Zuckerberg pre-loaded TheFacebook with accounts that provided a core of users with one common attribute (they went to Harvard). This one steps triggered a network effect, magnifying the subsequent actions of users and resulting in the ever-faster growth of TheFaceBook's, and ultimately, Facebook's, social network. Without seeding the network, that growth may not have come.
 
-We're trying to use **"TheOrgBook"** to generate that same network effect for building Self-Sovereign Identities and the use of [Verifiable Claims](https://w3c.github.io/webpayments-ig/VCTF/charter/faq.html) for Verifiable Organizations.
+We're trying to use VON's **"TheOrgBook"** to generate that same network effect for building organizational Self-Sovereign Identities and the use of [Verifiable Credentials](https://w3c.github.io/webpayments-ig/VCTF/charter/faq.html).
 
-## The problem: Creating Network Effects for the VON
+## Triggering Network Effects for the VON
 
-The challenge in creating an SSI enabled is:
+The challenge in creating an Organizational SSI network is:
 
-* **Supply:** Services don't support Verifiable Claims because there are no Organizations with their own SSI Digital Wallets.
-* **Demand:** Organizations don't have a need for their own SSI Digital Wallets because there are no Services that support Verifiable Claims.
+* **Supply:** Services don't support Verifiable Credentials because there are no Organizations with their own SSI Digital Agents.
+* **Demand:** Organizations don't have a need for their own SSI Digital Agents because there are no Services that support Verifiable Credentials.
 
-We can't directly influence the demand, but as a major supplier of Services (registrations, licenses, permits, etc.) to organizations, we can enhance our local Services to drive supply. TheOrgBook gives Services a place to both issue Verifiable Claims and receive proofs about Verifiable Claims without needing Organizations to have their own wallets.
+The BC Government can't directly influence the demand side. However, as a major supplier of Services (registrations, licenses, permits, etc.) to organizations, BC can enhance Government Services to drive the supply side. TheOrgBook gives Government Services a place to issue Verifiable Credentials and from which to receive proofs of Verifiable Claims  - without needing Organizations to have their own Agents.
 
 Here's a simple picture of the system:
 
 ![](https://github.com/bcgov/TheOrgBook/raw/master/docs/assets/images/TheOrgBook-HighLevel2.png)
 
-* Desks are Services that Organizations use to register their business and from which they receive permits and licenses
-* TheOrgBook is a repository of the public claims generated by those Services
-  * Claims are equivalent to the "Permit to Operate" documents posted on the wall
-  * The repo is web-searchable, listing organizations, claims and claim details
-* The Identity Register Network is underlies the system to drive trust
+* The desks represent Government Services that Organizations use to register their business and apply for permits and licenses
+* TheOrgBook is a repository of the public Credentials generated by those Services
+  * Credentials are equivalent to the "Permit to Operate" documents posted on businesses' walls
+  * TheOrgBook's repository of Credentials is web-searchable, listing organizations, Credentials and Credential details (claims)
+* The Identity Registry Network underlies the system to infuse trust
   * a decentralized Self-Sovereign Identity network based on distributed ledger technology
 
-As an Organization goes through an online process to acquire their Registrations/Licenses/Permits, the Services gets proofs (and their associated data) from Verifiable Claims already stored in the database.
+As an Organization goes through online processes to acquire Registrations/Licenses/Permits, the Services get proofs (and their associated data) from Verifiable Credentials already stored in TheOrgBook. Once the Service completes the approval process and decides to issue a Registration/Licence/Permit, they can issue the Verifiable Credential digitally to TheOrgBook about the Organization.
 
 - This saves the users from having to re-type the information for each Service (and eliminates typos in the data)
-- Each Service can trust the information because it comes from a trusted source - and is cryptographically signed
+- Each Service can trust the information because it comes from a trusted source - cryptographically proving:
+  - The information was issued by the Issuer
+  - The information was issued to TheOrgBook (was not forged)
+  - The information has not been tampered with
+  - The information has not been revoked
 
 ## The Code
 
-We're currently building two components to support TheOrgBook:
-
-### TheOrgBook ([this repo](https://github.com/bcgov/TheOrgBook))
-
-Code to make it easy to spin up instances of TheOrgBook in different jurisdictions or in different business domains. The capabilities of each instance of TheOrgBook includes:
-
-* A repository of Verifiable Organizations built around a foundational claim about an Organization
-  * in our case, the foundational claim is from [BC Registries](https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/bc-registries-online-services)
-* Web interface for searching/displaying Verifiable Organizations by name, location and types of claims held.
-* An interface to underlying Identity Register Networks - initially a [Hyperledger Indy](https://github.com/hyperledger/indy-node/blob/master/README.md) network, with capabilities to:
-  * Receive issued Verifiable Claims from known Services about subject Verifiable Organizations
-  * Provide Proofs to Services about subject Verifiable Organizations
-
-We have identified the requirements for extending the Hyperledger Indy implementation of a key component of TheOrgBook - the wallet - and noted those [requirements here](tobwallet.md). We welcome suggestions and solutions to these requirements.
-
-### Verifiable Organization Network (VON) Connector (repo to be created)
-
-The VON-Connector is code to minimize the effort for a Service to become SSI-enabled and able to use an instance of TheOrgBook. The capabilities of a VON-Connector include:
-
-* An interface to underlying Identity Register Networks
-* A query interface to known instances of the TheOrgBook
-* Request proofs about a Verifiable Organization's claim from an instance of TheOrgBook
-* Issue Verifiable Claims about an Organization to an instance of TheOrgBook
-* Request proofs from an SSI-enabled Organization
-* Issue Verifiable Claims to an SSI-enabled Organization
-* Provide updates (including revocations) of Verifiable Claims to TheOrgBook and/or SSI-enabled Organizations
+All of the code related to VON is Open Source and found on [GitHub](https://www.github.com/topics/von). To learn more about the VON Components, check out [this section]({{ "/getting_started/von-overview/" | relative_url }}) of this site.
 
 ## Want to know more?
 
