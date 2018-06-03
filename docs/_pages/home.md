@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fas fa-download'></i> Quick Start"
   cta_url: "/getting_started/quick-start-guide/"
   caption:
-excerpt: 'Using Blockchain, Decentralized Identities and Verifiable Credentials to enable safe, secure digital interactions to make a better Internet for getting business done.<br /> <small><a href="https://von.pathfinder.gov.bc.ca">Latest News</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'Trustworthy data about organizations through blockchain-based Verifable Credentials<br /> <small><a href="https://von.pathfinder.gov.bc.ca">Latest News</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 feature_row:
   - image_path: "/assets/images/VON Logo - Black.png"
     alt: "von"
