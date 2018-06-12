@@ -2,7 +2,7 @@
 layout: single
 title:  "Draft Post"
 header:
-  teaser: "/assets/images/VON_Banner-ToB.png"
+  teaser: "/assets/images/Teal_Background.png"
 categories: 
   - Jekyll
 tags:
