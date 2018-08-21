@@ -1,0 +1,86 @@
+/* ==========================================================================
+   VON skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #eeeeee !default;
+$text-color: #222831 !default;
+$muted-text-color: #393e46 !default;
+$primary-color: #0092ca !default;
+$border-color: mix(#fff, #393e46, 75%) !default;
+$footer-background-color: $primary-color !default;
+$link-color: #393e46 !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+/* VON Brand Colors (1-5 = light to dark) */ 
+
+$bg-1: rgb(158,202,217);
+$bg-2: rgb(108,152,167);
+$bg-3: rgb(56,66,97);
+
+/**** Cold Tones ****/
+
+/* Primary */
+$navy-1: rgb(106,116,147);
+$navy-2: rgb(56,66,97);
+$navy-3: rgb(28,40,62);
+
+$frosty-mint-1: rgb(205,224,222);
+$frosty-mint-2: rgb(158,202,217);
+$frosty-mint-3: rgb(138,182,197);
+$frosty-mint-4: rgb(108,152,167);
+$frosty-mint-5: rgb(78,122,137);
+
+/* Tertiary */
+$frosty-mint-1: rgb(180,198,182);
+$frosty-mint-2: rgb(139,163,130);
+$frosty-mint-3: rgb(128,143,123);
+$frosty-mint-4: rgb(94,124,108);
+$frosty-mint-5: rgb(34,116,107);
+
+/**** Neutral Tones ****/
+
+/* Primary */
+$battleship-grey-1: rgb(220,225,228);
+$battleship-grey-2: rgb(191,206,213);
+$battleship-grey-3: rgb(179,189,200);
+$battleship-grey-4: rgb(126,142,158);
+
+$cream-1: rgb(254,242,167);
+$cream-2: rgb(254,227,143);
+$cream-3: rgb(234,207,123);
+$cream-4: rgb(214,187,103);
+
+/* Tertiary */
+$brown-1: rgb(224,168,101);
+$brown-2: rgb(180,121,67);
+$brown-3: rgb(142,97,52);
+$brown-4: rgb(50,21,11);
+
+/**** Hot Tones ****/
+
+/* Primary */
+$dusty-red-1: rgb(239,102,103);
+$dusty-red-2: rgb(219,82,83);
+$dusty-red-3: rgb(189,52,53);
+$dusty-red-4: rgb(136,42,53);
+$dusty-red-5: rgb(104,27,22);
+
+$bronze-1: rgb(254,212,83);
+$bronze-2: rgb(218,158,61);
+
+/* Tertiary */
+$sienna-1: rgb(222,157,117);
+$sienna-2: rgb(194,93,66);
+$sienna-3: rgb(177,69,45);
+$sienna-4: rgb(145,71,50);
+
+.page__footer {
+  color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
