@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1125.4 1125.4" style="enable-background:new 0 0 1125.4 1125.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#384261;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#1C283E;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#6C98A7;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#8AB6C5;}
+	.st7{fill:#384261;}
+</style>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="562.7" cy="562.7" r="562.7"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<circle class="st1" cx="562.7" cy="562.7" r="562.7"/>
+		<circle class="st1" cx="562.7" cy="562.7" r="562.7"/>
+		<circle class="st2" cx="569.4" cy="562.7" r="562.7"/>
+		<g>
+			<rect x="202.6" y="317.1" class="st3" width="720.2" height="1326"/>
+			<polygon class="st4" points="922.8,317.1 922.8,308.9 922.8,355.5 202.6,355.5 202.6,317.1 			"/>
+			<rect x="190.2" y="293" class="st3" width="744.9" height="45.2"/>
+			<g>
+				<rect x="652.4" y="417" class="st4" width="71.9" height="1152.7"/>
+				<rect x="662.8" y="417" class="st5" width="61.5" height="1152.7"/>
+				<rect x="675" y="438.1" class="st6" width="49.3" height="1131.6"/>
+			</g>
+			<g>
+				<rect x="778" y="417" class="st4" width="71.9" height="1152.7"/>
+				<rect x="788.4" y="417" class="st5" width="61.5" height="1152.7"/>
+				<rect x="800.6" y="438.1" class="st6" width="49.3" height="1131.6"/>
+			</g>
+			<g>
+				<rect x="526.7" y="417" class="st4" width="71.9" height="1152.7"/>
+				<rect x="537.2" y="417" class="st5" width="61.5" height="1152.7"/>
+				<rect x="549.3" y="438.1" class="st6" width="49.3" height="1131.6"/>
+			</g>
+			<g>
+				<rect x="401.1" y="417" class="st4" width="71.9" height="1152.7"/>
+				<rect x="411.6" y="417" class="st5" width="61.5" height="1152.7"/>
+				<rect x="423.7" y="438.1" class="st6" width="49.3" height="1131.6"/>
+			</g>
+			<g>
+				<rect x="275.5" y="417" class="st4" width="71.9" height="1152.7"/>
+				<rect x="285.9" y="417" class="st5" width="61.5" height="1152.7"/>
+				<rect x="298.1" y="438.1" class="st6" width="49.3" height="1131.6"/>
+			</g>
+			<g>
+				<path class="st7" d="M378.1,230h-21.6v65.2h-26.3V144h26.3v59.6h21.6V144h26.6v151.2h-26.6V230z"/>
+				<path class="st7" d="M426.3,295.2V144h59.4v26.1h-33v35.2h26.6v24.4h-26.6v39.3h34.1v26.1H426.3z"/>
+				<path class="st7" d="M576.4,295.2H549l-4.5-29.4h-23.1l-4.5,29.4h-25.7L520.9,144h25.7L576.4,295.2z M524.4,244.7h17.1
+					l-8.6-53.8L524.4,244.7z"/>
+				<path class="st7" d="M587.2,295.2V144h26.3v125.1h29.8v26.1H587.2z"/>
+				<path class="st7" d="M684.6,170.2v125.1h-26.8V170.2h-23.1V144h73v26.1H684.6z"/>
+				<path class="st7" d="M768.6,230H747v65.2h-26.3V144H747v59.6h21.6V144h26.6v151.2h-26.6V230z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
