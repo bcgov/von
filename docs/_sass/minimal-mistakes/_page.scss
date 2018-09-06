@@ -136,7 +136,7 @@
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: calc(100px + 3em) 0 3em;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@
     .page__lead,
     .btn {
       color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      text-shadow: 2px 2px $navy-3;
     }
 
     .page__lead {

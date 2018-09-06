@@ -15,7 +15,6 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
     max-width: 100%;
     display: -webkit-box;
     display: flex;
@@ -35,17 +34,36 @@
       text-decoration: none;
     }
   }
-}
 
-.site-title {
-  display: -webkit-box;
-  display: flex;
-  padding: 0.5rem 0;
-  align-self: stretch;
-  -webkit-box-align: center;
-  align-items: center;
-  font-weight: bold;
-  z-index: 20;
+  .site-title {
+    width: 280px;
+    height: 100px;
+    z-index: 20;
+    text-indent: -9999px;
+    background: url('/assets/images/VON Logo - Black.png') no-repeat;
+    background-size: contain;
+  }
+
+  body.layout--splash & {
+    background: transparent;
+    position: absolute;
+    color: #fff;
+    border: none;
+    width: 100%;
+
+    .site-title {
+      background: url('/assets/images/VON Logo - White.png') no-repeat;
+      background-size: contain;
+    }
+
+    .greedy-nav {
+      background: transparent;
+    }
+
+    &__menu a {
+      color: #fff;
+    }
+  }
 }
 
 .masthead__menu {

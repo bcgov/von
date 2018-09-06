@@ -2,8 +2,8 @@
 layout: splash
 permalink: /
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/Teal_Background.png
+  overlay_color: "#6c98a7"
+  # overlay_image: /assets/images/Teal_Background.png
   cta_label: "<i class='fas fa-download'></i> Quick Start"
   cta_url: "/getting_started/quick-start-guide/"
   caption:
