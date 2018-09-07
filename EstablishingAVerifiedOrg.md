@@ -20,7 +20,7 @@ The sorts of identity and trust interactions required to pull this off are messy
 
 Ready?
 
-### Loren Creates Her Self-Sovereign Identity
+### Loren Creates His Self-Sovereign Identity
 
 As part of the process for starting up MITSys, Loren joins a Self-Sovereign Identity (SSI) network and begins to create her own digital identity.
 
