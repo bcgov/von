@@ -3,11 +3,12 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#6c98a7"
-  # overlay_image: /assets/images/Teal_Background.png
   cta_label: "<i class='fas fa-download'></i> Quick Start"
   cta_url: "/getting_started/quick-start-guide/"
+  image: "/assets/images/svgs/issuer-sitting-1.svg"
   caption:
-excerpt: 'Trustworthy data about organizations through blockchain-based Verifable Credentials<br /> <small><a href="https://von.pathfinder.gov.bc.ca">Latest News</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+headline: 'One day, all government-issued documents will be completely digital.'
+excerpt: 'The Verifiable Organizations Network is a Canadian government-backed initiative to make this digital economy a reality&mdash;while making sure our solution is fast, secure, and accessible across our nation.<br /> <small><a href="https://von.pathfinder.gov.bc.ca">Latest News</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 feature_row:
   - image_path: "/assets/images/VON Logo - Black.png"
     alt: "von"

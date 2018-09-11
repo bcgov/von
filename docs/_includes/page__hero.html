@@ -39,7 +39,7 @@
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
-          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+          {{ page.headline | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
         {% endif %}
       </h1>
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
@@ -51,11 +51,12 @@
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--primary btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
+      {% if page.header.image %}
+        <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
+      {% endif %}
+      {% if page.header.caption %}
+        <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+      {% endif %}
     </div>
-  {% else %}
-    <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
-  {% endif %}
-  {% if page.header.caption %}
-    <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
   {% endif %}
 </div>
