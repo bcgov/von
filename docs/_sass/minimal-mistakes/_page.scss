@@ -181,6 +181,28 @@
         font-size: $type-size-1;
       }
     }
+
+    .in-partnership-with {
+      display: block;
+    }
+
+    .partner-logos {
+      max-width: 640px;
+      text-align: center;
+
+      .partner-logo {
+        display: inline-block;
+        max-width: 180px;
+        margin: 5px 10px;
+        vertical-align: middle;
+
+        img {
+          width: 100%;
+          filter: contrast(0.5) brightness(0);
+          opacity: 0.4;
+        }
+      }
+    }
   }
 }
 

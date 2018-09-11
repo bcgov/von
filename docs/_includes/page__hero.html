@@ -60,7 +60,7 @@
 
           {% if page.header.secondary_cta_url %}
             &mdash; or &mdash;
-            <a href="{{ secondary_cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.secondary_cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            <a href="{{ secondary_cta_path }}" class="btn btn--primary btn--large">{{ page.header.secondary_cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
           {% endif %}
         </p>
       {% endif %}
@@ -69,6 +69,15 @@
       {% endif %}
       {% if page.header.caption %}
         <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+      {% endif %}
+
+      {% if page.partners %}
+        <small class="in-partnership-with"><em>In partnership with</em></small>
+        <div class="partner-logos">
+          {% for partner in page.partners %}
+            <a href="{{ partner.url }}" class="partner-logo"><img src="{{ partner.image_path }}" alt="{{ partner.name }} logo" title="{{ partner.name }}"></a>
+          {% endfor %}
+        </div>
       {% endif %}
     </div>
   {% endif %}
