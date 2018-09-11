@@ -145,6 +145,7 @@
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
+    min-height: 700px;
 
     a {
       color: #fff;
@@ -173,6 +174,8 @@
 
     .page__title {
       font-size: $type-size-2;
+      line-height: 120%;
+      max-width: 800px;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
@@ -185,6 +188,15 @@
   width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
+  position: absolute;
+  z-index: -1;
+
+  &.issuer {
+    max-width: 600px;
+    right: 80px;
+    bottom: 0px;
+    max-height: 600px;
+  }
 }
 
 .page__hero-caption {

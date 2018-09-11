@@ -7,10 +7,11 @@ header:
   primary_cta_url: "/about/"
   secondary_cta_label: "<i class='fas fa-people-carry'></i> Get Involved"
   secondary_cta_url: "/getting_started/quick-start-guide/"
-  image: "/assets/images/svgs/issuer-sitting-1.svg"
+  image: "/assets/images/svgs/issuer-sitting-3-noshadow-forwhtbk.svg"
+  image_class: "issuer"
   caption:
-headline: 'One day, all government-issued documents will be completely digital.'
-excerpt: 'The Verifiable Organizations Network is a Canadian government-backed initiative to make this digital economy a reality&mdash;while making sure our solution is fast, secure, and accessible across our nation.'
+headline: 'One day, all government-issued documents will be fully digital. We&rsquo;re here to make that happen.'
+excerpt: ''
 feature_row:
   - image_path: "/assets/images/VON Logo - Black.png"
     alt: "von"
@@ -33,10 +34,15 @@ feature_row:
     url: "https://www.hyperledger.org/projects/hyperledger-indy"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-intro:
-  - excerpt: 'Get notified when we add new stuff &nbsp; [<i class="fab fa-twitter"></i> @scurranC3I](https://twitter.com/scurranC3I){: .btn .btn--twitter}{: .btn .btn--primary}'
 ---
 
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
+<h1>Helping Canadians go paperless.</h1>
+<p>The <strong>Verifiable Organizations Network</strong> is a government-backed initiative to make government-issued documents&mdash;like IDs, permits, and licenses&mdash;fully digital. By using modern, blockchain-based technologies, a paperless system would help make:
+  <ol>
+    <li>applying for documents faster and less error prone</li>
+    <li>issuing (and reissuing) documents simpler and more secure, and</li>
+    <li>verifying documents more standard, trustworthy, and transparent across our nation.</li>
+  </ol>
+</p>
+<p>Our initial proof-of-concept, <a href="https://devex-von-test.pathfinder.gov.bc.ca/en/home">TheOrgBook</a>, is publically accessible, <a href="https://github.com/bcgov/TheOrgBook">open-sourced</a>, and <a href="https://devex-von-test.pathfinder.gov.bc.ca/en/org/110" target="_blank">shows what future business permits and licenses could look like</a>.</p>
+<p><strong>Interested to learn more?</strong> Read more <a href="/about/">about VON</a> and <a href="/getting_started/contributing/">see how you can help</a>.</p>

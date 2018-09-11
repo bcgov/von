@@ -65,7 +65,7 @@
         </p>
       {% endif %}
       {% if page.header.image %}
-        <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
+        <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image {{ page.header.image_class }}">
       {% endif %}
       {% if page.header.caption %}
         <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
