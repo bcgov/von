@@ -4,10 +4,16 @@
   {% capture img_path %}{{ page.header.image | relative_url }}{% endcapture %}
 {% endif %}
 
-{% if page.header.cta_url contains "://" %}
-  {% capture cta_path %}{{ page.header.cta_url }}{% endcapture %}
+{% if page.header.primary_cta_url contains "://" %}
+  {% capture primary_cta_path %}{{ page.header.primary_cta_url }}{% endcapture %}
 {% else %}
-  {% capture cta_path %}{{ page.header.cta_url | relative_url }}{% endcapture %}
+  {% capture primary_cta_path %}{{ page.header.primary_cta_url | relative_url }}{% endcapture %}
+{% endif %}
+
+{% if page.header.secondary_cta_url contains "://" %}
+  {% capture secondary_cta_path %}{{ page.header.secondary_cta_url }}{% endcapture %}
+{% else %}
+  {% capture secondary_cta_path %}{{ page.header.secondary_cta_url | relative_url }}{% endcapture %}
 {% endif %}
 
 {% if page.header.overlay_image contains "://" %}
@@ -48,8 +54,15 @@
       {% if page.read_time %}
         <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
-      {% if page.header.cta_url %}
-        <p><a href="{{ cta_path }}" class="btn btn--primary btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+      {% if page.header.primary_cta_url %}
+        <p>
+          <a href="{{ primary_cta_path }}" class="btn btn--primary btn--large">{{ page.header.primary_cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+
+          {% if page.header.secondary_cta_url %}
+            &mdash; or &mdash;
+            <a href="{{ secondary_cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.secondary_cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% endif %}
+        </p>
       {% endif %}
       {% if page.header.image %}
         <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">

@@ -3,12 +3,14 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#6c98a7"
-  cta_label: "<i class='fas fa-download'></i> Quick Start"
-  cta_url: "/getting_started/quick-start-guide/"
+  primary_cta_label: "<i class='fas fa-book-open'></i> Learn More About VON"
+  primary_cta_url: "/about/"
+  secondary_cta_label: "<i class='fas fa-people-carry'></i> Get Involved"
+  secondary_cta_url: "/getting_started/quick-start-guide/"
   image: "/assets/images/svgs/issuer-sitting-1.svg"
   caption:
 headline: 'One day, all government-issued documents will be completely digital.'
-excerpt: 'The Verifiable Organizations Network is a Canadian government-backed initiative to make this digital economy a reality&mdash;while making sure our solution is fast, secure, and accessible across our nation.<br /> <small><a href="https://von.pathfinder.gov.bc.ca">Latest News</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'The Verifiable Organizations Network is a Canadian government-backed initiative to make this digital economy a reality&mdash;while making sure our solution is fast, secure, and accessible across our nation.'
 feature_row:
   - image_path: "/assets/images/VON Logo - Black.png"
     alt: "von"
@@ -20,7 +22,7 @@ feature_row:
   - image_path: /assets/images/GitHub_Logo.png
     alt: "open source"
     title: "Open Source on github"
-    excerpt: "An Open Source collaboration with all code shared on github under the Apache 2 Licence."
+    excerpt: 'An Open Source collaboration with all code shared on github under the Apache 2 Licence. <br/><br/>{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=bcgov&repo=TheOrgBook&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
     url: "/getting_started/contributing/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
