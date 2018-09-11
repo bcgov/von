@@ -146,6 +146,7 @@
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
     min-height: 700px;
+    overflow: hidden;
 
     a {
       color: #fff;
@@ -218,6 +219,31 @@
     right: 80px;
     bottom: 0px;
     max-height: 600px;
+  }
+
+  &.licenses-1 {
+    max-width: 1000px;
+    right: -200px;
+    bottom: 0px;
+    max-height: 640px;
+    transform: rotate(-30deg);
+    opacity: 0.8;
+  }
+
+  &.licenses-2 {
+    max-width: 800px;
+    right: -200px;
+    bottom: 100px;
+    max-height: 640px;
+    transform: rotate(10deg);
+  }
+
+  &.mary {
+    max-width: 480px;
+    right: 80px;
+    bottom: 80px;
+    max-height: 480px;
+    transform: rotate(10deg);
   }
 }
 
