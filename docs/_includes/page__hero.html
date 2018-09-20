@@ -59,7 +59,7 @@
           <a href="{{ primary_cta_path }}" class="btn btn--primary btn--large">{{ page.header.primary_cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
 
           {% if page.header.secondary_cta_url %}
-            &mdash; or &mdash;
+            <span class="or">&mdash; or &mdash;</span>
             <a href="{{ secondary_cta_path }}" class="btn btn--primary btn--large">{{ page.header.secondary_cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
           {% endif %}
         </p>
