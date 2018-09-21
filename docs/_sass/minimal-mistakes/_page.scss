@@ -136,7 +136,7 @@
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: calc(100px + 3em) 0 3em;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -145,6 +145,22 @@
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
+    min-height: 480px;
+    overflow: hidden;
+    text-align: center;
+
+    @include breakpoint($medium-wide) {
+      text-align: left;
+      min-height: 540px;
+    }
+
+    @include breakpoint($large) {
+      min-height: 600px;
+    }
+
+    @include breakpoint($x-large) {
+      min-height: 700px;
+    }
 
     a {
       color: #fff;
@@ -164,7 +180,7 @@
     .page__lead,
     .btn {
       color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      text-shadow: 2px 2px $navy-3;
     }
 
     .page__lead {
@@ -173,9 +189,74 @@
 
     .page__title {
       font-size: $type-size-2;
+      line-height: 120%;
+      max-width: 480px;
+      margin: 0 auto 0.5em;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
+      }
+
+      @include breakpoint($medium) {
+        max-width: 640px;
+      }
+
+      @include breakpoint($medium-wide) {
+        margin: 0 0 0.5em;
+      }
+
+      @include breakpoint($large) {
+        max-width: 760px;
+      }      
+
+      @include breakpoint($x-large) {
+        max-width: 800px;
+      }      
+    }
+
+    .or {
+      display: block;
+      margin: 10px 0;
+
+      @include breakpoint($small) {
+        display: inline;
+        margin: 0;
+      }
+    }
+
+    .in-partnership-with {
+      display: block;
+
+      @include breakpoint($medium-wide) {
+        margin-left: 28px;
+      }
+    }
+
+    .partner-logos {
+      max-width: 640px;
+      text-align: center;
+      display: inline-block;
+
+      .partner-logo {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 120px;
+        margin: 5px;
+
+        @include breakpoint($small) {
+          max-width: 160px;
+          margin: 5px 10px;
+        }
+
+        @include breakpoint($medium) {
+          max-width: 180px;
+        }
+
+        img {
+          width: 100%;
+          filter: contrast(0.5) brightness(0);
+          opacity: 0.4;
+        }
       }
     }
   }
@@ -185,6 +266,54 @@
   width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
+  position: absolute;
+  z-index: -1;
+
+  &.issuer {
+    max-width: 480px;
+    right: -100px;
+    bottom: 0px;
+    max-height: 600px;
+    display: none;
+
+    @include breakpoint($medium-wide) {
+      display: block;
+    }
+
+    @include breakpoint($large) {
+      right: -40px;      
+    }
+
+    @include breakpoint($x-large) {
+      max-width: 600px;
+      right: 40px;      
+    }
+  }
+
+  &.licenses-1 {
+    max-width: 1000px;
+    right: -200px;
+    bottom: 0px;
+    max-height: 640px;
+    transform: rotate(-30deg);
+    opacity: 0.8;
+  }
+
+  &.licenses-2 {
+    max-width: 800px;
+    right: -200px;
+    bottom: 100px;
+    max-height: 640px;
+    transform: rotate(10deg);
+  }
+
+  &.mary {
+    max-width: 480px;
+    right: 80px;
+    bottom: 80px;
+    max-height: 480px;
+    transform: rotate(10deg);
+  }
 }
 
 .page__hero-caption {
