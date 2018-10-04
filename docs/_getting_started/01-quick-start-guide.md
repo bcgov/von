@@ -6,6 +6,7 @@ last_modified_at: 2018-05-16T16:36:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true
+toc_sticky: true
 ---
 
 You know a few things about [Self Sovereign Identity](https://bitsonblocks.net/2017/05/17/a-gentle-introduction-to-self-sovereign-identity/), [Decentralized Identifiers](https://w3c-ccg.github.io/did-spec/), the [Decentralized Identity Foundation](http://identity.foundation/), [Verifiable Credentials](https://w3c.github.io/vc-data-model/), and [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy) and you are excited to start to play around. You've heard about the [Verifiable Organizations Network (VON)](https://von.pathfinder.gov.bc.ca/) as being a great way to get going. We agree!  And this is the place to start!
