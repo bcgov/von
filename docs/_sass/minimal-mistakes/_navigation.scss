@@ -133,12 +133,13 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: $muted-text-color;
-    border: 1px solid mix(#000, $border-color, 25%);
+    color: $frosty-mint-4;
+    border: 1px solid mix(rgba(0,0,0,0.6), $border-color, 25%);
     border-radius: $border-radius;
+    background-color: $frosty-mint-1;
 
     &:hover {
-      @include yiq-contrasted($muted-text-color);
+      @include yiq-contrasted($frosty-mint-4);
     }
 
     &:first-child {
@@ -153,9 +154,10 @@
     }
 
     &.disabled {
-      color: rgba($muted-text-color, 0.5);
+      color: rgba($frosty-mint-4, 0.5);
       pointer-events: none;
       cursor: not-allowed;
+      background-color: #fff;
     }
   }
 }
@@ -517,7 +519,7 @@
   a {
     display: block;
     padding: 0.5rem 1rem;
-    color: $muted-text-color;
+    color: $frosty-mint-5;
     font-size: $type-size-7;
     font-weight: bold;
     line-height: 1.5;
