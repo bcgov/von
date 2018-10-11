@@ -4,8 +4,8 @@ title: "About Verifiable Organizations Network"
 excerpt: "About Verifiable Organizations Network - what we've started and where we're going"
 last_modified_at: 2018-05-28T12:00:00-07:00
 toc: true
+toc_sticky: true
 ---
-
 # Background - Adding Trust to the Internet
 
 Putting Internet users - and organizations - in control of their own online Identity has been a growing need since the start of the Internet. With the creation of massive centralized stores of private data (e.g. Equifax, Google, Facebook, etc.), has grown the ability for holders of that data to use (and misuse) that data in ways that are not always in the best interest of the data owner - You. Compounding that problem is the corresponding rise of cyber-hacks that expose user's personal data held in those centralized stores. This has created an urgency to change how our data - data we (should) own - is handled. [Self-Sovereign Identity](https://bitsonblocks.net/2017/05/17/a-gentle-introduction-to-self-sovereign-identity/) (SSI) is a promising approach to decentralize the handling of personal data that gives the control of that data back to us, where it belongs. SSI enables a higher level of trust on the Internet by providing mechanisms that enable verifiable identification of parties to a transaction, reducing the need for high-cost, in person mechanisms to establish trust.

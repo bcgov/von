@@ -11,6 +11,26 @@
   animation-delay: 0.15s;
   z-index: 20;
 
+  &.v2 {
+    background: $bg-2;
+
+    .site-title {
+      background: url('/assets/images/VON Logo - White.png') no-repeat;
+    }
+
+    .greedy-nav {
+      background: $bg-2;
+
+      a {
+        color: rgba(255,255,255,0.8);
+
+        &:hover {
+          color: rgba(255,255,255,1);
+        }
+      }
+    }
+  }
+
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
@@ -51,17 +71,16 @@
     border: none;
     width: 100%;
 
-    .site-title {
-      background: url('/assets/images/VON Logo - White.png') no-repeat;
-      background-size: contain;
-    }
-
     .greedy-nav {
       background: transparent;
     }
 
     &__menu a {
-      color: #fff;
+      color: rgba(255,255,255,0.8);
+
+      &:hover {
+        color: rgba(255,255,255,1);
+      }
     }
   }
 }

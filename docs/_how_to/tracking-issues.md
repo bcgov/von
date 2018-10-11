@@ -6,6 +6,7 @@ last_modified_at: 2018-05-23T17:00:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true
+toc_sticky: true
 ---
 
 ## Using ZenHub for VON Project Tracking

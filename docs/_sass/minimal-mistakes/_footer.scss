@@ -15,12 +15,37 @@
   height: auto;
   /* sticky footer fix end */
   margin-top: 3em;
-  color: $muted-text-color;
+  color: rgba(255,255,255,0.8);
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
+  background-color: $bg-3;
+
+  .about-this-site {
+    float: none;
+    margin: 10px 10px 0 20px;
+    max-width: 300px;
+
+    @include breakpoint($small) {
+      float: left;
+    }
+
+    .site-title {
+      width: 280px;
+      height: 100px;
+      z-index: 20;
+      text-indent: -9999px;
+      background: url('/assets/images/VON Logo - White.png') no-repeat;
+      background-size: contain;
+      display: inline-block;
+    }
+
+    .description {
+      font-size: $type-size-6;
+      padding: 0 20px;
+    }
+  }
 
   footer {
     @include clearfix;
@@ -52,12 +77,36 @@
   }
 }
 
-.page__footer-copyright {
-  font-family: $global-font-family;
-  font-size: $type-size-7;
+.page__footer-sitemap {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 20px;
+
+  .section-title {
+    font-size: $type-size-6;
+    text-transform: uppercase;
+  }
+  
+  .footer-nav {
+    flex: 0 1 240px;
+    margin: 10px 20px;
+
+    .footer-item {
+      font-size: $type-size-6;
+      text-indent: -10px;
+      margin-left: 10px;
+      color: rgba(255,255,255,0.8);
+    }
+  }
 }
 
+
 .page__footer-follow {
+  clear: both;
+  text-align: center;
+  padding: 40px 0;
+
   ul {
     margin: 0;
     padding: 0;
@@ -84,8 +133,16 @@
   }
 
   .social-icons {
+    display: inline-block;
+
     a {
       white-space: nowrap;
     }
   }
+}
+
+.page__footer-copyright {
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+  text-align: center;
 }
