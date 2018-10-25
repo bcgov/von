@@ -7,6 +7,7 @@
 
 remote_theme             : "mmistakes/minimal-mistakes"
 
+
 minimal_mistakes_skin    : "von" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -263,6 +264,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
