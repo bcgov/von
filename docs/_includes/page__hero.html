@@ -1,9 +1,3 @@
-{% if page.header.image contains "://" %}
-  {% capture img_path %}{{ page.header.image }}{% endcapture %}
-{% else %}
-  {% capture img_path %}{{ page.header.image | relative_url }}{% endcapture %}
-{% endif %}
-
 {% if page.header.primary_cta_url contains "://" %}
   {% capture primary_cta_path %}{{ page.header.primary_cta_url }}{% endcapture %}
 {% else %}
@@ -64,8 +58,15 @@
           {% endif %}
         </p>
       {% endif %}
-      {% if page.header.image %}
-        <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image {{ page.header.image_class }}">
+      {% if site.data.hero.images %}
+        {% for hero in site.data.hero.images %}
+          {% if hero.url contains "://" %}
+            {% capture img_path %}{{ hero.url }}{% endcapture %}
+          {% else %}
+            {% capture img_path %}{{ hero.url | relative_url }}{% endcapture %}
+          {% endif %}
+          <img src="{{ img_path }}" class="page__hero-image {{ hero.class }}">
+        {% endfor %}
       {% endif %}
       {% if page.header.caption %}
         <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>

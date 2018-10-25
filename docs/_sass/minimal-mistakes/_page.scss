@@ -268,17 +268,22 @@
   -ms-interpolation-mode: bicubic;
   position: absolute;
   z-index: -1;
+  display: none;
 
-  &.issuer {
-    max-width: 480px;
-    right: -100px;
-    bottom: 0px;
-    max-height: 600px;
+  &.active {
     display: none;
 
     @include breakpoint($medium-wide) {
       display: block;
     }
+  }
+
+  &.issuer-1,
+  &.issuer-2 {
+    max-width: 480px;
+    right: -100px;
+    bottom: 0px;
+    max-height: 600px;
 
     @include breakpoint($large) {
       right: -40px;      
