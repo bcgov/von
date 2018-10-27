@@ -7,8 +7,6 @@ header:
   primary_cta_url: "/about/"
   secondary_cta_label: "<i class='fas fa-people-carry'></i> Get Involved"
   secondary_cta_url: "/getting_started/quick-start-guide/"
-  image: "/assets/images/svgs/issuer-sitting-3-noshadow-forwhtbk.svg"
-  image_class: "issuer"
   caption:
 headline: 'One day, all government-issued documents will be fully digital. We&rsquo;re here to make that happen.'
 excerpt: ''
