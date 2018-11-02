@@ -6,6 +6,7 @@ last_modified_at: 2018-05-16T16:36:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true
+toc_sticky: true
 ---
 
 This section of the documentation is about contributing to the VON Project. If you and/or your team are interested in joining the fun, read on for some guidance on how to participate in alignment with how we are running this project.

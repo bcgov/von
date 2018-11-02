@@ -6,6 +6,7 @@ last_modified_at: 2018-05-28T17:00:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true
+toc_sticky: true
 ---
 
 Follow the guidance here if you are interested in updating the documents that make up this site.  Like all of the work we're doing on VON, this documentation is open source and developed collaboratively.
