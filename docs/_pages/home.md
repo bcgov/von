@@ -8,18 +8,16 @@ header:
   secondary_cta_label: "<i class='fas fa-people-carry'></i> Get Involved"
   secondary_cta_url: "/getting_started/quick-start-guide/"
   caption:
-headline: 'Verifiable Organizations Network
-
-Global digital trust for organizations'
+headline: 'Verifiable Organizations Network:<br>Global digital trust for organizations'
 excerpt: ''
 partners:
-  - image_path: "/assets/images/logos/bcid_h_gry.png"
+  - image_path: "assets/images/logos/bcid_h_gry.png"
     name: "Province of British Columbia"
     url: "https://www2.gov.bc.ca/"
-  - image_path: "/assets/images/logos/pspc.png"
+  - image_path: "assets/images/logos/pspc.png"
     name: "Public Services and Procurement Canada"
     url: "https://www.canada.ca/en/public-services-procurement.html"
-  - image_path: "/assets/images/logos/ontario.png"
+  - image_path: "assets/images/logos/ontario.png"
     name: "Government of Ontario"
     url: "https://www.ontario.ca/page/government-ontario"
 ---
