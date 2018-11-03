@@ -17,7 +17,7 @@ title_separator          : "-"
 name                     : &name "VON Community" # &name is a YAML anchor which can be *referenced later
 description              : &description "Trustworthy data about organizations through blockchain-based Verifable Credentials."
 url                      : # https://bcgov.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/von" # the subpath of your site, e.g. "/blog"
 repository               : "bcgov/von"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
