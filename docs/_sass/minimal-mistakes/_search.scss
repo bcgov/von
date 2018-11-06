@@ -34,6 +34,11 @@
   visibility: hidden;
   padding-top: 1em;
   padding-bottom: 1em;
+  position: relative;
+  z-index: 1000;
+  background: #fff;
+  max-width: 1280px;
+  margin: auto;
 
   &__inner-wrap {
     width: 100%;
@@ -78,6 +83,12 @@
       content: "";
       display: block;
     }
+  }
+
+  .search__toggle {
+    position: absolute;
+    top: 35px;
+    right: 0;
   }
 
   .results__found {
