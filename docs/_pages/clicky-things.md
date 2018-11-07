@@ -13,7 +13,7 @@ Want to play with the things we're working on?  Click on...
 * [John Jordan (BC Gov) about VON, TheOrgBook and our vision](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4)
 
 ### Live Site
-* [TheOrgBook - Technical Readiness](ttps://theorgbook.pathfinder.gov.bc.ca)
+* [TheOrgBook - Technical Readiness](https://theorgbook.pathfinder.gov.bc.ca)
 
 ### Live Demos
 * [TheOrgBook **Demo** (Stable)](https://devex-von-test.pathfinder.gov.bc.ca/)
