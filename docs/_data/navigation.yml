@@ -4,10 +4,12 @@ main:
     url: /getting_started/quick-start-guide/
   - title: "About"
     url: /about/
-  - title: "How To"
+  - title: "Clicky Things"
+    url: /clickythings/
+  - title: "Join Us"
     url: /how_to/contributing/
-  - title: "News"
-    url: /year-archive/
+  # - title: "News"
+  #  url: /year-archive/
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
 
@@ -56,14 +58,14 @@ footer_nav:
     children:
       - title: "Contributing to the VON Project"
         url: /how_to/contributing/
-  - title: Tools and Practices
-    children:
-      - title: "Tracking Sprints, Epics and Issues"
-        url: /how_to/tracking-issues/
-      - title: "Updating Project Documentation"
-        url: /how_to/updating-docs/
-      - title: "Generating Code Documentation"
-        url: /how_to/generating-code-docs/
+  # - title: Tools and Practices
+  #   children:
+  #     - title: "Tracking Sprints, Epics and Issues"
+  #       url: /how_to/tracking-issues/
+  #     - title: "Updating Project Documentation"
+  #       url: /how_to/updating-docs/
+  #     - title: "Generating Code Documentation"
+  #       url: /how_to/generating-code-docs/
 
 # documentation links
 getting_started:
