@@ -24,11 +24,11 @@ partners:
 
 <h1>Building Locally, Thinking Globally.</h1>
 <p>The <strong>Verifiable Organizations Network</strong> is a community effort to establish a better way to find, issue and store trustworthy data about organizations&mdash;locally and around the globe. The BC Government is using VON to enable the digitization of government-issued public credentials&mdash;registrations, permits, and licenses. Using modern, blockchain-based technologies, VON helps by making:
-  <ol>
+  <ul>
     <li>applying for credentials faster and less error prone</li>
     <li>issuing (and reissuing) credentials simpler and more secure, and</li>
     <li>verifying credentials more standard, trustworthy, and transparent - anywhere in the world.</li>
-  </ol>
+  </ul>
 </p>
 <p>Our initial proof-of-concept, <a href="https://devex-von-test.pathfinder.gov.bc.ca/en/home">TheOrgBook</a>, is publicly accessible, <a href="https://github.com/bcgov/TheOrgBook">open-sourced</a>, and <a href="https://devex-von-test.pathfinder.gov.bc.ca/en/org/110" target="_blank">shows what future business permits and licenses could look like</a>.</p>
 <p><strong>Interested to learn more?</strong> Read more <a href="/about/">about VON</a> and <a href="/getting_started/contributing/">see how your organization can join the Verifiable Organizations Network</a>.</p>
