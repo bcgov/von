@@ -30,5 +30,5 @@ partners:
     <li>verifying credentials more standard, trustworthy, and transparent - anywhere in the world.</li>
   </ul>
 </p>
-<p>Our initial proof-of-concept, <a href="https://devex-von-test.pathfinder.gov.bc.ca/en/home">TheOrgBook</a>, is publicly accessible, <a href="https://github.com/bcgov/TheOrgBook">open-sourced</a>, and <a href="https://devex-von-test.pathfinder.gov.bc.ca/en/org/110" target="_blank">shows what future business permits and licenses could look like</a>.</p>
+<p>Our initial implementation, <a href="https://theorgbook.pathfinder.gov.bc.ca">TheOrgBook</a>, is publicly accessible, <a href="https://github.com/bcgov/TheOrgBook">open-sourced</a>, and <a href="https://theorgbook.pathfinder.gov.bc.ca/en/topic/registration/BC0914970" target="_blank">shows what future business permits and licenses could look like</a>.</p>
 <p><strong>Interested to learn more?</strong> Read more <a href="/about/">about VON</a> and <a href="/getting_started/contributing/">see how your organization can join the Verifiable Organizations Network</a>.</p>
