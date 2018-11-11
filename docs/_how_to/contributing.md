@@ -24,9 +24,9 @@ The current team meets every second Wednesday at 10AM Pacific, 1PM Eastern for S
 * Permitify: [https://github.com/bcgov/permitify/issues](https://github.com/bcgov/permitify/issues)
 * BC Registries VON Agent: [https://github.com/bcgov/von-bc-registries-agent/issues](https://github.com/bcgov/von-bc-registries-agent/issues)
 
-## Documentation
+## Content on this Site
 
-This site is the primary documentation site for the project. See [this document]({{ "/how_to/updating-docs/" | relative_url }}) for how to update, correct or expand the documents on this site. It's all run off github, so as with the code - the documentation is driven by pull requests.
+Interested in helping maintain this website - the starting point for information about VON? See [the guidelines]({{ "/how_to/updating-docs/" | relative_url }}) for how to update, correct or expand the information on this site. It's all run off github, so as with all of the VON code, the documentation is driven by pull requests.
 
 ## Code Documentation
 
