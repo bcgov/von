@@ -83,7 +83,5 @@ To run a local installation of VON, with an Indy Network, an instance of TheOrgB
 
 From there, you can [start here](http://localhost:8080/en/recipe/start_a_restaurant) to walk through the Permitify Demo to Register a Business and receive the Credentials that are the prerequsites for getting a Restaurent Business License.
 
-<figure>
-  <img src="{{ 'assets/images/VON-Logo.png' | relative_url }}" alt="creating a new branch on GitHub">
-</figure>
+
 

@@ -18,8 +18,13 @@ This documentation is all maintained in the [VON github repo](https://github.com
 That means to help out with this you need to know the following:
 
 * How to use git and github for forking, cloning, committing and submitting pull requests.
-* Using markdown to create and update documents with an editor such as [Microsoft's Visual Studio Code](https://code.visualstudio.com/)
-* Some other prerequisites covered below if you want to see a local version of the site before you submit your changes.
+    * This [document](https://help.github.com/articles/fork-a-repo/) from GitHub describes the fork/clone a repo
+    * This [document](https://help.github.com/articles/syncing-a-fork/) covers syncing your local copy with the main repo
+    * This [document](https://help.github.com/articles/set-up-git/#next-steps-authenticating-with-github-from-git) covers how to authenticate with github
+        * Use the "https" method unless you know what the "ssh" method is all about.
+    * This [document](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) is about creating a pull request
+* Using [markdown](https://github.github.com/gfm/) to create and update documents with an editor such as [Microsoft's Visual Studio Code](https://code.visualstudio.com/)
+* Some other prerequisites are covered below if you want to see a local version of the site before you submit your changes.
 
 ## Getting Started - Fork/Clone the VON Repo
 
@@ -34,8 +39,8 @@ To view the Jekyll site as you make edits, follow these steps. Note that the fir
 
 > If you are on Windows, we **STRONGLY** recommend using [git bash](https://gitforwindows.org/) as your command line. There is a [Udemy course](https://www.udemy.com/git-bash/) about git bash if you need to learn more.
 
-
 * Run just the [Requirements](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) section from this page.
+    * That will ensure you have `ruby` and `bundle` installed.
 * In a bash terminal session, go to the "docs" directory of your clone of the von repo.
 * To prepare your machine, run the command: ```bundle install```
   * The command _should_ complete without errors. If you do get some errors, you will need to do some googling to figure out what's wrong on your machine. You will get frustrated...
@@ -100,4 +105,4 @@ Remember to update your fork/clone regularly to pick up changes made by others.
 
 ## Local Troubleshooting
 
-We recommend using the incremental updates flag when running locally (e.g. `bundle exec jekyll serve --incremental`) so that you can make updates and immediately see the changes (refresh or navigate to the changed page). In some cases, the update doesn't show for no apparent reason (e.g. a navigation change). In that case - at least restart the server, and if necessary, stop the server, remove the `_site` folder and then restart the server.  That will trigger a full regeneratation of the site and all changes will be visible. If that still doesn't fix the problem, well - that means it's something else...  Did you save your file? :-)
+We recommend using the incremental updates flag when running locally (e.g. `bundle exec jekyll serve --incremental`) so that you can make updates and immediately see the changes (refresh or navigate to the changed page). In some cases, the update doesn't show for no apparent reason (e.g. a header or footer navigation change). In that case - at least restart the server, and if that doesn't work, stop the server, remove the `_site` folder and then restart the server.  That will trigger a full regeneration of the site and all changes will be visible. If that still doesn't fix the problem, well - that means it's something else...  Did you save your file? :-)

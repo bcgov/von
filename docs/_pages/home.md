@@ -6,7 +6,7 @@ header:
   primary_cta_label: "<i class='fas fa-book-open'></i> Learn More About VON"
   primary_cta_url: "/about/"
   secondary_cta_label: "<i class='fas fa-people-carry'></i> Get Involved"
-  secondary_cta_url: "/getting_started/quick-start-guide/"
+  secondary_cta_url: "/getting_started/get-started/"
   caption:
 headline: 'Verifiable Organizations Network:<br>Global digital trust for organizations'
 excerpt: ''
