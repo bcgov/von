@@ -1,0 +1,9 @@
+images:
+  - url: "assets/images/svgs/issuer-sitting-3-noshadow-forwhtbk.svg"
+    class: "issuer-1"
+  - url: "assets/images/svgs/licenses-2.svg"
+    class: "licenses-1"
+  - url: "assets/images/svgs/licenses-2.svg"
+    class: "licenses-2"
+  - url: "assets/images/svgs/verifier-sitting-1.svg"
+    class: "issuer-2"

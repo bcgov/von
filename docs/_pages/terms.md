@@ -3,8 +3,8 @@ permalink: /terms/
 title: "Terms and Privacy Policy"
 last_modified_at: 2018-05-15T10-07:00-07:00
 toc: true
+toc_sticky: true
 ---
-
 ## Privacy Policy
 
 The privacy of our visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.

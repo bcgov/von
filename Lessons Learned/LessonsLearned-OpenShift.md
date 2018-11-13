@@ -1,13 +1,19 @@
-# Lessons Learned Deploying a Sample Sorvin Network into OpenShift
+# Lessons Learned Deploying a Sample Hyperledger Indy Network into OpenShift
 
 ## The main friction points:
 * systemd on Ubuntu 16.04
 * expected permissions for running sovrin-node.service
 * best practices for running containers on OpenShift.
 
+## Solution
+
+Based on what we learned (documented below) we punted on deploying the indy-node network in OpenShift and deployed it on Digital Ocean instead.  The deciding factor was firewall challenges - we couldn't access the ports we needed to in OpenShift. For awhile we had to kludge the ports to ones that were open outbound in OpenShift, but we now have the outbound ports open. However, we still don't have inbound, and so cannot host an indy-node ledger inside OpenShift.  Which is fine...
+
+The rest of the document covers other challenges encountered and some feedback received from Sovrin.
+
 ## Details:
 * Best practice in OpenShift states containers should not run as root, but as an arbitrary user.
-* The sovrin-node-service runs as 'sovrin' and it's very particular about the permissions set on all of the configuration, transaction files, certificates and keys.
+* The indy-node-service runs as 'indy' and it's very particular about the permissions set on all of the configuration, transaction files, certificates and keys.
 * systemd on Ubuntu, in practice and from what I've found on the web, seems to be somewhat broken.
     * Following the steps and examples I've found to launch it using an arbitrary user account leave the container in a state where systemd seems to be running, but the sovrin-node service is not running and it is difficult to determine the state of the systemd services as (even with sudo installed) systemctl is left non-functional.
     * Attempts to fix the systemctl accessibility issue, using examples and references, have been unsuccessful.

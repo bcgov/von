@@ -7,18 +7,19 @@
 
 remote_theme             : "mmistakes/minimal-mistakes"
 
-minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+minimal_mistakes_skin    : "von" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Verifiable Organizations Network"
 title_separator          : "-"
 name                     : &name "VON Community" # &name is a YAML anchor which can be *referenced later
-description              : &description "Enabling safe, secure digital interactions to make a better Internet for getting business done."
+description              : &description "Trustworthy data about organizations through blockchain-based Verifable Credentials."
 url                      : # https://bcgov.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/von" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog" or "" if no subpath
 repository               : "bcgov/von"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # path of fallback teaser image, e.g. "assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -79,7 +80,7 @@ facebook:
   username               : # &facebook "michaelrose"
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/VON-Logo.png" # Open Graph/Twitter default site image
+og_image                 : "assets/images/VON-Logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles, used in _includes/seo.html
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -100,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/VON-Logo.png"
+  avatar           : "assets/images/VON-Logo.png"
   bio              : "An Open Source collaboration initiated by the Governments of British Columbia, Ontario and Canada."
   location         : "Victoria, BC"
   email            :
@@ -263,6 +264,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:

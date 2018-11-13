@@ -1,0 +1,85 @@
+{% if page.header.primary_cta_url contains "://" %}
+  {% capture primary_cta_path %}{{ page.header.primary_cta_url }}{% endcapture %}
+{% else %}
+  {% capture primary_cta_path %}{{ page.header.primary_cta_url | relative_url }}{% endcapture %}
+{% endif %}
+
+{% if page.header.secondary_cta_url contains "://" %}
+  {% capture secondary_cta_path %}{{ page.header.secondary_cta_url }}{% endcapture %}
+{% else %}
+  {% capture secondary_cta_path %}{{ page.header.secondary_cta_url | relative_url }}{% endcapture %}
+{% endif %}
+
+{% if page.header.overlay_image contains "://" %}
+  {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
+{% elsif page.header.overlay_image %}
+  {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+{% endif %}
+
+{% if page.header.overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+{% elsif page.header.overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
+{% endif %}
+
+{% if page.header.image_description %}
+  {% assign image_description = page.header.image_description %}
+{% else %}
+  {% assign image_description = page.title %}
+{% endif %}
+
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
+  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+>
+  {% if page.header.overlay_color or page.header.overlay_image %}
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        {% if paginator and site.paginate_show_page_num %}
+          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+        {% else %}
+          {{ page.headline | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% endif %}
+      </h1>
+      {% if page.header.show_overlay_excerpt != false and page.excerpt %}
+        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% endif %}
+      {% if page.read_time %}
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+      {% endif %}
+      {% if page.header.primary_cta_url %}
+        <p>
+          <a href="{{ primary_cta_path }}" class="btn btn--primary btn--large">{{ page.header.primary_cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+
+          {% if page.header.secondary_cta_url %}
+            <span class="or">&mdash; or &mdash;</span>
+            <a href="{{ secondary_cta_path }}" class="btn btn--primary btn--large">{{ page.header.secondary_cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% endif %}
+        </p>
+      {% endif %}
+      {% if site.data.hero.images %}
+        {% for hero in site.data.hero.images %}
+          {% if hero.url contains "://" %}
+            {% capture img_path %}{{ hero.url }}{% endcapture %}
+          {% else %}
+            {% capture img_path %}{{ hero.url | relative_url }}{% endcapture %}
+          {% endif %}
+          <img src="{{ img_path }}" class="page__hero-image {{ hero.class }}">
+        {% endfor %}
+      {% endif %}
+      {% if page.header.caption %}
+        <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+      {% endif %}
+
+      {% if page.partners %}
+        <small class="in-partnership-with"><em>In partnership with</em></small>
+        <div class="partner-logos">
+          {% for partner in page.partners %}
+            <a href="{{ partner.url }}" class="partner-logo"><img src="{{ partner.image_path }}" alt="{{ partner.name }} logo" title="{{ partner.name }}"></a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

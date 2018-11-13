@@ -2,7 +2,7 @@
 layout: single
 title:  "Draft Post"
 header:
-  teaser: "/assets/images/global_network.jpg"
+  teaser: "assets/images/Teal_Background.png"
 categories: 
   - Jekyll
 tags:

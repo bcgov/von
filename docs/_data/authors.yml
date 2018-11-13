@@ -5,13 +5,13 @@ Stephen Curran:
   uri         : "https://www.cloudcompass.ca"
   email       : "swcurran@cloudcompass.ca"
   bio         : "Running, running, running. But to where?"
-  avatar      : # "/assets/images/bio-photo-2.jpg"
+  avatar      : # "assets/images/bio-photo-2.jpg"
   twitter     : "scurranC3I"
 
 John Jordan:
   name        : "John Jordan"
   email       : "john.jordon@gov.bc.ca"
   bio         : ""
-  avatar      : # "/assets/images/bio-photo.jpg"
+  avatar      : # "assets/images/bio-photo.jpg"
   twitter     : # ""
   google_plus : # ""

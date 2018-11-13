@@ -1,0 +1,120 @@
+/* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
+
+.masthead {
+  position: relative;
+  border-bottom: 1px solid $border-color;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+  z-index: 20;
+
+  &.v2 {
+    background: $bg-2;
+
+    .site-title {
+      background: url('../../assets/images/VON Logo - White.png') no-repeat;
+    }
+
+    .greedy-nav {
+      background: $bg-2;
+
+      a {
+        color: rgba(255,255,255,0.8);
+
+        &:hover {
+          color: rgba(255,255,255,1);
+        }
+      }
+    }
+  }
+
+  &__inner-wrap {
+    @include clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-family: $sans-serif-narrow;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
+
+    nav {
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .site-title {
+    width: 280px;
+    height: 100px;
+    z-index: 20;
+    text-indent: -9999px;
+    background: url('../../assets/images/VON Logo - Black.png') no-repeat;
+    background-size: contain;
+  }
+
+  body.layout--splash & {
+    background: transparent;
+    position: absolute;
+    color: #fff;
+    border: none;
+    width: 100%;
+
+    .greedy-nav {
+      background: transparent;
+    }
+
+    &__menu .visible-links a {
+      color: rgba(255,255,255,0.8);
+
+      &:hover {
+        color: rgba(255,255,255,1);
+      }
+    }
+  }
+}
+
+.masthead__menu {
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  clear: both;
+
+  .site-nav {
+    margin-left: 0;
+
+    @include breakpoint($small) {
+      float: right;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    list-style-type: none;
+  }
+}
+
+.masthead__menu-item {
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
+
+  &--lg {
+    padding-right: 2em;
+    font-weight: 700;
+  }
+}
