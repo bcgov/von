@@ -14,7 +14,9 @@ Government of Ontario joined the VON Project in fall 2017 looking to explore the
 
 ### Use Cases for Ontario's TheOrgBook
 
-![Ontario's TheOrgBook High Level Flow Diagram]("{{ '/assets/images/ontario-architecture/Ontario-Use-Case-Diagram.jpg' | relative_url }})
+<figure>
+  <img src="{{ '/assets/images/ontario-architecture/Ontario-Use-Case-Diagram.jpg' | relative_url }}" alt="Ontario's TheOrgBook High Level Flow Diagram">
+</figure>
 
 |Use Case   | Brief Description  |  Initiating Actor |
 |---|---|---|
@@ -25,7 +27,9 @@ Government of Ontario joined the VON Project in fall 2017 looking to explore the
 
 ### High Level Flow Diagram 
 
-![Ontario's TheOrgBook High Level Flow Diagram]("{{ '/assets/images/ontario-architecture/Ontario-TOB-High-Level-Architecture-Diagram.jpg' | relative_url }}
+<figure>
+  <img src="{{ '/assets/images/ontario-architecture/Ontario-TOB-High-Level-Architecture-Diagram.jpg' | relative_url }}" alt="Ontario's TheOrgBook High Level Flow Diagram">
+</figure>
 
 ### What's on the Ledger?
 
@@ -76,14 +80,17 @@ There are two main components developed within the Ontario's VON Project:
 
 **ONBIS-X** - is built on top of Indy Ref Agent software and includes Indy SDK, Indy Enterprise Wallet, DIDAuth, configuration, schemas and schema definition for issuing 3 types of credentials - business registations, business relationships, business addresses -  based on the data in Ontario's Business Registry - ONBIS.
 
-
 ### Ontario's TheOrgBook Source Code Dependency Diagram 
 
-![Ontario's TheOrgBook Code Dependency Diagram]("{{ '/assets/images/ontario-architecture/Ontario-TOB-code-dependency-diagram.png' | relative_url }}")
+<figure>
+  <img src="{{ '/assets/images/ontario-architecture/Ontario-TOB-code-dependency-diagram.png' | relative_url }}" alt="Ontario's TheOrgBook Code Dependency Diagram">
+</figure>
 
 ### Ontario's TheOrgBook Network Architecture Diagram 
 
 
 TheOrgBook's components (Web UI, API, Database, Search Engine configuration) and ONBIS-X components (VON-X config, Wallet, DidAuth) are deployed in Government of BC's PathFinder OpenShift platform and hosted in the Kamloops data center. ONBIS application that plays the role of the Verifiable Claims Issuer is hoted within Ontario's domain.  
 
-![Ontario's TheOrgBook Network Diagram]("{{ '/assets/images/ontario-architecture/Ontario-TOB-network-architecture-diagram.png' | relative_url }}")
+<figure>
+  <img src="{{ '/assets/images/ontario-architecture/Ontario-TOB-network-architecture-diagram.png' | relative_url }}" alt="Ontario's TheOrgBook Network Diagram ">
+</figure>
