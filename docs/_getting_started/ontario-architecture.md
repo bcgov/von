@@ -14,7 +14,7 @@ Government of Ontario joined the VON Project in fall 2017 looking to explore the
 
 ### Use Cases for Ontario's TheOrgBook
 
-![Ontario's TheOrgBook High Level Flow Diagram](../assets/images/ontario-architecture/Ontario-Use-Case-Diagram.jpg)
+![Ontario's TheOrgBook High Level Flow Diagram](../assets/images/ontario-architecture/Ontario-TOB-use-case-diagram.jpg)
 
 |Use Case   | Brief Description  |  Initiating Actor |
 |---|---|---|
@@ -23,9 +23,13 @@ Government of Ontario joined the VON Project in fall 2017 looking to explore the
 | Revoke Claim  | At any point the Claim Issuer may revoke a previously issued claim and through ONBIS-X Indy agent  sends a request to the Sovrin Blockchain Node to update the ledger (Specifically the Revocation Registry) in order to revoke a specific claim.  |ONBIS   |
 | Issue Claim  |  At a predetermined time, ONBIS forwards new business information as a CSV extract to a drop location (file share) where it is picked up by Informatica ETL Tool and converted into JSON format. ONBIS-X Indy agent retrieves the file and loads the new business information into TheOrgBook's searchable database and, as verificable credentials, into the enterprise wallet. | ONBIS  |
 
+### Context Diagram 
+
+![Ontario's TheOrgBook Context Diagram](../assets/images/ontario-architecture/Ontario-TOB-context-diagram.jpg)
+
 ### High Level Flow Diagram 
 
-![Ontario's TheOrgBook High Level Flow Diagram](../assets/images/ontario-architecture/Ontario-TOB-High-Level-Architecture-Diagram.jpg)
+![Ontario's TheOrgBook High Level Flow Diagram](../assets/images/ontario-architecture/Ontario-TOB-high-level-flow-diagram.jpg)
 
 ### What's on the Ledger?
 
