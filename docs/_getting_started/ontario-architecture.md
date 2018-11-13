@@ -14,18 +14,18 @@ Government of Ontario joined the VON Project in fall 2017 looking to explore the
 
 ### Use Cases for Ontario's TheOrgBook
 
-![Ontario's TheOrgBook High Level Flow Diagram](Ontario-Use-Case-Diagram.jpg)
+![Ontario's TheOrgBook High Level Flow Diagram](../assets/images/ontario-architecture/Ontario-Use-Case-Diagram.jpg)
 
 |Use Case   | Brief Description  |  Initiating Actor |
 |---|---|---|
 | Search Businesses  |  A Claim Requestor (a User) enters search criteria and is returned a list of business matches based on the criteria. | Claim Requestor  |
 | Verify Claim   | The Claim Requestor selects the business and the claim and requests verification. TheOrgBook System sends the request to the Sovrin Blockchain Node which verifies the request and returns the verification information to TheOrgBook. TheOrgBook then presents the verified claim to the Claim Requestor  |  Claim Requestor |
 | Revoke Claim  | At any point the Claim Issuer may revoke a previously issued claim and through ONBIS-X Indy agent  sends a request to the Sovrin Blockchain Node to update the ledger (Specifically the Revocation Registry) in order to revoke a specific claim.  |ONBIS   |
-| Issue Claim  |  At a predetermined time, ONBIS forwards new business information as a CSV extract to a drop location (file share) where it is picked up by Informatica ETL Tool and converted into JSON format. ONBIS-X Indy agent retrieved retrieves the file and loads the new business information into TheOrgBook's searchable database and, as verificable credentials, into the enterprise wallet. | ONBIS  |
+| Issue Claim  |  At a predetermined time, ONBIS forwards new business information as a CSV extract to a drop location (file share) where it is picked up by Informatica ETL Tool and converted into JSON format. ONBIS-X Indy agent retrieves the file and loads the new business information into TheOrgBook's searchable database and, as verificable credentials, into the enterprise wallet. | ONBIS  |
 
 ### High Level Flow Diagram 
 
-![Ontario's TheOrgBook High Level Flow Diagram](Ontario-TOB-High-Level-Architecture-Diagram.jpg)
+![Ontario's TheOrgBook High Level Flow Diagram](../assets/images/ontario-architecture/Ontario-TOB-High-Level-Architecture-Diagram.jpg)
 
 ### What's on the Ledger?
 
@@ -81,11 +81,11 @@ There are two main components developed within the Ontario's VON Project:
 
 ### Ontario's TheOrgBook Source Code Dependency Diagram 
 
-![Ontario's TheOrgBook Code Dependency Diagram](Ontario-TOB-code-dependency-diagram.png)
+![Ontario's TheOrgBook Code Dependency Diagram](../assets/images/ontario-architecture/Ontario-TOB-code-dependency-diagram.png)
 
 ### Ontario's TheOrgBook Network Architecture Diagram 
 
 
 TheOrgBook's components (Web UI, API, Database, Search Engine configuration) and ONBIS-X components (VON-X config, Wallet, DidAuth) are deployed in Government of BC's PathFinder OpenShift platform and hosted in the Kamloops data center. ONBIS application that plays the role of the Verifiable Claims Issuer is hoted within Ontario's domain.  
 
-![Ontario's TheOrgBook Network Diagram](Ontario-TOB-network-architecture-diagram.png)
+![Ontario's TheOrgBook Network Diagram](../assets/images/ontario-architecture/Ontario-TOB-network-architecture-diagram.png)
