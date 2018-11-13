@@ -1,0 +1,25 @@
+@startuml
+
+title **Ontario's TheOrgBook - Source Code Dependencies**
+
+package "HyperLedger Indy github" {
+    node "Indy\nSDK" as is
+    node "Indy Ref\nAgent" as ia
+    node "Indy Ent\nWallet" as iw
+}
+
+package "BCGov github" {
+    node "VON-X (Docker von-image):\n - Indy Enterprise Wallet\n - DIDAuth\n - Indy SDK" as vn
+    node "ONBIS-X\n(Ontario's Config for VON-X)\n- Indy Ent Wallet\n- DIDAuth" as onbisx
+    node "TheOrgBook\n(BC and Ontario code):\n- Web UI\n- API\n- DB\n- Search Config\n- Wallet Config" as tob
+}
+
+
+' Repos feeding Ontario's repos
+vn --> ia : fork
+ia --> onbisx : fork
+vn --> tob : include
+is --> vn : include
+iw --> vn: include
+/' '/
+@enduml

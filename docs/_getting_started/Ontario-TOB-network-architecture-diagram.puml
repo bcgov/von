@@ -1,0 +1,61 @@
+@startuml
+title **Ontario's TheOrgBook - Network Architecture Diagram**
+
+
+package "ONBIS-X - BC's OpenShift" {
+    node "VON-X\n Ontario's Config\nPython 3\nAPI" as vonxconfig
+    component [VON-X\nPython-3] {
+    node "DIDAuth\nAPI" as didauth
+    database "VON-X\nWallet\nPostgreSQL" as wallet
+    }
+}
+
+package "ONBIS - Ontario's Network" {
+    database  "ONBIS\nData Source" as onbis
+    node "Informatica\nETL Tool\nAPI" as informatica
+}
+
+package "Ontario's TheOrgBook = BC's OpenShift" {
+   component API [
+        TheOrgBook's API\nOntario's Config\n
+        Django 1.11 (Python 3)
+    ] 
+    component SearchEngine [
+        TheOrgBook's Search Engine\nOntario's Config\n
+        Solr 6.6
+    ] 
+    component webUI [
+        TheOrgBook's Web Interface\nOntario's Look-n-Feel\n
+        Angular 4
+    ]
+   
+   component [VON-X\nPython3] {
+    node "DIDAuth\nAPI" as didauth2
+    database "VON-X\nWallet\nPostgreSQL" as wallet2
+    }
+    database "TheOrgBook\nSearchable Database\nPostgreSQL" as searchdb
+}
+
+cloud "The Internet" {
+   actor "Public\nUser" as TOBUSER
+   component "TheOrgBook API\nClient" as TOBAPIUSER
+    package "Sovrin Network" as SL {
+        component "Distributed\nLedger\n\nIndy Node 1.6" as DL
+    }
+}
+' Dependencies between components
+onbis --> informatica : SFTP\nCSV extract
+informatica --> vonxconfig : data transformation
+TOBUSER --> webUI : HTTPS\nport 443
+API --> SearchEngine 
+API --> searchdb
+API --> wallet2 : create/revoke\nverifiable credentials
+webUI --> API
+didauth --> didauth2 : HTTPS\nport 443\n Issuer Authentication
+vonxconfig --> API :HTTPS\lport 443\lPopulate Searchable DB\land Issue Credentials into Wallet  
+API --> didauth2: claim verification request
+SearchEngine --> searchdb: real time indexing
+TOBAPIUSER --> API : HTTPS\n port 443
+didauth --> DL : port 9700-9799\nRegister DID, schemas, schema defs
+didauth2 --> DL : port 9700-9799\nRegister DIDs, verify claims
+@enduml
