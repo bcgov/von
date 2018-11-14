@@ -92,10 +92,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : # "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : # "UA-2011187-3" # Replace this with your ID, or delete
-    anonymize_ip         : # true
+    tracking_id          : "UA-129194685-1" # Replace this with your ID, or delete
+    anonymize_ip         : true
 
 
 # Site Author
@@ -103,7 +103,7 @@ author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/images/VON-Logo.png"
   bio              : "An Open Source collaboration initiated by the Governments of British Columbia, Ontario and Canada."
-  location         : "Victoria, BC"
+  location         : # "Victoria, BC"
   email            :
   uri              : "https://von.pathfinder.gov.bc.ca"
   home             : "https://von.pathfinder.gov.bc.ca"
