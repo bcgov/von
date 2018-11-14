@@ -15,7 +15,7 @@ We assume you also know a bit about VON and TheOrgBook from reading our [About p
 
 ## Sit Back and Watch
 
-If you want to start easy, begin by [watching Alice](https://www.youtube.com/watch?v=cz-6BldajiA) get her self-sovereign identity, some Verifiable Credentials and use those Credentials to get a job and a loan. This video is from IBM's Identity Group and uses VON components and Permitify under the covers. IBM has a [github repo](https://github.com/IBM-Blockchain-Identity/indy-ssivc-tutorial) with the demo configured that you can run with docker. Or, stick around here and can follow on to the next step and start to build up your own version of the VON components from the original source.
+If you want to start easy, begin by [watching Alice](https://www.youtube.com/watch?v=cz-6BldajiA) get her self-sovereign identity, some Verifiable Credentials and use those credentials to get a job and a loan. This video is from IBM's Identity Group and uses VON components and Permitify under the covers. IBM has a [github repo](https://github.com/IBM-Blockchain-Identity/indy-ssivc-tutorial) with the demo configured that you can run with docker. Or, stick around here and can follow on to the next step and start to build up your own version of the VON components from the original source.
 
 **Tip:** The current IBM demo is based on the same components you will find here. In the following we'll guide you through starting up the same components to run a slightly different demo.{: .notice--info}
 
@@ -36,11 +36,11 @@ If you are not a techy, and you aren't going to run VON software on your system,
 
 ### Corporate Registries
 
-Part of a Corporate Registries organization? You could lay the foundation of a VON in your jurisdiction! Registries is a key "base of identity" for Organizations, just as a Driver's License issuer is a key "base of identity" for a Person. You should start with the [VON Participants]({{ "/getting_started/von_participants/" | relative_url }}) page, and then move on to [Running TheOrgBook Instance]({{ "/getting_started/running-tob-instance/" | relative_url }}).
+Part of a Corporate Registries organization? You could lay the foundation in your jurisdiction to join VON! Registries issue the "foundational credential" for Organizations. This foundational registration credential enables other issuers in your jurisdiction to lookup the basic data (legal name, identifier, dates, etc) about a legal entity so they can both improve their own data and issue their Verifiable Credential to your OrgBook. OrgBook will automatically update the organization page for that legal entity with the new Verifiable Credential. You should start with the [VON Participants]({{ "/getting_started/von_participants/" | relative_url }}) page, and then move on to [Running TheOrgBook Instance]({{ "/getting_started/running-tob-instance/" | relative_url }}).
 
 ### Permits and Licences Issuer
 
-If your organization issues Permits and Licences, you can use VON to make it easier for your clients, improve your data and make it easier for organizations that rely on the Permits and Licences you issue. Pheww!  You should start with the [VON Participants]({{ "/getting_started/von_participants/" | relative_url }}) page, and then move on to [Running TheOrgBook Instance]({{ "/getting_started/issuing-permits-licences/" | relative_url }}).
+If your organization issues Permits and Licences, you can use VON to make it easier for your clients, improve your data and make it easier for organizations that rely on the Permits and Licences you issue. You should start with the [VON Participants]({{ "/getting_started/von_participants/" | relative_url }}) page, and then move on to [Running TheOrgBook Instance]({{ "/getting_started/issuing-permits-licences/" | relative_url }}).
 
 ### Technical Architect
 
