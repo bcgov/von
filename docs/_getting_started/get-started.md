@@ -16,10 +16,10 @@ Welcome to VON - the Verifiable Organizations Network!  We have lots of informat
   - [Where's the blockchain?](#wheres-the-blockchain)
 - Business
   - [I'm with an Authoritative Public Registry - e.g. a Corporate Registry](#authoritative-public-registries)
-  - [I'm with a Permit or License Issuer](permits-and-license-issuers)
-  - [We need to verify Registrations, Permits and/or Licenses - KYC](registration-permit-and-licence-verifiers)
+  - [I'm with a Permit or License Issuer](#permits-and-licenses-issuers)
+  - [We need to verify Registrations, Permits and/or Licenses - KYC](#registration-permit-and-licence-verifiers)
 - Technical
-  - [What are the components of VON?](the-components-of-von)
+  - [What are the components of VON?](#the-components-of-von)
   - [I'd like to see and run some Hyperledger Indy code](#running-indy-code)
   - [What's involved in running an instance of TheOrgBook](#running-a-production-instance-of-theorgbook)
   - [How can I get an instance of VON IVy running for Issuing and Verifying Credentials?](#integrating-with-a-production-von-ivy-instance)
@@ -44,7 +44,7 @@ Authoritative Public Registries can be the foundation of a VON ecosystem. Regist
 
 Such registries are potential operators of an instance of a central component of VON - TheOrgBook, and issuers of foundational Verifiable Credentials about entities. If you are involved in such a Registry, learn [about VON](/getting_started/von-overview) and about [TheOrgBook](/getting_started/theorgnook), and see if you should consider joining VON.
 
-# Permits and Licenser Issuers
+# Permits and Licenses Issuers
 
 If you issue permits and licenses to public entities that are authorized by a registry (see section above) that runs an instance of TheOrgBook - you are in luck! Chances are, one of the first things you need to do is find out exactly what entity is asking for the permit/licence. If so, you can use TheOrgBook instance as the source of that information - search, find and verify a proof from TheOrgBook about that entity. That means that you will be building your record about that entity using Verifiable data. Once your process completes and a permit/license is to be issued, an instance of VON IVy can be used as a "print driver" for a Verifiable Credential issued to TheOrgBook about the entity.
 
