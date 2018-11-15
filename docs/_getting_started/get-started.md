@@ -16,10 +16,10 @@ Welcome to VON - the Verifiable Organizations Network!  We have lots of informat
   - [Where's the blockchain?](#wheres-the-blockchain)
 - Business
   - [I'm with an Authoritative Public Registry - e.g. a Corporate Registry](#authoritative-public-registries)
-  - [I'm with a Permit or License Issuer](permits-and-license-issuers)
-  - [We need to verify Registrations, Permits and/or Licenses - KYC](registration-permit-and-licence-verifiers)
+  - [I'm with a Permit or License Issuer](#permits-and-licenses-issuers)
+  - [We need to verify Registrations, Permits and/or Licenses - KYC](#registration-permit-and-licence-verifiers)
 - Technical
-  - [What are the components of VON?](the-components-of-von)
+  - [What are the components of VON?](#the-components-of-von)
   - [I'd like to see and run some Hyperledger Indy code](#running-indy-code)
   - [What's involved in running an instance of TheOrgBook](#running-a-production-instance-of-theorgbook)
   - [How can I get an instance of VON IVy running for Issuing and Verifying Credentials?](#integrating-with-a-production-von-ivy-instance)
@@ -34,19 +34,19 @@ VON is built on a foundation of blockchain technology - and more specifically - 
 
 # Authoritative Public Registries
 
-Authoritative Public Registries can be the foundation of a VON ecosystem. Registries have the authority (often from legislation) to register individuals and organization to operate within a jurisdictional area. There are many examples of registries to be found:
+Authoritative Public Registries are the foundation of the Verifiable Organzations Network. Registries have the authority (often from legislation) to register individuals and organization to operate within a jurisdictional area. There are many examples of registries to be found:
 
 - Corporate Registries for organizational entities (corporations, partnerships, sole proprietorships, non-profits and so on)
-- Professional Registries (lawyers, doctors, engineers and so on)
-- Colleges and Universities
-- Land Title
+- Professional Accredication Registries (lawyers, doctors, engineers and so on)
+- Associations such as Colleges and Universities
+- Land Title Registries
 - And more...
 
 Such registries are potential operators of an instance of a central component of VON - TheOrgBook, and issuers of foundational Verifiable Credentials about entities. If you are involved in such a Registry, learn [about VON](/getting_started/von-overview) and about [TheOrgBook](/getting_started/theorgnook), and see if you should consider joining VON.
 
-# Permits and Licenser Issuers
+# Permits and Licenses Issuers
 
-If you issue permits and licenses to public entities that are authorized by a registry (see section above) that runs an instance of TheOrgBook - you are in luck! Chances are, one of the first things you need to do is find out exactly what entity is asking for the permit/licence. If so, you can use TheOrgBook instance as the source of that information - search, find and verify a proof from TheOrgBook about that entity. That means that you will be building your record about that entity using Verifiable data. Once your process completes and a permit/license is to be issued, an instance of VON IVy can be used as a "print driver" for a Verifiable Credential issued to TheOrgBook about the entity.
+If you issue permits and licenses to public entities that are authorized by a registry (see section above) that runs an instance of TheOrgBook - you are in luck! Chances are, one of the first things you need to do is find out exactly what entity is asking for the permit/licence. If so, you can use TheOrgBook instance as the source of that information - search, find and verify a proof from TheOrgBook about that entity. That means that you will be building your record about that entity using verifiable data. Once your process completes and a permit/license is to be issued, an instance of VON IVy can be used as a "print driver" for a Verifiable Credential issued to TheOrgBook about the entity.
 
 Check out an [overview of VON](/getting_started/von-overview) and about [using VON IVy](/getting_started/von-ivy), and see if you should consider joining VON.
 
@@ -82,6 +82,6 @@ See the section of this site on [TheOrgBook](/getting_started/theorgbook) for th
 
 VON IVy is a REST service that can be controlled by an existing application to request proofs of claims from Verifiable Credentials held by an instance of TheOrgBook and to issue Verifiable Credentials to TheOrgBook. Standing up an instance of VON IVy is done in two parts.
 
-First, the VON IVy instanced is configured through a series of YML files that define the Proof Requests (verifications), Credential issuances and related metadata. Second, the existing service must be altered to invoke the VON IVy and TheOrgBook instances at appropriate times. For an issuer-only service, the integration will be trivial - a REST call to pass JSON for a new Credential. For a verifier, the integration will be a little more sophisticated - likely an alternative/replacement for some of the data entry interactions with a User. Using TheOrgBook search APIs might drive the UI, allowing the user to search for and confirm their organization.
+First, the VON IVy instanced is configured through a series of YML files that define the Proof Requests (verifications), Verifiable Credential issuances and related metadata. Second, the existing service must be altered to invoke the VON IVy and TheOrgBook instances at appropriate times. For an issuer-only service, the integration will be trivial - a REST call to pass JSON for a new Credential. For a verifier, the integration will be a little more sophisticated - likely an alternative/replacement for some of the data entry interactions with a User. Using TheOrgBook search APIs might drive the UI, allowing the user to search for and confirm their organization. Essentally, if the application your users use to get their permit or licence has a "Business Name" type field you can use TheOrgBook APIs to enable a search based autocomplete instead of having a free text field. This provides a better user expereince and significantly improves data quality for the issuing service.
 
 See the section of this site on [VON IVy](/getting_started/von-ivy) for the details and the primary repo for [VON IVy on github](https://github.com/bcgov/von-agent-template). As well, checkout the pages in this guide on the [BC](/getting_started/bc-architecture) and [Ontario](/getting_started/ontario-architecture) deployments of a VON ecosystem.
