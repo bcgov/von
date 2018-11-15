@@ -15,7 +15,7 @@ Government of Ontario joined the VON Project in fall 2017 looking to explore the
 ### Use Cases for Ontario's TheOrgBook
 
 <figure>
-  <img src="{{ '/assets/images/ontario-architecture/Ontario-Use-Case-Diagram.jpg' | relative_url }}" alt="Ontario's TheOrgBook High Level Flow Diagram">
+  <img src="{{ '/assets/images/ontario-architecture/Ontario-Use-Case-Diagram.png' | relative_url }}" alt="Ontario's TheOrgBook Use Case Diagram">
 </figure>
 
 |Use Case   | Brief Description  |  Initiating Actor |
