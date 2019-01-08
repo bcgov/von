@@ -17,11 +17,11 @@ Want to play with the things we're working on?  Click on...
 
 #### Province of British Columbia
 * [OrgBook BC](https://orgbook.gov.bc.ca)
-* [OrgBook BC - OpenAPI](https://orgbook.gov.bc.ca/api)
+* [OrgBook BC - OpenAPI](https://www.orgbook.gov.bc.ca/api)
 
 #### Province of Ontario
-* [OrgBook Ontario](https://www.von.gov.on.ca)* 
-* [OrgBook Ontario - OpenAPI](https://www.von.gov.on.ca/api)
+* [OrgBook Ontario](https://www.von.gov.on.ca)
+* [OrgBook Ontario - OpenAPI](https://von.gov.on.ca/api)
 
 ### Development and Test Services - Province of British Columbia
 
@@ -34,11 +34,11 @@ Want to play with the things we're working on?  Click on...
 
 ### dFlow - Decentralized Workflow Technology Demonstrator 
 
-* [dFlow Demonstrator Web Application - Get a Licence workflow (Latest)](https://dev-dflow.orgbook.gov.on.ca)
-* [dFlow OrgBook BC - (Latest)](https://dev-demo.orgbook.gov.on.ca)
+* [dFlow Demonstrator Web Application - Get a Licence workflow (Latest)](https://dev-dflow.orgbook.gov.bc.ca)
+* [dFlow OrgBook BC - (Latest)](https://dev-demo.orgbook.gov.bc.ca)
 
-* [dFlow Demonstrator Web Application - Get a Licence workflow (Stable)](https://dflow.orgbook.gov.on.ca)
-* [dFlow OrgBook BC - (Stable)](https://demo.orgbook.gov.on.ca)
+* [dFlow Demonstrator Web Application - Get a Licence workflow (Stable)](https://dflow.orgbook.gov.bc.ca)
+* [dFlow OrgBook BC - (Stable)](https://demo.orgbook.gov.bc.ca)
 
 
 ### Hyperledger Indy Instances - Ledger Browser
