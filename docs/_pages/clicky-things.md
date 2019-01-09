@@ -46,19 +46,26 @@ Want to play with the things we're working on?  Click on...
 * [BCovrin Network - **Test/Demo** (Network)](http://138.197.138.255/)
 * [BCovrin Network - **Temp Prod** (Non-Sovrin Prod)](http://159.203.24.151/)
 
-### Our To Do List
+
+### Verifiable Organization Network Development Resources
+
+### Sprint Backlogs
 * [VON Kanban Board - (GitHub Account required)](https://app.zenhub.com/workspace/o/bcgov/von/boards)
     * You can also look at the same data under GitHub Issues for in the various [VON repos](https://github.com/topics/verifiable-organizations-network)
 
-### VON Partner Repos
+
+#### GitHub Repos
 * [VON - BC Gov](https://github.com/topics/verifiable-organizations-network)
 * [VON - Public Services and Procurement Canada: buyandsell.gc.ca](https://github.com/PSPC-SPAC-buyandsell)
 
-#### Verifiable Organization Network Demo (Get your local version of demo)
+#### Docker Hub Images
+* [von-image](https://hub.docker.com/r/bcgovimages/von-image/)
+
+#### Run VON Components on your local computer
 * [Verified Organization Network Demo Getting Started](https://github.com/bcgov/TheOrgBook/blob/master/docker/README.md#running-a-complete-provisional-von-network)
-* [VON-Network - Run your on Hyperledger Indy Network](https://github.com/bcgov/von-network)
-* [TheOrgBook](https://github.com/bcgov/TheOrgBook)
-* [Permitify](https://github.com/bcgov/permitify)
+* [VON-Network - Run your own Hyperledger Indy Network](https://github.com/bcgov/von-network)
+* [OrgBook](https://github.com/bcgov/TheOrgBook)
+* [dFlow](https://github.com/bcgov/permitify)
 
 #### DID Authentication Experimental Work
 * [DID-Auth](https://github.com/topics/did-auth)
