@@ -29,13 +29,13 @@ Want to use the things we're working with?  Explore here ...
 #### OrgBook BC
 * [OrgBook BC **Dev** (Latest)](https://dev.orgbook.gov.bc.ca/)
 * [OrgBook BC **Dev** (Latest) - OpenAPI](https://dev.orgbook.gov.bc.ca/api/)
-* [BCovrin Network - **Dev** (Stable)](http://159.89.115.24)
+* ["BCovrin **Dev**" Hyperledger Indy Network Browser (Latest)](http://159.89.115.24)
 
 * [OrgBook BC **Test** (Stable)](https://test.orgbook.gov.bc.ca/)
 * [OrgBook BC **Test** (Stable) - OpenAPI](https://test.orgbook.gov.bc.ca/api/)
-* [BCovrin Network **Test** (Network)](http://138.197.138.255/)
+* ["BCovrin **Test**" Hyperledger Indy Network Browser (Stable)](http://138.197.138.255/)
 
-### dFlow - Decentralized Workflow Technology Demonstrator 
+### dFlow - Decentralized Workflow Technology Demonstrator
 
 #### Latest (Development Environment)
 * [dFlow Demonstrator Web Application - Get a Licence workflow (Latest)](https://dev-dflow.orgbook.gov.bc.ca)
