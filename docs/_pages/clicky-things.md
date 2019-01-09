@@ -17,20 +17,20 @@ Want to play with the things we're working on?  Click on...
 
 #### Province of British Columbia
 * [OrgBook BC](https://orgbook.gov.bc.ca)
-* [OrgBook BC - OpenAPI](https://www.orgbook.gov.bc.ca/api)
+* [OrgBook BC - OpenAPI](https://www.orgbook.gov.bc.ca/api/)
 
 #### Province of Ontario
 * [OrgBook Ontario](https://www.von.gov.on.ca)
-* [OrgBook Ontario - OpenAPI](https://von.gov.on.ca/api)
+* [OrgBook Ontario - OpenAPI](https://von.gov.on.ca/api/)
 
 ### Development and Test Services - Province of British Columbia
 
 #### OrgBook BC
 * [TheOrgBook **Dev** (Latest)](https://dev.orgbook.gov.bc.ca/)
-* [TheOrgBook **Dev** (Latest) - OpenAPI](https://dev.orgbook.gov.bc.ca/api)
+* [TheOrgBook **Dev** (Latest) - OpenAPI](https://dev.orgbook.gov.bc.ca/api/)
 
 * [TheOrgBook **Test** (Stable)](https://test.orgbook.gov.bc.ca/)
-* [TheOrgBook **Test** (Stable) - OpenAPI](https://test.orgbook.gov.bc.ca/api)
+* [TheOrgBook **Test** (Stable) - OpenAPI](https://test.orgbook.gov.bc.ca/api/)
 
 ### dFlow - Decentralized Workflow Technology Demonstrator 
 
