@@ -50,10 +50,12 @@ Want to use the things we're working with?  Explore here ...
 
 ### Verifiable Organization Network Development Resources
 
-### Sprint Backlogs
+#### Sprint Backlogs
 * [VON Kanban Board - (GitHub Account required)](https://app.zenhub.com/workspace/o/bcgov/von/boards)
     * You can also look at the same data under GitHub Issues for in the various [VON repos](https://github.com/topics/verifiable-organizations-network)
 
+#### Service Uptime Report
+* [Uptime Dashboard for all VON services](https://uptime.vonx.io)
 
 #### GitHub Repos
 * [VON - BC Gov](https://github.com/topics/verifiable-organizations-network)
