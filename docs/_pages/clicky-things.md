@@ -21,7 +21,7 @@ Want to play with the things we're working on?  Click on...
 
 #### Province of Ontario
 * [OrgBook Ontario](https://www.von.gov.on.ca)
-* [OrgBook Ontario - OpenAPI](https://von.gov.on.ca/api/)
+* [OrgBook Ontario - OpenAPI](https://www.von.gov.on.ca/api/)
 
 ### Development and Test Services - Province of British Columbia
 
