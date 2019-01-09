@@ -1,23 +1,24 @@
 ---
 permalink: /clickythings/
-title: "Clicky Things: Stuff We're Working On"
-excerpt: "VON Things we've created or in the midst of creating"
+title: "Clicky Things: What we are working on"
+excerpt: "VON Components we've created or in the midst of creating"
 last_modified_at: 2018-11-28T12:00:00-07:00
 toc: true
 toc_sticky: true
 ---
 
-Want to play with the things we're working on?  Click on...
+Want to use the things we're working with?  Explore here ...
 
 ### Webinars
-* [John Jordan (BC Gov) about VON, TheOrgBook and our vision](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4)
+* [John Jordan (BC Gov) about VON, OrgBook BC and our vision](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4)
 * John Jordan and Stephen Curran at the December 2018 Hyperledger Global Forum - [Verifiable Organizations Network: A Production Government Deployment of Hyperledger Indy](https://www.youtube.com/watch?v=g19VNv3DAd0)
 
-### Production Services 
+### Production Services
 
 #### Province of British Columbia
 * [OrgBook BC](https://orgbook.gov.bc.ca)
 * [OrgBook BC - OpenAPI](https://www.orgbook.gov.bc.ca/api/)
+* [BCovrin Network - **Temp Prod** (Non-Sovrin Network Production)](http://159.203.24.151/)
 
 #### Province of Ontario
 * [OrgBook Ontario](https://www.von.gov.on.ca)
@@ -26,26 +27,25 @@ Want to play with the things we're working on?  Click on...
 ### Development and Test Services - Province of British Columbia
 
 #### OrgBook BC
-* [TheOrgBook **Dev** (Latest)](https://dev.orgbook.gov.bc.ca/)
-* [TheOrgBook **Dev** (Latest) - OpenAPI](https://dev.orgbook.gov.bc.ca/api/)
+* [OrgBook BC **Dev** (Latest)](https://dev.orgbook.gov.bc.ca/)
+* [OrgBook BC **Dev** (Latest) - OpenAPI](https://dev.orgbook.gov.bc.ca/api/)
+* [BCovrin Network - **Dev** (Stable)](http://159.89.115.24)
 
-* [TheOrgBook **Test** (Stable)](https://test.orgbook.gov.bc.ca/)
-* [TheOrgBook **Test** (Stable) - OpenAPI](https://test.orgbook.gov.bc.ca/api/)
+* [OrgBook BC **Test** (Stable)](https://test.orgbook.gov.bc.ca/)
+* [OrgBook BC **Test** (Stable) - OpenAPI](https://test.orgbook.gov.bc.ca/api/)
+* [BCovrin Network **Test** (Network)](http://138.197.138.255/)
 
 ### dFlow - Decentralized Workflow Technology Demonstrator 
 
+#### Latest (Development Environment)
 * [dFlow Demonstrator Web Application - Get a Licence workflow (Latest)](https://dev-dflow.orgbook.gov.bc.ca)
 * [dFlow OrgBook BC - (Latest)](https://dev-demo.orgbook.gov.bc.ca)
+* [dFlow Hyperledger Indy Network Browser (Latest)](http://159.203.21.90/)
 
+#### Stable (Test Environment)
 * [dFlow Demonstrator Web Application - Get a Licence workflow (Stable)](https://dflow.orgbook.gov.bc.ca)
 * [dFlow OrgBook BC - (Stable)](https://demo.orgbook.gov.bc.ca)
-
-
-### Hyperledger Indy Instances - Ledger Browser
-* [BCovrin Network - **Dev** (Stable)](http://159.89.115.24)
-* [BCovrin Network - **Test/Demo** (Network)](http://138.197.138.255/)
-* [BCovrin Network - **Temp Prod** (Non-Sovrin Prod)](http://159.203.24.151/)
-
+* [dFlow Hyperledger Indy Network Browser (Stable)](http://138.197.161.221/)
 
 ### Verifiable Organization Network Development Resources
 
