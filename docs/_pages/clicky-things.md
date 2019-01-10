@@ -18,7 +18,7 @@ Want to use the things we're working with?  Explore here ...
 #### Province of British Columbia
 * [OrgBook BC](https://orgbook.gov.bc.ca)
 * [OrgBook BC - OpenAPI](https://www.orgbook.gov.bc.ca/api/)
-* [BCovrin Network - **Temp Prod** (Non-Sovrin Network Production)](http://159.203.24.151/)
+* [BCovrin Network - **Temp Prod** (Non-Sovrin Network Production)](http://prod.bcovrin.vonx.io/)
 
 #### Province of Ontario
 * [OrgBook Ontario](https://www.von.gov.on.ca)
@@ -29,24 +29,24 @@ Want to use the things we're working with?  Explore here ...
 #### Latest (Development Environment)
 * [OrgBook BC **Dev** (Latest)](https://dev.orgbook.gov.bc.ca/)
 * [OrgBook BC **Dev** (Latest) - OpenAPI](https://dev.orgbook.gov.bc.ca/api/)
-* ["BCovrin **Dev**" Hyperledger Indy Network Browser (Latest)](http://159.89.115.24)
+* ["BCovrin **Dev**" Hyperledger Indy Network Browser (Latest)](http://dev.bcovrin.vonx.io/)
 
 #### Stable (Test Environment)
 * [OrgBook BC **Test** (Stable)](https://test.orgbook.gov.bc.ca/)
 * [OrgBook BC **Test** (Stable) - OpenAPI](https://test.orgbook.gov.bc.ca/api/)
-* ["BCovrin **Test**" Hyperledger Indy Network Browser (Stable)](http://138.197.138.255/)
+* ["BCovrin **Test**" Hyperledger Indy Network Browser (Stable)](http://test.bcovrin.vonx.io/
 
 ### dFlow - Decentralized Workflow Technology Demonstrator
 
 #### Latest (Development Environment)
 * [dFlow Demonstrator Web Application - Get a Licence workflow (Latest)](https://dev-dflow.orgbook.gov.bc.ca)
 * [dFlow OrgBook BC - (Latest)](https://dev-demo.orgbook.gov.bc.ca)
-* [dFlow Hyperledger Indy Network Browser (Latest)](http://159.203.21.90/)
+* [dFlow Hyperledger Indy Network Browser (Latest)](http://dev.dflow.bcovrin.vonx.io/)
 
 #### Stable (Test Environment)
 * [dFlow Demonstrator Web Application - Get a Licence workflow (Stable)](https://dflow.orgbook.gov.bc.ca)
 * [dFlow OrgBook BC - (Stable)](https://demo.orgbook.gov.bc.ca)
-* [dFlow Hyperledger Indy Network Browser (Stable)](http://138.197.161.221/)
+* [dFlow Hyperledger Indy Network Browser (Stable)](http://dflow.bcovrin.vonx.io/)
 
 ### Verifiable Organization Network Development Resources
 
