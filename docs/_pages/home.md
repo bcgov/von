@@ -23,12 +23,12 @@ partners:
 ---
 
 <h1>Building Locally, Thinking Globally.</h1>
-<p>The <strong>Verifiable Organizations Network</strong> is a community effort to establish a better way to find, issue and store trustworthy data about organizations&mdash;locally and around the globe. Community partner are using VON to enable the digitization of government-issued public credentials&mdash;registrations, permits, and licenses. Using modern, blockchain-based technologies, VON helps by making:
+<p>The <strong>Verifiable Organizations Network</strong> (VON) is a community effort to establish a better way to find, issue, store and share trustworthy data about organizations&mdash;locally and around the globe. Community partners are using jointly developed software components to enable the digitization of government-issued public credentials&mdash;registrations, permits, and licenses. Currently VON components are based on <a href="https://www.hyperledger.org/projects/hyperledger-indy">Hyperledger Indy distributed ledger</a> technology. VON helps by making:
   <ul>
     <li>applying for credentials faster and less error prone</li>
     <li>issuing (and reissuing) credentials simpler and more secure, and</li>
     <li>verifying credentials more standard, trustworthy, and transparent - anywhere in the world.</li>
   </ul>
 </p>
-<p>The first implementations, <a href="https://orgbook.gov.bc.ca">OrgBook BC</a>, and href="https://www.von.gov.on.ca">Ontario's Verifiable Businesses</a>  are publicly accessible, <a href="https://github.com/bcgov/TheOrgBook">open-sourced</a>, and <a href="https://orgbook.gov.bc.ca/organization/BC0914970" target="_blank">shows what future business permits and licenses could look like</a>.</p>
+<p>The first production services, <a href="https://orgbook.gov.bc.ca">OrgBook BC</a>, and href="https://www.von.gov.on.ca">Ontario's Verifiable Businesses</a> are publicly accessible, <a href="https://github.com/bcgov/TheOrgBook">open-source</a>, and <a href="https://orgbook.gov.bc.ca/organization/BC0914970" target="_blank">show what future business permits and licenses could look like</a>.</p>
 <p><strong>Interested to learn more?</strong> Read more <a href="/about/">about VON</a> and <a href="/getting_started/contributing/">see how your organization can join the Verifiable Organizations Network</a>.</p>
