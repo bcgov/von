@@ -23,12 +23,12 @@ partners:
 ---
 
 <h1>Building Locally, Thinking Globally.</h1>
-<p>The <strong>Verifiable Organizations Network</strong> is a community effort to establish a better way to find, issue and store trustworthy data about organizations&mdash;locally and around the globe. The BC Government is using VON to enable the digitization of government-issued public credentials&mdash;registrations, permits, and licenses. Using modern, blockchain-based technologies, VON helps by making:
+<p>The <strong>Verifiable Organizations Network</strong> is a community effort to establish a better way to find, issue and store trustworthy data about organizations&mdash;locally and around the globe. Community partner are using VON to enable the digitization of government-issued public credentials&mdash;registrations, permits, and licenses. Using modern, blockchain-based technologies, VON helps by making:
   <ul>
     <li>applying for credentials faster and less error prone</li>
     <li>issuing (and reissuing) credentials simpler and more secure, and</li>
     <li>verifying credentials more standard, trustworthy, and transparent - anywhere in the world.</li>
   </ul>
 </p>
-<p>Our initial implementation, <a href="https://theorgbook.pathfinder.gov.bc.ca">TheOrgBook</a>, is publicly accessible, <a href="https://github.com/bcgov/TheOrgBook">open-sourced</a>, and <a href="https://theorgbook.pathfinder.gov.bc.ca/en/topic/registration/BC0914970" target="_blank">shows what future business permits and licenses could look like</a>.</p>
+<p>The first implementations, <a href="https://orgbook.gov.bc.ca">OrgBook BC</a>, and href="https://www.von.gov.on.ca">Ontario's Verifiable Businesses</a>  are publicly accessible, <a href="https://github.com/bcgov/TheOrgBook">open-sourced</a>, and <a href="https://orgbook.gov.bc.ca/organization/BC0914970" target="_blank">shows what future business permits and licenses could look like</a>.</p>
 <p><strong>Interested to learn more?</strong> Read more <a href="/about/">about VON</a> and <a href="/getting_started/contributing/">see how your organization can join the Verifiable Organizations Network</a>.</p>
