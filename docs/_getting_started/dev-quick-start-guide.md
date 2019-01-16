@@ -15,7 +15,7 @@ We assume you also know a bit about VON and TheOrgBook from reading our [About p
 
 ## Sit Back and Watch
 
-If you want to start easy, begin by [watching Alice](https://www.youtube.com/watch?v=cz-6BldajiA) get her self-sovereign identity, some Verifiable Credentials and use those credentials to get a job and a loan. This video is from IBM's Identity Group and uses VON components and Permitify under the covers. IBM has a [github repo](https://github.com/IBM-Blockchain-Identity/indy-ssivc-tutorial) with the demo configured that you can run with docker. Or, stick around here and can follow on to the next step and start to build up your own version of the VON components from the original source.
+If you want to start easy, begin by [watching Alice](https://www.youtube.com/watch?v=cz-6BldajiA) get her self-sovereign identity, some Verifiable Credentials and use those credentials to get a job and a loan. This video is from IBM's Identity Group and uses VON components and dFLow under the covers. IBM has a [github repo](https://github.com/IBM-Blockchain-Identity/indy-ssivc-tutorial) with the demo configured that you can run with docker. Or, stick around here and can follow on to the next step and start to build up your own version of the VON components from the original source.
 
 **Tip:** The current IBM demo is based on the same components you will find here. In the following we'll guide you through starting up the same components to run a slightly different demo.{: .notice--info}
 
@@ -65,23 +65,13 @@ To run the VON components, you need the following prerequisites.
 
 ### Run the Code
 
-To run a local installation of VON, with an Indy Network, an instance of TheOrgBook, and an instance of Permitify, start with the following steps. We've provided links to the installation steps for each component. As we said above - you do need to know how to use git to clone a repo and use a terminal to navigate on the command line to your local repo instances.
-
-1. Use git to clone the repos of each of the the three components:
-    * **von-network**: https://github.com/bcgov/von-network 
-    * **TheOrgBook**: https://github.com/bcgov/TheOrgBook 
-    * **Permitify**: https://github.com/bcgov/permitify
-2. Open up three terminal windows running bash - one for **von-network**, one for **TheOrgBook** and one for **Permitify**
-3. Follow the instructions in the **[Quick Start Guide](https://github.com/bcgov/TheOrgBook/blob/master/docker/README.md#quick-start-guide)**
+To run a local installation of VON, with an Indy Network, an instance of TheOrgBook, and an instance of dFlow, follow the instructions in the **[VON Quick Start Guide](https://github.com/bcgov/dFlow/blob/master/docker/VONNetworkQuickStartGuide.md)**.
 
 :boom: Boom! On your computer, you have running:
 
-* A Four-node [Hyperledger Indy Blockchain Network]({{ "/getting_started/von-network/" | relative_url }}). It is listening for Identities (like TheOrgBook and the Permitify services) writing and reading (DIDs, Schema, and Credential Definitions) to and from the Ledger.
-  * In your browser, you can see the status and contents of the Ledger at: http://localhost:9000
-* An instance of the [TheOrgBook]({{ "/getting_started/theorgbook/" | relative_url }}), including a Web Interface (try it at: http://localhost:8080/en/home) , an Indy Agent and Wallet that can talk to the Indy Network, and a Postgres database holding information from received Credentials about the Organizations in TheOrgBook
-* [Permitify]({{ "/getting_started/von-x-permitify/" | relative_url }}) - A set of simulated Permit and Licence Issuers each running an instance of VON-X - an Indy Agent and Wallet, configured to requesting TheOrgBook send proof of Claims about an Organization, and issuing a new Credential to TheOrgBook. 
+* A Four-node [Hyperledger Indy Blockchain Network]({{ "/getting_started/von-network/" | relative_url }}). It is listening for Identities (like TheOrgBook and the dFlow services) writing and reading (DIDs, Schema, and Credential Definitions) to and from the Ledger.
+  * In your browser, you can see the status and contents of the Ledger
+* An instance of the [TheOrgBook]({{ "/getting_started/theorgbook/" | relative_url }}), including a Web Interface, an Indy Agent and Wallet that can talk to the Indy Network, and a Postgres database holding information from received Credentials about the Organizations in TheOrgBook
+* [VON Issuer Verifier Agents]({{ "/getting_started/von-ivy/" | relative_url }}) - Several Permit and Licence Issuer Agents each running an instance of VON-X - an Indy Agent and Wallet, configured to request TheOrgBook send proofs of Claims about an Organization, and issuing a new Credential to TheOrgBook.
 
-From there, you can [start here](http://localhost:8080/en/recipe/start_a_restaurant) to walk through the Permitify Demo to Register a Business and receive the Credentials that are the prerequsites for getting a Restaurent Business License.
-
-
-
+With that, you can use dFlow to walk through a series of business registration/permit/licence applications to receive the Credentials that are the necessary for opening a business.

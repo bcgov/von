@@ -70,7 +70,7 @@ Now you're talking - let's see this stuff in action.  There are a couple of simp
 
 One option that you can run in just a browser is the [Indy code workshop](https://github.com/hyperledger/education/blob/master/LFS171x/indy-material/nodejs/README.md) part of Hyperledger's edX course on [Blockchain for Business](https://www.edx.org/course/blockchain-for-business-an-introduction-to-hyperledger-technologies). It takes you through a nodejs implementation of some Agents connecting and exchanging Verifiable Connections.
 
-To run a VON demo, you'll need a bit more than just a browser - git, docker, docker-compose and bash. If you are up for that - [follow these directions](https://github.com/bcgov/TheOrgBook/blob/master/docker/README.md#running-a-complete-provisional-von-network) to run the latest VON Permitify demo, which includes a sandbox Hyperledger Indy, an instance of TheOrgBook and a set of VON IVy instances that use TheOrgBook to complete a Permits and Licences scenario about getting a Business Licence for a restaurant.
+To run a VON demo, you'll need a bit more than just a browser - git, docker, docker-compose and bash. If you are up for that - [follow these directions](https://github.com/bcgov/dFLow/blob/master/docker/VONNetworkQuickStartGuide.md) to run the latest VON dFLow demo, which includes a sandbox Hyperledger Indy, an instance of TheOrgBook and a set of VON Issuer Verifier Agent instances that use TheOrgBook to complete workflows for getting various business licences and permits.
 
 # Running a Production Instance of TheOrgBook
 

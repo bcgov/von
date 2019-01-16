@@ -23,7 +23,7 @@ These are the features that pushed us to trying ZenHub. These features were eith
 
 * Multi-repo board
     * Currently only for a single organization, but it's possible to add repos from other organizations.
-    * For now, we are just using the "von" repo as the catch-all for cross project issues, and "TheOrgBook", "permitify" and "von-bc-registries-agent"
+    * For now, we are just using the "von" repo as the catch-all for cross project issues, and "TheOrgBook", "dFLow" and "von-bc-registries-agent"
 * Create/Manage issues from the Board or in github directly
 * ZenHub adds a description to issues vs. just a timeline of comments.
 * Sprint tracking through the use of multi-repo "Milestones"
