@@ -65,10 +65,10 @@ Want to use the things we're working with?  Explore here ...
 * [von-image](https://hub.docker.com/r/bcgovimages/von-image/)
 
 #### Run VON Components on your local computer
-* [Verified Organization Network Demo Getting Started](https://github.com/bcgov/TheOrgBook/blob/master/docker/README.md#running-a-complete-provisional-von-network)
+* [Verified Organization Network Quick Start Guide](https://github.com/bcgov/dFlow/blob/master/docker/VONNetworkQuickStartGuide.md)
 * [VON-Network - Run your own Hyperledger Indy Network](https://github.com/bcgov/von-network)
 * [OrgBook](https://github.com/bcgov/TheOrgBook)
-* [dFlow](https://github.com/bcgov/permitify)
+* [dFlow](https://github.com/bcgov/dflow)
 
 #### DID Authentication Experimental Work
 * [DID-Auth](https://github.com/topics/did-auth)
