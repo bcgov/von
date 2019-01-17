@@ -32,9 +32,13 @@ To understand the business problem that VON is trying to solve, take a look at t
 
 VON is built on a foundation of blockchain technology - and more specifically - blockchain technology focused on decentralized identity. If you are new to how decentralized identity relates to the business challenge VON addresses, start with our [VON's Blockchain Basis](/getting_started/vons-blockchain-basis) page.
 
-# Authoritative Public Registries
+# Types of VON Participants
 
-Authoritative Public Registries are the foundation of the Verifiable Organzations Network. Registries have the authority (often from legislation) to register individuals and organization to operate within a jurisdictional area. There are many examples of registries to be found:
+The following are the types of organizations that might be interested in participating in, and operating components of VON.
+
+## Authoritative Public Registries
+
+Authoritative Public Registries are the foundation of the Verifiable Organizations Network. Registries have the authority (often from legislation) to register individuals and organization to operate within a jurisdictional area. There are many examples of registries to be found:
 
 - Corporate Registries for organizational entities (corporations, partnerships, sole proprietorships, non-profits and so on)
 - Professional Accredication Registries (lawyers, doctors, engineers and so on)
@@ -44,13 +48,13 @@ Authoritative Public Registries are the foundation of the Verifiable Organzation
 
 Such registries are potential operators of an instance of a central component of VON - TheOrgBook, and issuers of foundational Verifiable Credentials about entities. If you are involved in such a Registry, learn [about VON](/getting_started/von-overview) and about [TheOrgBook](/getting_started/theorgnook), and see if you should consider joining VON.
 
-# Permits and Licenses Issuers
+## Permits and Licenses Issuers
 
 If you issue permits and licenses to public entities that are authorized by a registry (see section above) that runs an instance of TheOrgBook - you are in luck! Chances are, one of the first things you need to do is find out exactly what entity is asking for the permit/licence. If so, you can use TheOrgBook instance as the source of that information - search, find and verify a proof from TheOrgBook about that entity. That means that you will be building your record about that entity using verifiable data. Once your process completes and a permit/license is to be issued, an instance of VON IVy can be used as a "print driver" for a Verifiable Credential issued to TheOrgBook about the entity.
 
 Check out an [overview of VON](/getting_started/von-overview) and about [using VON IVy](/getting_started/von-ivy), and see if you should consider joining VON.
 
-# Registration, Permit and Licence Verifiers
+## Registration, Permit and Licence Verifiers
 
 If your organization needs to verify credentials about an entity - VON could really help you. Current "know your customer" (KYC) processes are labour intensive because the documents that need to be verified are easily forged, and the supposedly private information on the documents may be known by others that might be using that information. Verifiable Credentials - enabled by Decentralized Identity and available from VON instances of TheOrgBook - can make the process more reliable at a much lower cost.
 
@@ -70,7 +74,7 @@ Now you're talking - let's see this stuff in action.  There are a couple of simp
 
 One option that you can run in just a browser is the [Indy code workshop](https://github.com/hyperledger/education/blob/master/LFS171x/indy-material/nodejs/README.md) part of Hyperledger's edX course on [Blockchain for Business](https://www.edx.org/course/blockchain-for-business-an-introduction-to-hyperledger-technologies). It takes you through a nodejs implementation of some Agents connecting and exchanging Verifiable Connections.
 
-To run a VON demo, you'll need a bit more than just a browser - git, docker, docker-compose and bash. If you are up for that - [follow these directions](https://github.com/bcgov/dFLow/blob/master/docker/VONNetworkQuickStartGuide.md) to run the latest VON dFLow demo, which includes a sandbox Hyperledger Indy, an instance of TheOrgBook and a set of VON Issuer Verifier Agent instances that use TheOrgBook to complete workflows for getting various business licences and permits.
+To run a VON demo, you'll need a bit more than just a browser - git, docker, docker-compose and bash. If you are up for that - [follow these directions](https://github.com/bcgov/dFLow/blob/master/docker/VONQuickStartGuide.md) to run the latest VON dFLow demo, which includes a sandbox Hyperledger Indy, an instance of TheOrgBook and a set of VON Issuer Verifier Agent instances that use TheOrgBook to complete workflows for getting various business licences and permits.
 
 # Running a Production Instance of TheOrgBook
 
