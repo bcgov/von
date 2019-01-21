@@ -62,7 +62,7 @@ To learn more about using VON to enable verifications, see an [overview of VON](
 
 # The Components of a VON Ecosystem
 
-A [VON ecosystem](/getting_started/von-overview/) is made up of two interacting components - [VON Issuer/Verifier Agents](/getting_started/von-issuer-verifier-agent/) and an instance of [OrgBook](/getting_started/orgbook/). Check out those sections to learn more.
+A [VON ecosystem](/getting_started/von-overview) is made up of two interacting components - [VON issuer/verifier agents](/getting_started/von-issuer-verifier-agent) and an instance of [OrgBook](/getting_started/orgbook). Check out those sections to learn more.
 
 # Running Code
 
@@ -74,7 +74,7 @@ To learn more about the basics of Self-Sovereign Identity and Hyperledger Indy, 
 
 ## Running a VON Ecosystem
 
-To run a local instance of a VON ecosystem, you'll need a bit more than just a browser - git, docker, docker-compose and bash. If you are up for that - [follow these directions](https://github.com/bcgov/dFLow/blob/master/docker/VONQuickStartGuide.md) to run the latest VON dFLow demo, which includes a sandbox Hyperledger Indy network, an instance of OrgBook, and a set of VON Issuer/Verifier Agents. The dFlow demo uses OrgBook and the Agents to complete a workflow for getting various interdependent business licences and permits.
+To run a local instance of a VON ecosystem, you'll need a bit more than just a browser - git, docker, docker-compose and bash. If you are up for that - [follow these directions](https://github.com/bcgov/dFLow/blob/master/docker/VONQuickStartGuide.md) to run the latest VON dFLow demo, which includes a sandbox Hyperledger Indy network, an instance of OrgBook, and a set of VON issuer/verifier agents. The dFlow demo uses OrgBook and the Agents to complete a workflow for getting various interdependent business licences and permits.
 
 ## Configuring your own VON Agent
 

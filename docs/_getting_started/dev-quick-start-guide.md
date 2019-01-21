@@ -58,7 +58,7 @@ Once you have completed the Quick Start guide steps you will have running:
 * A Four-node [Hyperledger Indy Blockchain Network]({{ "/getting_started/von-network/" | relative_url }}). It is listening for Identities (like OrgBook and the dFlow services) writing and reading (DIDs, Schema, and Credential Definitions) to and from the Ledger.
   * In your browser, you can see the status and contents of the Ledger
 * An instance of the [OrgBook]({{ "/getting_started/orgbook/" | relative_url }}), including a Web Interface, an Indy Agent and Wallet that can talk to the Indy Network, and a Postgres database holding information from received Credentials about the Organizations in OrgBook
-* [VON Issuer/Verifier Agents]({{ "/getting_started/von-issuer-verifier-agent" | relative_url }}) - Several Permit and Licence Issuer Agents each running an instance of VON-X - an Indy Agent and Wallet, configured to request OrgBook send proofs of Claims about an Organization, and issuing a new Credential to OrgBook.
+* [VON issuer/verifier agents]({{ "/getting_started/von-issuer-verifier-agent" | relative_url }}) - Several Permit and Licence issuers each running an instance of an Indy Agent and Wallet, configured to request OrgBook send proofs of claims about an organization, and issuing a new credential to OrgBook.
 
 With that, you can use dFlow to walk through a series of business registration/permit/licence applications to receive the Credentials that are the necessary for opening a business.
 
