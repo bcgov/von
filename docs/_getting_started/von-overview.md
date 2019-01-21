@@ -9,13 +9,17 @@ toc: true
 toc_sticky: true
 ---
 
-The Verifiable Organizations Network (VON) is a series of ecosystems, each operated by a jurisdiction and each consisting of an instance of OrgBook and a set of VON issuer/verifier Agents. A VON ecosystem is kind of like a neighbourhood of collaborating services - an OrgBook - a credential repository about (typically) organizations in the middle, and around it, a number of services that contact OrgBook to get verified claims (information) about organizations, and that subsequently issue Verifiable Credentials (permits, registrations, licences, etc.) about organizations back to OrgBook.
+The Verifiable Organizations Network (VON) is a series of ecosystems, each operated by a jurisdiction and each consisting of an instance of OrgBook and a set of VON issuer/verifier agents. A VON ecosystem is kind of like a neighbourhood of collaborating services - an OrgBook - a credential repository about (typically) organizations in the middle, and around it, a number of services that contact OrgBook to get verified claims (information) about organizations, and that subsequently issue Verifiable Credentials (permits, registrations, licences, etc.) about organizations back to OrgBook.
 
-> ToDo: Add image of an ecosystem
+<figure>
+  <img src="{{ '/assets/images/a-von-ecosystem.png' | relative_url }}" alt="A Single VON Ecosystem">
+</figure>
 
 Further, since each ecosystem is based on the same standards and APIs, services in one ecosystem can access OrgBooks in other ecosystems to receive verified claims about organizations in other jurisdictions. That's the full VON - allowing, for example, a service in Ontario to verify (and trust) the claims of a business in British Columbia.
 
-> ToDo: Add image of multiple ecosystems
+<figure>
+  <img src="{{ '/assets/images/von-network.png' | relative_url }}" alt="VON Network - multiple VON Ecosystems">
+</figure>
 
 As more jurisdictions join VON, each local ecosystem enables further global business participation.
 
