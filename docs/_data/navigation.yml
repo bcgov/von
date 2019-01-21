@@ -43,10 +43,10 @@ getting_started:
     children:
       - title: "Get Started"
         url: /getting_started/get-started/
-      - title: "VON's Blockchain Basis"
-        url: /getting_started/vons-blockchain-basis/
       - title: "A VON Overview"
         url: /getting_started/von-overview/
+      - title: "VON's Blockchain Basis"
+        url: /getting_started/vons-blockchain-basis/
   - title: Operating Components
     children:
       - title: "VON Issuer/Verifier Agent"
