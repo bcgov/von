@@ -9,16 +9,16 @@ toc: true
 toc_sticky: true
 ---
 
-Welcome to VON - the Verifiable Organizations Network!  We have lots of information here and in the various code repositories that make up VON. That's good, but it makes it hard for someone new (like **you**) to figure out where to get started. That's the purpose of this page.  Scan this list and find the topics that will help you get started.
+Welcome to VON - the Verifiable Organizations Network!  We have lots of information here and in the various code repositories that make up VON. That's good, but it makes it difficult for someone new (like you) to figure out where to get started. That's the purpose of this page.  Scan this list and find the topics that will help you get started.
 
 - Basic Principles
   - [What is the business problem VON is trying to solve?](#whats-the-problem)
   - [Where's the blockchain?](#wheres-the-blockchain)
-- Business
+- For Business
   - [I'm with an Authoritative Public Registry - e.g. a Corporate Registry](#authoritative-public-registries)
   - [I'm with a Permit or License Issuer](#permits-and-licenses-issuers)
   - [We need to verify Registrations, Permits and/or Licenses - KYC](#registration-permit-and-licence-verifiers)
-- Technical
+- For Technical
   - [What are the components of VON?](#the-components-of-a-von-ecosystem)
   - [I'd like to run some Hyperledger Indy code](#running-indy-code)
   - [I'd like to run a VON ecosystem](#running-a-von-ecosystem)
@@ -26,7 +26,7 @@ Welcome to VON - the Verifiable Organizations Network!  We have lots of informat
 
 # What's the Problem?
 
-To understand the business problem that VON is trying to solve, take a look at the [About](/about) page on this site. There's are links at the top of that page to some webinars about the problem we're trying to solve - take a listen. Or, just read the About page text. Come back here once you've gone through that material.
+To understand the business problem that VON is trying to solve, take a look at the [About](/about) page on this site. There is a link at the top of that page to a webinar about the problem we're trying to solve - take a listen. Or, just read the About page text. Come back here once you've gone through that material.
 
 # Where's the Blockchain?
 
@@ -62,7 +62,7 @@ To learn more about using VON to enable verifications, see an [overview of VON](
 
 # The Components of a VON Ecosystem
 
-A [VON ecosystem](getting_started/von-overview) is made up of two interacting components - [VON Issuer/Verifier Agents](getting_started/von-issuer-verifier-agent) and an instance of [OrgBook](getting_started/orgbook). Check out those sections to learn more.
+A [VON ecosystem](/getting_started/von-overview/) is made up of two interacting components - [VON Issuer/Verifier Agents](/getting_started/von-issuer-verifier-agent/) and an instance of [OrgBook](/getting_started/orgbook/). Check out those sections to learn more.
 
 # Running Code
 
@@ -78,4 +78,4 @@ To run a local instance of a VON ecosystem, you'll need a bit more than just a b
 
 ## Configuring your own VON Agent
 
-If you want to go a step further, you can run a tutorial that walks you through the process of configuring your own VON Issuer/Verifier Agent. The [instructions](https://github.com/bcgov/von-agent-template/blob/master/GettingStartedTutorial.md) show you how to define Hyperledger Indy Verifiable Credentials and Proof Requests, integrate with an OrgBook instance and extend dFlow. You'll have your own Permit issuer Agent in no time!
+If you want to go a step further, you can run a tutorial that walks you through the process of configuring your own VON Issuer/Verifier Agent. The [instructions](https://github.com/bcgov/von-agent-template/blob/master/GettingStartedTutorial.md) show you how to define Hyperledger Indy Verifiable Credentials and Proof Requests, integrate with an OrgBook instance and extend dFlow. You'll have your own permit issuer agent in no time!

@@ -24,7 +24,8 @@ If you want to start easy, begin by [watching Alice](https://www.youtube.com/wat
 We also have some demos up and running that you can try out on your (or get in touch for a walkthrough):
 
 * Run the [Alice demo](https://indyworld.vcreds.org/en/recipe/indy_world) yourself - courtesy of IBM's Blockchain Identity Group
-* Check out [dFlow - Decentralized Workflow Demo](https://dflow.orgbook.gov.bc.ca) - dFlow is like the Alice demo, but for organizations for getting Permits and Licenses using a decentralized workflow.
+* Check out [dFlow - Decentralized Workflow Demo](https://dflow.orgbook.gov.bc.ca)
+  * dFlow is like the Alice demo, but for organizations for getting Permits and Licenses using a decentralized workflow.
 * Access a test instance of [OrgBook](https://test.orgbook.gov.bc.ca/)
 * Curious about the Blockchain?  Take a look at [what's on the Public Ledger](http://159.89.115.24/). Be warned - it's technical.
 
@@ -38,7 +39,7 @@ There are a number of organizations that might want to participate in VON - issu
 
 Are you part of a Corporate or Professional Registries organization? You could lay the foundation in your jurisdiction to join VON! Registries issue the "foundational credential" for Organizations or Professionals. This foundational registration credential enables other issuers in your jurisdiction to lookup the basic data (name, status, identifier, dates, etc) about an entity so they can both improve their own data and issue their Verifiable Credential to your OrgBook Credential Registry. OrgBook will automatically update the organization page for that entity with the new Verifiable Credential.
 
-To learn more, start with the [VON Participants]({{ "/getting_started/von_participants/" | relative_url }}) page, and then move on to [Running an OrgBook Instance]({{ "/getting_started/running-tob-instance/" | relative_url }}).
+To learn more, start with the [VON Participants]({{ "/getting_started/von_participants/" | relative_url }}) page, and then move on to [Running an OrgBook Instance]({{ "/getting_started/running-an-orgbook/" | relative_url }}).
 
 ### Permits and Licences Issuer
 
