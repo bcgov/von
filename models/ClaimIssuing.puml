@@ -13,7 +13,7 @@ participant "DB" as DB
 endbox
 
 
-box "TheOrgBook"
+box "OrgBook"
   actor "Holder" as H
   actor "Prover" as P
 endbox

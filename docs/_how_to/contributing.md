@@ -20,7 +20,7 @@ Of course, if all you want to do is fork the repos and submit issues and/or pull
 The current team meets every second Wednesday at 10AM Pacific, 1PM Eastern for Sprint Planning - let us know if you would like to join us and we'll add you to the invitation. At that time, we review work accomplished, roadblocks, and work planned for the next Sprint. Sprints are tracked using github issues in the project repos and on [zenhub](https://app.zenhub.com/workspace/o/bcgov/von-bc-registries-agent/boards?repos=113071139,104127743,98577443,126396819), as described in [this document]({{ "/how_to/tracking-issues/" | relative_url }}). You need a github account to access ZenHub, or you can see our lists of issues on github:
 
 * VON: [https://github.com/bcgov/von/issues](https://github.com/bcgov/von/issues)
-* TheOrgBook: [https://github.com/bcgov/TheOrgBook/issues](https://github.com/bcgov/TheOrgBook/issues)
+* OrgBook: [https://github.com/bcgov/TheOrgBook/issues](https://github.com/bcgov/TheOrgBook/issues)
 * dFlow: [https://github.com/bcgov/dFlow/issues](https://github.com/bcgov/dFlow/issues)
 * BC Registries VON Agent: [https://github.com/bcgov/von-bc-registries-agent/issues](https://github.com/bcgov/von-bc-registries-agent/issues)
 * VON Agent Start Kit: [https://github.com/bcgov/von-agent-template/issues](https://github.com/bcgov/von-agent-template/issues)

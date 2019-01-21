@@ -13,10 +13,10 @@ endbox
 
 
 
-box "TheOrgBook" #LightYellow
+box "OrgBook" #LightYellow
   actor "Agent" as P
   actor "Prover" as Pr
-  participant "TheOrgBook DB" as PW
+  participant "OrgBook DB" as PW
 endbox
 
 box "Inspector-Verifier" #LightGreen
