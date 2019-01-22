@@ -105,15 +105,15 @@ author:
   bio              : "An open source collaboration initiated by the Governments of British Columbia, Ontario and Canada."
   location         : # "Victoria, BC"
   email            :
-  uri              : "https://von.pathfinder.gov.bc.ca"
-  home             : "https://von.pathfinder.gov.bc.ca"
+  uri              : "https://vonx.io"
+  home             : "https://vonx.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         : # *facebook
   foursquare       :
-  github           : "bcgov"
+  github           : "bcgov/von"
   gitlab           :
   google_plus      :
   keybase          :
