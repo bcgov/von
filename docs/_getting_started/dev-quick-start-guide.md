@@ -63,3 +63,5 @@ Once you have completed the Quick Start guide steps you will have running:
 With that, you can use dFlow to walk through a series of business registration/permit/licence applications to receive the Credentials that are the necessary for opening a business.
 
 If you want to go further, you can run through a tutorial we have created on how to configure your own VON Issuer/Verifier Agent. The instructions for that can be found [here](https://github.com/bcgov/von-agent-template/blob/master/GettingStartedTutorial.md). Give it a try and you can be your own Permit issuer.
+
+A detailed document about our first demonstration project can be found [here](https://docs.google.com/document/d/1wNnXdQKUtWnx--xw3VQ9Fr2TDa0kUNIBSMmFGR4uoMg/edit?usp=sharing).
