@@ -12,7 +12,7 @@ tags:
 WWe're pleased to announce that the recent Code For Us Opportunities that were posted on the [BC Dev Exchange](https://bcdevexchange.org/) have been awarded and work has begun. The two opportunities will help to move the VON Project forward in a couple of key ways:
 
 * [Implementation of an HL-Indy Enterprise Wallet](https://bcdevexchange.org/opportunities/opp-enhancements-to-hyperledger-indy-sdk--wallet--and-implementation-of-a-large-scale-claims-store)
-    * This effort will be important for the first public beta from the VON Project - an instance of the TheOrgBook loaded with (public) BC Registries Verifiable Claims about entities in BC.
+    * This effort will be important for the first public beta from the VON Project - an instance of the OrgBook loaded with (public) BC Registries Verifiable Claims about entities in BC.
     * Ian Constanzo was selected to work with us to complete the opportunity over the next few months. This effort will be conducted within the Hyperledger Indy community, and is related to an open issue for that project: https://jira.hyperledger.org/browse/IS-486. 
 
 &nbsp;

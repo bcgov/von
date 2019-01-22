@@ -11,7 +11,7 @@ Danube Tech GmbH – <https://danubetech.com/>
 Introduction
 =======================================
 
-As certain base technologies for self-sovereign identity are becoming more mature (e.g. [Decentralized Identifiers – DIDs](https://w3c-ccg.github.io/did-spec/), and [Verifiable Credentials](https://w3c.github.io/vc-data-model/)), there is now increasing interest in functionality and protocols such as authentication (“DID-Auth”) and authorization based on these core building blocks. The objective of this BCDevExchange opportunity was to design and implement – in collaboration with relevant communities – various DID-based authentication and authorization scenarios that can be integrated with [VON](https://github.com/bcgov/von) components such as [TheOrgBook](https://github.com/bcgov/TheOrgBook), [dFlow](https://github.com/bcgov/dFLow), and the [VON agent](https://github.com/bcgov/von_agent).
+As certain base technologies for self-sovereign identity are becoming more mature (e.g. [Decentralized Identifiers – DIDs](https://w3c-ccg.github.io/did-spec/), and [Verifiable Credentials](https://w3c.github.io/vc-data-model/)), there is now increasing interest in functionality and protocols such as authentication (“DID-Auth”) and authorization based on these core building blocks. The objective of this BCDevExchange opportunity was to design and implement – in collaboration with relevant communities – various DID-based authentication and authorization scenarios that can be integrated with [VON](https://github.com/bcgov/von) components such as [OrgBook](https://github.com/bcgov/TheOrgBook), [dFlow](https://github.com/bcgov/dFLow), and the [VON Issuer/Verifier Agent](https://github.com/bcgov/von-agent-template).
 
 Throughout February and March 2018, we interacted with the following communites:
 
@@ -64,13 +64,13 @@ Upon successful verification of submitted Verifiable Credentials, a user’s DID
 
 # Scenarios
 
-The BCDevExchange opportunity defined four scenarios that make use of DID-based authentication and authorization for [VON](https://github.com/bcgov/von) components such as [TheOrgBook](https://github.com/bcgov/TheOrgBook), [dFLow](https://github.com/bcgov/dFlow), and the [VON agent](https://github.com/bcgov/von_agent).
+The BCDevExchange opportunity defined four scenarios that make use of DID-based authentication and authorization for [VON](https://github.com/bcgov/von) components such as [OrgBook](https://github.com/bcgov/TheOrgBook), [dFLow](https://github.com/bcgov/dFlow), and the [VON agent](https://github.com/bcgov/von_agent).
 
 This section documents how the four scenarios can be met using the three components described in the previous section.
 
 ## System to System
 
-Services that need to connect to TheOrgBook can use the **DID-Auth HTTP Proxy** in “signing mode” to sign HTTP requests. TheOrgBook can use the DID-Auth HTTP Proxy in “verifying mode” to verify HTTP requests and check a service’s authenticated DID against a whitelist.
+Services that need to connect to OrgBook can use the **DID-Auth HTTP Proxy** in “signing mode” to sign HTTP requests. OrgBook can use the DID-Auth HTTP Proxy in “verifying mode” to verify HTTP requests and check a service’s authenticated DID against a whitelist.
 
 Architecture for this scenario:
 
@@ -89,7 +89,7 @@ Architecture for this scenario:
 
 ## Administrative
 
-An individual can authenticate with their web browser to TheOrgBook by submitting a DID-Auth Verifiable Credential that states “I am me”, by using the **DID-Auth browser add-on**. TheOrgBook can in turn verify this Verifiable Credential by using the **DID-Auth relying party** component, which will return the individual’s authenticated identifier.
+An individual can authenticate with their web browser to OrgBook by submitting a DID-Auth Verifiable Credential that states “I am me”, by using the **DID-Auth browser add-on**. OrgBook can in turn verify this Verifiable Credential by using the **DID-Auth relying party** component, which will return the individual’s authenticated identifier.
 
 Architecture for this scenario:
 
@@ -100,7 +100,7 @@ Architecture for this scenario:
 	                  v                                                               |
 	           ________________                      ________________          ________________
 	   ~o/    |                |     HTTP POST      |                |  HTTP  |                |
-	   /|     | Web browser    | =================> | TheOrgBook     | <----> | DID Auth       |
+	   /|     | Web browser    | =================> | OrgBook        | <----> | DID Auth       |
 	   / \    | with add-on    |                    | website        |        | relying party  |
 	          |________________|                    |________________|        |________________|
 	
@@ -132,7 +132,7 @@ In this example, **did:btcr:xs95-wzv8-qqte-jz88** is the individual’s authenti
 
 ## Claim Your Claims
 
-This is similar to the previous scenario, but in addition, a Verifiable Credential is submitted that states that an individual has been given a certain role (e.g. “management”) for a certain organization in TheOrgBook, thus giving the individual the ability to access certain functionality.
+This is similar to the previous scenario, but in addition, a Verifiable Credential is submitted that states that an individual has been given a certain role (e.g. “management”) for a certain organization in OrgBook, thus giving the individual the ability to access certain functionality.
 
 Example DID-Auth Verifiable Credential that proves the individual’s “management” role for an organization:
 
@@ -159,7 +159,7 @@ In this example, **did:sov:MDBKSD4Cm5EhhXWzTynube** is an authority that has giv
 
 ## Delegation
 
-This is similar to the previous scenario, but in addition, a Verifiable Credential is submitted that states that the individual has delegated a certain role (e.g. “management”) for a certain organization in TheOrgBook, thus giving the delegate the ability to access certain functionality.
+This is similar to the previous scenario, but in addition, a Verifiable Credential is submitted that states that the individual has delegated a certain role (e.g. “management”) for a certain organization in OrgBook, thus giving the delegate the ability to access certain functionality.
 
 Example DID-Auth Verifiable Credential that proves the individual’s delegation of the “management” role for an organization:
 
