@@ -51,7 +51,7 @@ The site should be running, and you can access it at: [http://localhost:4000](ht
 When you return to make more changes to the site you just need to run the last command - the ```bundle exec...``` command.
 
 From time to time, you should run the command: ```bundle update```
-  * This updates the libraries that jekyll is using to run the site, and they ~~change~~ improve over time.
+  * This updates the libraries that jekyll is using to run the site, as they ~~change~~ improve over time.
 
 ## Locating Content
 

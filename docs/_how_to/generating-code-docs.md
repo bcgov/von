@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 ---
 
-The VON Project is using [Sphinx](https://http://www.sphinx-doc.org) to generate technical documentation from code. Sphinx is the tool used to generate [ReadTheDocs](https://readthedocs.org/)-style documentation and we've configured Sphinx to generate the documentation locally and from github in that format. We have not yet decided if we are going to server the generated documentation locally on the BC Gov OpenShift platform, or use **ReadTheDocs**.
+The VON Project uses [Sphinx](https://http://www.sphinx-doc.org) to generate technical documentation from code. Sphinx is the tool used to generate [ReadTheDocs](https://readthedocs.org/)-style documentation and we've configured Sphinx to generate the documentation locally and from github in that format. We have not yet decided if we are going to server the generated documentation locally on the BC Gov OpenShift platform, or use **ReadTheDocs**.
 
 ## Documentation Generation Setup
 
@@ -34,28 +34,11 @@ We recommend that developers put the **[bin/rtdgen shell script](https://github.
 
 Please use the [Google Style for Python](http://google.github.io/styleguide/pyguide.html?showone=Comments#Comments) docstrings to document your **new** code. Existing code can remain as is, provided it generates useful documentation. If you have to fix existing docstrings, please convert them to Google Style.
 
-We are using the [Napoleon Sphinx Extension](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/) to process the Google or NumPy docstrings style, and you can use any of the features from that extension as listetd in the [Napoleon documentation](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/#docstring-sections).
-
-### Inline Plantuml Diagrams
-
-The Sphinx generator we are using includes the capability to generate inline Plantuml diagrams in the documentation. To put plantuml in the documentation, use this approach:
-
-```
-    class AgentRegistrar(_BaseAgent):
-        """
-        Mixin for (trust anchor) agent to register agents onto the distributed ledger
-        .. uml::
-        Alice -> Bob: Hi!
-        Alice <- Bob: How are you?
-        """
-
-```
-
-We have not done an extensive drawing using this capability, so we're not sure about the blank lines, etc. that can be used for these diagrams.
+We are using the [Napoleon Sphinx Extension](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/) to process the Google or NumPy docstrings style, and you can use any of the features from that extension as listed in the [Napoleon documentation](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/#docstring-sections).
 
 ### Not Checking In Generated Documentation
 
-As of now, generated documentation **should not** be checked into github. Please add - "docs/build/" the repo ```.gitignore``` file if you are adding generated documentation to your project. We may change this in the future, but for now we'll generate the "to be published" documentation at build time.
+As of now, generated documentation **should not** be checked into github. Please add ```docs/build/``` to the repo's ```.gitignore``` file if you are adding generated documentation to your project. We may change this in the future, but for now we'll generate the "to be published" documentation at build time.
 
 ### Pre-Commit Documentation Generation Checking
 

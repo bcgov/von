@@ -9,12 +9,14 @@ toc: true
 toc_sticky: true
 ---
 
-## VON OrgBook Instances
+An OrgBook instance is an implementation of a verifiable credential registry, a "community digital wallet" holding verifiable credentials about entities registered in the operating jurisdiction. An OrgBook is used by VON issuer/verifier agents that request proofs of claims held by the OrgBook about entities and that issue verifiable credentials to the OrgBook instance. Each OrgBook instance is operated by an [authoritative public registry](/getting_started/get-started#authoritative-public-registries), and all the verifiable credentials held are linked to those registered entities. An OrgBook provides a website supporting users searching OrgBook from their browser for information about the registered entities. As well, an OrgBook instance provides the Application Programming Interface (API) necessary to support VON issuer/verifier agents integrations.
 
-An OrgBook instance is a form of Credential Registry, a "community Digital Wallet" holding Verifiable Credentials about entities registered in the operating jurisdiction, and is used by VON issuer/verifier Agents. Each OrgBook instance is operated by an [Authoritative Public Registry](#authoritative-public-registries), and all the Verifiable Credentials that it holds are linked to those registered entities. An OrgBook provides a Web interface supporting users searching OrgBook from their browser. The BC instance of OrgBook can be seen [here](https://orgbook.gov.bc.ca).
+The BC instance of OrgBook can be seen [here](https://orgbook.gov.bc.ca), and the Ontario instance [here](https://www.von.gov.on.ca).
 
-# Running a Production Instance of OrgBook
+## Running an Instance of OrgBook
 
-OrgBook is a moderately complex application to run in Production that has good documentation (including operational deployment scripts) that make it relatively easy to deploy. The code has been designed to support a skinnable, localizable UI for different jurisdictions, and to be agnostic to the schema of the Verifiable Credentials issued to it. OrgBook's search capabilities support the generic concepts of "names", "addresses" (locations) and credential types - regardless of how those concepts are defined in Credentials.
+OrgBook is a moderately complex application to customize, deploy and run in production. There is good documentation (including operational deployment scripts) in the [OrgBook GitHub repo](https://github.com/bcgov/TheOrgBook) that drives the BC and Ontario instances. OrgBook code has been designed to support a skinnable, localizable (multi-language) user interface for different jurisdictions, and to be agnostic to the schema of the verifiable credentials issued to it. OrgBook's search capabilities support the generic concepts of names, addresses (locations) and credential types - regardless of how those concepts are defined in Credentials.
 
-See the section of this site on [OrgBook](/getting_started/orgbook) for the details and the primary repo for [OrgBook on github](https://github.com/bcgov/TheOrgBook). As well, checkout the pages in this guide on the [BC](/getting_started/bc-architecture) and [Ontario](/getting_started/ontario-architecture) deployments of VON ecosystems.
+## OrgBook Architecture
+
+Organizations looking to implement an OrgBook instance should review the pages in this guide on the [BC](/getting_started/bc-architecture) and [Ontario](/getting_started/ontario-architecture) deployments of VON ecosystems.

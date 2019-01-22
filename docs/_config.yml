@@ -102,7 +102,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/images/VON-Logo.png"
-  bio              : "An Open Source collaboration initiated by the Governments of British Columbia, Ontario and Canada."
+  bio              : "An open source collaboration initiated by the Governments of British Columbia, Ontario and Canada."
   location         : # "Victoria, BC"
   email            :
   uri              : "https://von.pathfinder.gov.bc.ca"

@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 ---
 
-The Verifiable Organizations Network (VON) is a series of ecosystems, each operated by a jurisdiction and each consisting of an instance of OrgBook and a set of VON issuer/verifier agents. A VON ecosystem is kind of like a neighbourhood of collaborating services consisting of an OrgBook (a credential repository about organizations) in the middle, and around it, a number of services that access the OrgBook to get verified claims (information) about organizations, and that subsequently issue Verifiable Credentials (VCs - permits, registrations, licences, etc.) about organizations back to the OrgBook instance.
+The Verifiable Organizations Network (VON) is a series of ecosystems, each operated by a jurisdiction and each consisting of an instance of OrgBook and a set of VON issuer/verifier agents. A VON ecosystem is kind of like a neighbourhood of collaborating services consisting of an OrgBook (a credential repository about organizations) in the middle, and around it, a number of services that access the OrgBook to get verified claims (information) about organizations, and that subsequently issue verifiable credentials (VCs) (permits, registrations, licences, etc.) about organizations back to the OrgBook instance.
 
 <figure>
   <img src="{{ '/assets/images/a-von-ecosystem.png' | relative_url }}" alt="A Single VON Ecosystem">
