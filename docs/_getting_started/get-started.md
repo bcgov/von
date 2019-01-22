@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 ---
 
-Welcome to the Verifiable Organizations Network (VON)!  We have lots of information here and in the various code repositories that make up VON. That's good, but it makes it can make it difficult for someone new (like you) to figure out where to get started. That's the purpose of this page.  Scan this list and find the topics that will help you get started.
+Welcome to the Verifiable Organizations Network (VON)!  We have lots of information here and in the various code repositories that make up VON. That's good, but it can make it difficult for someone new (like you) to figure out where to get started. That's the purpose of this page.  Scan this list and find the topics that will help you get started.
 
 - Basic Principles
   - [What is the business problem VON is trying to solve?](#whats-the-problem)
