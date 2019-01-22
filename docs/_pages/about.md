@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About Verifiable Organizations Network (VON)"
 excerpt: "About Verifiable Organizations Network - what we've started and where we're going"
-last_modified_at: 2018-05-28T12:00:00-07:00
+last_modified_at: 2019-01-21T12:00:00-07:00
 toc: true
 toc_sticky: true
 ---

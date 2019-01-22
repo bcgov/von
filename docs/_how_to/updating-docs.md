@@ -2,7 +2,7 @@
 title: "Updating VON Project Documentation"
 permalink: /how_to/updating-docs/
 excerpt: "Using Jekyll to update the VON Project Documentation."
-last_modified_at: 2018-05-28T17:00:00-07:00
+last_modified_at: 2019-01-21T17:00:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true

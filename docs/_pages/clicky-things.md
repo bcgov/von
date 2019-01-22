@@ -1,13 +1,13 @@
 ---
 permalink: /clickythings/
-title: "Clicky Things: What we are working on"
+title: "Clicky Things: What We Are Working On"
 excerpt: "VON Components we've created or in the midst of creating"
-last_modified_at: 2018-11-28T12:00:00-07:00
+last_modified_at: 2019-01-21T12:00:00-07:00
 toc: true
 toc_sticky: true
 ---
 
-Want to use the things we're working with?  Explore here ...
+Want to see what we're working on?  Explore here ...
 
 ### Webinars
 * [John Jordan (BC Gov) about VON, OrgBook BC and our vision](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4)
@@ -29,24 +29,24 @@ Want to use the things we're working with?  Explore here ...
 #### Latest (Development Environment)
 * [OrgBook BC **Dev** (Latest)](https://dev.orgbook.gov.bc.ca/)
 * [OrgBook BC **Dev** (Latest) - OpenAPI](https://dev.orgbook.gov.bc.ca/api/)
-* ["BCovrin **Dev**" Hyperledger Indy Network Browser (Latest)](http://dev.bcovrin.vonx.io/)
+* [BCovrin **Dev** Hyperledger Indy Network Browser (Latest)](http://dev.bcovrin.vonx.io/)
 
 #### Stable (Test Environment)
 * [OrgBook BC **Test** (Stable)](https://test.orgbook.gov.bc.ca/)
 * [OrgBook BC **Test** (Stable) - OpenAPI](https://test.orgbook.gov.bc.ca/api/)
-* ["BCovrin **Test**" Hyperledger Indy Network Browser (Stable)](http://test.bcovrin.vonx.io/
+* [BCovrin **Test** Hyperledger Indy Network Browser (Stable)](http://test.bcovrin.vonx.io/)
 
 ### dFlow - Decentralized Workflow Technology Demonstrator
 
 #### Latest (Development Environment)
 * [dFlow Demonstrator Web Application - Get a Licence workflow (Latest)](https://dev-dflow.orgbook.gov.bc.ca)
 * [dFlow OrgBook BC - (Latest)](https://dev-demo.orgbook.gov.bc.ca)
-* [dFlow Hyperledger Indy Network Browser (Latest)](http://dev.dflow.bcovrin.vonx.io/)
+* [dFlow BCovrin Hyperledger Indy Network Browser (Latest)](http://dev.dflow.bcovrin.vonx.io/)
 
 #### Stable (Test Environment)
 * [dFlow Demonstrator Web Application - Get a Licence workflow (Stable)](https://dflow.orgbook.gov.bc.ca)
 * [dFlow OrgBook BC - (Stable)](https://demo.orgbook.gov.bc.ca)
-* [dFlow Hyperledger Indy Network Browser (Stable)](http://dflow.bcovrin.vonx.io/)
+* [dFlow BCovrin Hyperledger Indy Network Browser (Stable)](http://dflow.bcovrin.vonx.io/)
 
 ### Verifiable Organization Network Development Resources
 

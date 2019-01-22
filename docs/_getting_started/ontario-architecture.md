@@ -2,7 +2,7 @@
 title: "Ontario's VON Architecture"
 permalink: /getting_started/ontario-architecture/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-last_modified_at: 2018-05-17T15:15:00-07:00
+last_modified_at: 2018-12-05T15:15:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true

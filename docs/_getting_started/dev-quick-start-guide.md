@@ -2,7 +2,7 @@
 title: "Quick-Start Guide"
 permalink: /getting_started/dev-quick-start-guide/
 excerpt: "The Developer VON Getting Started Guide."
-last_modified_at: 2018-05-16T16:36:00-07:00
+last_modified_at: 2019-01-21T16:36:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true

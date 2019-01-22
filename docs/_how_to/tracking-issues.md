@@ -2,7 +2,7 @@
 title: "Tracking Issues, Epics and Sprints"
 permalink: /how_to/tracking-issues/
 excerpt: "How and why we use ZenHub for VON Issue, Sprint and Epic Tracking."
-last_modified_at: 2018-05-23T17:00:00-07:00
+last_modified_at: 2019-01-21T17:00:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true

@@ -2,7 +2,7 @@
 title: "VON's Blockchain Basis"
 permalink: /getting_started/vons-blockchain-basis/
 excerpt: "The Blockchain/Decentralized Identity technology that is the basis of VON."
-last_modified_at: 2018-11-10T15:15:00-07:00
+last_modified_at: 2019-01-21T15:15:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true

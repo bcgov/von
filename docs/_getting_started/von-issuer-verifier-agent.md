@@ -2,7 +2,7 @@
 title: "VON Issuer/Verifier Agent"
 permalink: /getting_started/von-issuer-verifier-agent/
 excerpt: "The VON Issuer/Verifier Agent"
-last_modified_at: 2018-05-17T15:15:00-07:00
+last_modified_at: 2019-01-21T15:15:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true

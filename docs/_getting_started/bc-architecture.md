@@ -2,7 +2,7 @@
 title: "BC's VON Architecture"
 permalink: /getting_started/bc-architecture/
 excerpt: "Province of BC's VON Eco-System"
-last_modified_at: 2018-05-17T15:15:00-07:00
+last_modified_at: 2019-01-21T15:15:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true
