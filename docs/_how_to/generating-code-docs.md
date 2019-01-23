@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 ---
 
-The VON Project uses [Sphinx](https://http://www.sphinx-doc.org) to generate technical documentation from code. Sphinx is the tool used to generate [ReadTheDocs](https://readthedocs.org/)-style documentation and we've configured Sphinx to generate the documentation locally and from github in that format. We have not yet decided if we are going to server the generated documentation locally on the BC Gov OpenShift platform, or use **ReadTheDocs**.
+The VON Project uses [Sphinx](https://www.sphinx-doc.org) to generate technical documentation from code. Sphinx is the tool used to generate [ReadTheDocs](https://readthedocs.org/)-style documentation and we've configured Sphinx to generate the documentation locally and from github in that format. We have not yet decided if we are going to server the generated documentation locally on the BC Gov OpenShift platform, or use **ReadTheDocs**.
 
 ## Documentation Generation Setup
 
