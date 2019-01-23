@@ -31,4 +31,4 @@ Interested in helping maintain this website - the starting point for information
 
 ## Code Documentation
 
-We're using [Sphinx](https://http://www.sphinx-doc.org) to generate code documentation. Information on using Sphinx can be found [here]({{ "/how_to/generating-code-docs/" | relative_url }}).
+We're using [Sphinx](https://www.sphinx-doc.org) to generate code documentation. Information on using Sphinx can be found [here]({{ "/how_to/generating-code-docs/" | relative_url }}).
