@@ -30,6 +30,6 @@ When you visit this site "convenience" cookies may be stored on your computer wh
 
 If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
 
-#### Google Analytics
+#### Fathom Analytics
 
-Google Analytics is a web analytics tool we use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+[Fathom](https://usefathom.com) is a web analytics tool we use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read the [Fathom Privacy Policy](https://usefathom.com/data/).

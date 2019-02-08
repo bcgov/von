@@ -1,9 +1,15 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-129194685-1');
-</script>
+  (function(f, a, t, h, o, m){
+    a[h]=a[h]||function(){
+      (a[h].q=a[h].q||[]).push(arguments)
+    };
+    o=f.createElement('script'),
+    m=f.getElementsByTagName('script')[0];
+    o.async=1; o.src=t; o.id='fathom-script';
+    m.parentNode.insertBefore(o,m)
+  })(document, window, '//fathom-proxy-devex-von-prod.pathfinder.gov.bc.ca/tracker.js', 'fathom');
+  fathom('set', 'siteId', '{{site.analytics.tracking_id}}');
+  fathom('trackPageview');
+  </script>
+<!-- / Fathom -->
