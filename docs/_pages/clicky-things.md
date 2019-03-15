@@ -11,14 +11,15 @@ Want to see what we're working on?  Explore here ...
 
 ### Webinars
 * [John Jordan (BC Gov) about VON, OrgBook BC and our vision](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4)
-* John Jordan and Stephen Curran at the December 2018 Hyperledger Global Forum - [Verifiable Organizations Network: A Production Government Deployment of Hyperledger Indy](https://www.youtube.com/watch?v=g19VNv3DAd0)
+* John Jordan and Stephen Curran at the December 2018 Hyperledger Global Forum - [Verifiable Organizations Network: A Production Government Deployment of Hyperledger Indy](https://infominer.id/transcripts/VerifiableOrganizationsNetwork-HGF.html)
 
 ### Production Services
 
 #### Province of British Columbia
 * [OrgBook BC](https://orgbook.gov.bc.ca)
 * [OrgBook BC - OpenAPI](https://www.orgbook.gov.bc.ca/api/)
-* [BCovrin Network - **Temp Prod** (Non-Sovrin Network Production)](http://prod.bcovrin.vonx.io/)
+* [Sovrin Main Network Browser](https://sovrin-mainnet-browser.vonx.io/)
+* [BCSovrin Temp Prod Network Browser](http://prod.bcovrin.vonx.io/)
 
 #### Province of Ontario
 * [OrgBook Ontario](https://www.von.gov.on.ca)
@@ -36,17 +37,24 @@ Want to see what we're working on?  Explore here ...
 * [OrgBook BC **Test** (Stable) - OpenAPI](https://test.orgbook.gov.bc.ca/api/)
 * [BCovrin **Test** Hyperledger Indy Network Browser (Stable)](http://test.bcovrin.vonx.io/)
 
-### dFlow - Decentralized Workflow Technology Demonstrator
+### GreenLight - Decentralized Workflow Technology Demonstrator
 
 #### Latest (Development Environment)
-* [dFlow Demonstrator Web Application - Get a Licence workflow (Latest)](https://dev-dflow.orgbook.gov.bc.ca)
-* [dFlow OrgBook BC - (Latest)](https://dev-demo.orgbook.gov.bc.ca)
-* [dFlow BCovrin Hyperledger Indy Network Browser (Latest)](http://dev.dflow.bcovrin.vonx.io/)
+* [GreenLight Demonstrator Web Application - Get a Licence workflow (Latest)](https://dev-greenlight.orgbook.gov.bc.ca)
+* [GreenLight OrgBook BC - (Latest)](https://dev-demo.orgbook.gov.bc.ca)
+* [GreenLight BCovrin Hyperledger Indy Network Browser (Latest)](http://dev.greenlight.bcovrin.vonx.io/)
 
-#### Stable (Test Environment)
-* [dFlow Demonstrator Web Application - Get a Licence workflow (Stable)](https://dflow.orgbook.gov.bc.ca)
-* [dFlow OrgBook BC - (Stable)](https://demo.orgbook.gov.bc.ca)
-* [dFlow BCovrin Hyperledger Indy Network Browser (Stable)](http://dflow.bcovrin.vonx.io/)
+#### Stable / Public Workshop (Test Environment)
+* [GreenLight Demonstrator Web Application - Get a Licence workflow (Stable)](https://greenlight.orgbook.gov.bc.ca)
+* [GreenLight OrgBook BC - (Stable)](https://demo.orgbook.gov.bc.ca)
+* [GreenLight BCovrin Hyperledger Indy Network Browser (Stable)](http://greenlight.bcovrin.vonx.io/)
+
+### AgentBook - Agent to Agent Messaging Technology Demonstrator
+
+AgentBook is a demo showing the interoperability of agents from three sources, BC Gov ([Indy Catalyst Agent](https://github.com/bcgov/indy-catalyst) - aka AgentBook), [StreetCred Agent Framework](https://github.com/streetcred-id/agent-framework) and the [Indy reference python agent](https://github.com/hyperledger/indy-agent)
+
+* [AgentBook - Agent-to-Agent Messaging Demonstrator](https://bit.ly/ibc_ab) 
+
 
 ### Verifiable Organization Network Development Resources
 
@@ -68,7 +76,7 @@ Want to see what we're working on?  Explore here ...
 * [Verified Organization Network Quick Start Guide](https://github.com/bcgov/dFlow/blob/master/docker/VONQuickStartGuide.md)
 * [VON-Network - Run your own Hyperledger Indy Network](https://github.com/bcgov/von-network)
 * [OrgBook](https://github.com/bcgov/TheOrgBook)
-* [dFlow](https://github.com/bcgov/dflow)
+* [GreenLight (formerly known as dFlow)](https://github.com/bcgov/dflow)
 
 #### DID Authentication Experimental Work
 * [DID-Auth](https://github.com/topics/did-auth)
