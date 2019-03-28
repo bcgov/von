@@ -23,11 +23,11 @@ partners:
 ---
 
 <h1>Building Locally, Thinking Globally.</h1>
-<p>The <strong>Verifiable Organizations Network</strong> (VON) is a community effort to establish a better way to find, issue, store and share trustworthy data about organizations&mdash;locally and around the globe. Community partners are using jointly developed software components to enable the digitization of government-issued public credentials&mdash;registrations, permits, and licenses. Currently VON components are based on <a href="https://www.hyperledger.org/projects/hyperledger-indy">Hyperledger Indy distributed ledger</a> technology. VON helps by making:
+<p>The <strong>Verifiable Organizations Network</strong> (VON) is a community effort to establish a better way to find, issue, store and share trustworthy data about organizations&mdash;locally and around the globe. Community partners are using jointly developed software components to enable the digitization of government-issued public credentials&mdash;registrations, permits, and licenses. Currently, VON components are based on <a href="https://www.hyperledger.org/projects/hyperledger-indy">Hyperledger Indy distributed ledger</a> technology. VON helps by making:
   <ul>
     <li>applying for credentials faster and less error prone</li>
     <li>issuing (and reissuing) credentials simpler and more secure, and</li>
-    <li>verifying credentials more standard, trustworthy, and transparent - anywhere in the world.</li>
+    <li>verifying credentials more standard, trustworthy, and transparent, anywhere in the world.</li>
   </ul>
 </p>
 <p>The first production services, <a href="https://orgbook.gov.bc.ca">OrgBook BC</a>, and <a href="https://www.von.gov.on.ca">Ontario's Verifiable Businesses</a> are publicly accessible, <a href="https://github.com/bcgov/TheOrgBook">open-source</a>, and <a href="https://orgbook.gov.bc.ca/organization/BC0914970" target="_blank">show what future business permits and licenses could look like</a>.</p>
