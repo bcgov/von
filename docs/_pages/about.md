@@ -12,13 +12,13 @@ toc_sticky: true
 
 # Background - Adding Trust to the Internet
 
-The goal with the VON project is to enable organizations&mdash;and the people running those organizations&mdash;to conduct business online in a trusted manner. The core challenge is that on the Internet we can't tell if we're talking to you, or someone pretending to be you. We need a reliable way to verify that "you are you" in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner. The imposter problem is made worse by the rise in cyber-hacks that expose user's personal data that might otherwise be useful in proving identity. With all of the data about you in the wild, we need new approaches to verifying that you have the authority to conduct an online transaction.
+The goal with the VON project is to enable organizations&mdash;and the people running those organizations&mdash;to conduct business online in a trusted manner. The core challenge is that on the Internet we can't tell if we're talking to you, or someone pretending to be you. We need a reliable way to verify that "you are you" in a manner appropriate for the type of transaction that you want to complete and in a privacy-preserving manner. The imposter problem is made worse by the rise in cyberattacks that expose user's personal data that might otherwise be useful in proving identity. With all of the data about you in the wild, we need new approaches to verifying that you have the authority to conduct an online transaction.
 
-Putting Internet users&mdash;and organizations&mdash;in control of their own online identity has been a growing need since the start of the Internet. With the creation of massive centralized stores of private data (e.g. Equifax, Google, Facebook, etc.), has grown the ability for holders of that data to use (and misuse) that data in ways that are not always in the best interest of the data owner, you. As we move forward in with identity, we also want to put you in control of where and how your data is used.
+Putting Internet users&mdash;and organizations&mdash;in control of their own online identity has been a growing need since the start of the Internet. With the creation of massive centralized stores of private data (e.g. Equifax, Google, Facebook, etc.), has grown the ability for holders of that data to use (and misuse) that data in ways that are not always in the best interest of the data owner, you. As we move forward with identity, we also want to put you in control of where and how your data is used.
 
-The goals of trusted identity and control over your own data has created an urgency to change how our data&mdash;data we (should) own&mdash;is handled. [Self-sovereign identity](https://bitsonblocks.net/2017/05/17/a-gentle-introduction-to-self-sovereign-identity/) (SSI) is a promising approach to decentralize the handling of personal data that gives users back control of their data, where it belongs. SSI further enables a higher level of trust on the Internet by providing mechanisms that enable verifiable identification of parties to a transaction, reducing the need for high-cost, in person mechanisms to establish trust. With SSI, people can't pretend to be you simply be showing they know things about your (your name, address, user id, password, etc.).
+The goals of trusted identity and control over your own data has created an urgency to change how our data&mdash;data we (should) own&mdash;is handled. [Self-sovereign identity](https://bitsonblocks.net/2017/05/17/a-gentle-introduction-to-self-sovereign-identity/) (SSI) is a promising approach to decentralize the handling of personal data that gives users back control of their data, where it belongs. SSI further enables a higher level of trust on the Internet by providing mechanisms that enable verifiable identification of parties to a transaction, reducing the need for high-cost, in person mechanisms to establish trust. With SSI, people can't pretend to be you simply by showing they know things about you (your name, address, user id, password, etc.).
 
-The VON project is particularly focused on bootstrapping the trust attribute of the SSI approach for organizational entities. We aim to create a trusted digital network of verifiable data about organizations, which is globally connected, interoperable, secure, and easy to join. We believe the novel capabilities of distributed ledger based self-sovereign identity ecosystems to provide increased levels of trust for online transactions will foster economic activity for BC companies locally and across the globe.
+The VON project is particularly focused on bootstrapping the trust attribute of the SSI approach for organizational entities. We aim to create a trusted digital network of verifiable data about organizations, which is globally connected, interoperable, secure, and easy to join. We believe the novel capabilities of distributed ledger based, self-sovereign identity ecosystems to provide increased levels of trust for online transactions will foster economic activity for BC companies locally and across the globe.
 
 ## The First Step - Creating a Network Effect
 
@@ -34,10 +34,10 @@ We're trying to use VON's ["OrgBook"](https://orgbook.gov.bc.ca) (formerly calle
 
 The challenge in creating an organizational SSI network is:
 
-* **Supply:** Services don't supply verifiable credentials because there are no organizations with their own SSI digital wallets.
+* **Supply:** Services don't supply verifiable credentials because there are no organizations with their own SSI digital wallet.
 * **Demand:** Organizations don't have their own SSI digital wallets because there are no services that supply verifiable credentials.
 
-The BC Government can't directly influence the demand side or provide tools like digital wallets for organizations. That's for commercial providers to support. However, as a major supplier of credentials (registrations, licenses, permits, etc.) to organizations, BC can enhance its government services to drive the supply side&mdash;and indirectly, demand. OrgBook gives government services a place to issue public verifiable credentials and from which to receive proofs of verifiable claims&mdash;without requiring organizations to have their own agents and wallets.
+The BC Government can't directly influence the demand side or provide tools, such as digital wallets, for organizations. That's for commercial providers to support. However, as a major supplier of credentials (registrations, licenses, permits, etc.) to organizations, BC can enhance its government services to drive the supply side&mdash;and indirectly, demand. OrgBook gives government services a place to issue public verifiable credentials and from which to receive proofs of verifiable claims&mdash;without requiring organizations to have their own agents and wallets.
 
 Here's a simple picture of the system:
 
@@ -48,18 +48,18 @@ Here's a simple picture of the system:
 * On the right are government services that organizations access to apply for a variety of credentials, including registrations, permits and licenses.
   * The services use instances of [VON issuer/verifier agents](https://github.com/bcgov/von-agent-template) to verify claims and issue credentials.
   * Services could cross governmental jurisdications (provincial, regional, municipal) and could even involve commercial entities (banks, etc.).
-* In the middle, (The)OrgBook is a repository of public Credentials issued by those services to OrgBook.
+* In the middle, (The)OrgBook is a repository of public credentials issued by those services to OrgBook.
   * Credentials are equivalent to the "Permit to Operate" documents posted on businesses' walls.
-  * (The)OrgBook's repository of public Credentials is web-searchable, listing organizations, credentials and credential details (claims).
+  * (The)OrgBook's repository of public credentials is web-searchable, listing organizations, credentials and credential details (claims).
 * On the left is a representative of an organization that is applying for registrations, licences and permits from the services on the right.
 * The identity registry (represented by the file folders with links) underlies the system to infuse trust.
   * The identity register is a decentralized, self-dovereign identity network built on blockchain/distributed ledger technology.
   * The initial VON implementation uses the [Sovrin Foundation](https://sovrin.org)'s Sovrin Network as the underlying Identity Registry Network.
 
-As an organization goes through the online application processes to acquire registrations/licenses/permits, the services get proofs (and their associated verified claims) from verifiable credentials already stored in OrgBook about the organization. Once a service completes the approval process and decides to issue the organization a registration/licence/permit, they issue that public verifiable credential digitally to OrgBook about the organization.
+As an organization goes through the online application processes to acquire registrations, licenses or permits, the services get proofs (and their associated verified claims) from verifiable credentials already stored in OrgBook about the organization. Once a service completes the approval process and decides to issue the organization a registration, licence or permit, they issue that public verifiable credential digitally to OrgBook about the organization.
 
 * This saves the users from having to re-type the information for each service (and eliminates typos in the data).
-* Each service can trust the information because it comes from a trusted source - cryptographically proving:
+* Each service can trust the information because it comes from a trusted source, cryptographically proving:
   * The information was issued by the issuer
   * The information was issued to OrgBook
   * The information has not been tampered with (was not forged)
