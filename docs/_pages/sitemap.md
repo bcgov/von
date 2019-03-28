@@ -12,15 +12,15 @@ A list of all the posts and pages found on the site. For you robots out there is
   {% include archive-single.html %}
 {% endfor %}
 
-<h2>Posts</h2>
-{% for post in site.posts %}
+<h2>News</h2>
+{% for post in site.news %}
   {% include archive-single.html %}
 {% endfor %}
 
 {% capture written_label %}'None'{% endcapture %}
 
 {% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
+{% unless collection.output == false or collection.label == "news" %}
   {% capture label %}{{ collection.label }}{% endcapture %}
   {% if label != written_label %}
   <h2>{{ label }}</h2>
@@ -28,7 +28,7 @@ A list of all the posts and pages found on the site. For you robots out there is
   {% endif %}
 {% endunless %}
 {% for post in collection.getting_started %}
-  {% unless collection.output == false or collection.label == "posts" %}
+  {% unless collection.output == false or collection.label == "news" %}
   {% include archive-single.html %}
   {% endunless %}
 {% endfor %}

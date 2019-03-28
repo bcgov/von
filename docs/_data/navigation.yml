@@ -8,9 +8,9 @@ main:
     url: /clickythings/
   - title: "Join Us"
     url: /how_to/contributing/
-  # - title: "News"
-  #  url: /year-archive/
-  - title: "Terms &amp; Privacy Policy"
+  - title: "News"
+    url: /news/
+  - title: "Privacy"
     url: /terms/
 
 footer_nav:
@@ -73,3 +73,5 @@ how_to:
         url: /how_to/updating-docs/
       - title: "Generating Code Documentation"
         url: /how_to/generating-code-docs/
+      - title: "Adding News Articles"
+        url: /how_to/adding-news-articles/
