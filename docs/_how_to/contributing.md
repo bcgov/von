@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 ---
 
-This section of the documentation is about contributing to the VON Project. If you and/or your team are interested in joining the fun, [contact us](mailto:swcurran@cloudcompass.ca,john.jordan@gov.bc.ca?subject=Contributing to VON) now, or  read on for some guidance on how to participate.
+This section of the documentation is about contributing to the VON Project. If you and/or your team are interested in joining the fun, [contact us](mailto:swcurran@cloudcompass.ca,john.jordan@gov.bc.ca?subject=Contributing to VON) now and/or read on for some guidance on how to participate.
 
 Of course, if all you want to do is fork the repos and submit issues and/or pull requests, we're happy with that as well. The practices covered here are if you want to be more tightly tied to the project - joining the team meetings, tracking our sprints, and contributing documentation.
 
@@ -28,6 +28,8 @@ The current team meets every second Wednesday at 10AM Pacific, 1PM Eastern for S
 ## Content on this Site
 
 Interested in helping maintain this website - the starting point for information about VON? See [the guidelines]({{ "/how_to/updating-docs/" | relative_url }}) for how to update, correct or expand the information on this site. It's all run off github, so as with all of the VON code, the documentation is driven by pull requests.
+
+We've added some specific information about [adding news articles]({{ "/how_to/adding-news-articles/" | relative_url }}) to the site, including a good technique to convert Google Docs to markdown for posting on the site and handling images in the articles.
 
 ## Code Documentation
 

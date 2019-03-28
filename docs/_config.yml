@@ -136,6 +136,7 @@ include:
   - _pages
   - _getting_started
   - _how_to
+  - _news
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -195,14 +196,26 @@ collections:
   how_to:
     output: true
     permalink: /:collection/:path/
-
+  news:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _news
+  - scope:
+      path: "_news"
+      type: news
     values:
       layout: single
       author_profile: true
@@ -271,6 +284,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 
 # Archives
