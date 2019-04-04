@@ -1,6 +1,6 @@
 ---
 permalink: /news/2019-04-01-BC-Aims-to-Cut-Red-Tape
-title:  "Read All About It! OrgBook BC and the VON Team in the News"
+title:  "OrgBook BC and the VON Team in the News"
 header:
   teaser: "assets/images/Teal_Background.png"
 last_modified_at: 2019-03-28T18:15:00-07:00
@@ -24,24 +24,3 @@ One of the more remarkable aspects of this project is the fact that the BC gover
 Jinny Sims, Minister of BC Citizens’ Services sums it up best: “OrgBook BC has unlimited potential to improve the way companies interact with the province, whether they are a small, family-owned business or a large credit union. We’re bringing new partners onto OrgBook BC and expanding its capabilities to help our job creators spend less time on paperwork and more time growing their companies.”
 
 To read the full post, see:  [BC Aims to Cut Red Tape with Hyperledger Indy](https://www.hyperledger.org/resources/publications/orgbook-case-study)
- 
-
----
-For more information on Hyperledger Indy work being done by the BC Government, contact:
-
-Email: john.jordan@gov.bc.ca, swcurran@cloudcompass.ca, ian@anon-solutions.ca
-
-Hyperledger Chat: https://chat.hyperledger.org
-
-Chat DM: @jljordan_bcgov @swcurran @ianco
-
-Website: https://vonx.io
-For more information on Hyperledger Indy work being done by the BC Government, contact:
-
-Email: john.jordan@gov.bc.ca, swcurran@cloudcompass.ca, ian@anon-solutions.ca
-
-Hyperledger Chat: https://chat.hyperledger.org
-
-Chat DM: @jljordan_bcgov @swcurran @ianco
-
-Website: https://vonx.io and https://orgbook.gov.bc.ca/en/home
