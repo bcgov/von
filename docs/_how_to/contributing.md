@@ -13,7 +13,9 @@ This section of the documentation is about contributing to the VON Project. If y
 
 Of course, if all you want to do is fork the repos and submit issues and/or pull requests, we're happy with that as well. The practices covered here are if you want to be more tightly tied to the project - joining the team meetings, tracking our sprints, and contributing documentation.
 
-# Overview
+## Rocketchat
+
+We are using rocketchat for online collaboration. Click [here]({{ "/how_to/von-chat/" | relative_url }}) for more on joining the conversation.
 
 ## Sprints
 

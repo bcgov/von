@@ -75,4 +75,4 @@ To learn more about VON, move on to our [get started](/getting_started/get-start
 
 ## Want to help?
 
-Fork the code, connect with us and let's build VON together.
+Fork the code, [connect with us](mailto:swcurran@cloudcompass.ca,john.jordan@gov.bc.ca?subject=Contributing to VON) and let's build VON together.
