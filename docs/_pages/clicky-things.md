@@ -58,6 +58,9 @@ AgentBook is a demo showing the interoperability of agents from three sources, B
 
 ### Verifiable Organization Network Development Resources
 
+#### Chat
+* We are using rocketchat for online collaboration. Click [here]({{ "/how_to/von-chat/" | relative_url }}) for more on joining the conversation.
+
 #### Sprint Backlogs
 * [VON Kanban Board - (GitHub Account required)](https://app.zenhub.com/workspace/o/bcgov/von/boards)
     * You can also look at the same data under GitHub Issues for in the various [VON repos](https://github.com/topics/verifiable-organizations-network)

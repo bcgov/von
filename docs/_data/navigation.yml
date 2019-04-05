@@ -36,6 +36,8 @@ footer_nav:
     children:
       - title: "Contributing to the VON Project"
         url: /how_to/contributing/
+      - title: "Joining the VON Rocketchat"
+        url: /how_to/von-chat/
 
 # documentation links
 getting_started:
@@ -65,6 +67,8 @@ how_to:
     children:
       - title: "Contributing to the VON Project"
         url: /how_to/contributing/
+      - title: "Joining the VON Rocketchat"
+        url: /how_to/von-chat/
   - title: Tools and Practices
     children:
       - title: "Tracking Sprints, Epics and Issues"
