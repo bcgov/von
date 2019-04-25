@@ -20,17 +20,6 @@ Held at the Vancouver Convention Center on March 11, 2019, about 60 people took 
 
 In the afternoon, Carol Prest, Registrar and Executive Director for the Province of British Columbia, and John Jordan, Executive Director, Emerging Digital Initiatives, Ministry of Citizens' Services, introduced the [VON](https://vonx.io), a project to enable organizations—and the people running those organizations—to conduct business online in a trusted manner. Participants then were given the opportunity to create their own agent and issue a verifiable credential.
 
-For more information on Hyperledger Indy work being done by the BC Government, contact:
-
-**Email**: [john.jordan@gov.bc.ca](mailto:john.jordan@gov.bc.ca), [swcurran@cloudcompass.ca](mailto:swcurran@cloudcompass.ca), [ian@anon-solutions.ca](mailto:ian@anon-solutions.ca)
-
-**Hyperledger Chat**: [https://chat.hyperledger.org](https://chat.hyperledger.org/home)
-
-**Chat DM**: @jljordan_bcgov @swcurran @ianco
-
-**Website**: [https://vonx.io](https://vonx.io)
-
-
 ## Photos from Indy Bootcamp Vancouver:
 
 <figure>
