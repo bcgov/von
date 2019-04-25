@@ -22,13 +22,3 @@ Using AgentBook, approximately 30 people from South Africa, Europe, Canada and t
 * The messaging between the agents was encrypted solely for the use of the connected participants—no one else could listen in. 
 * These secure, peer-to-peer multi-agent connections were made possible through the exchange of cryptographic keys and the agent-to-agent messaging protocols implemented by each agent.
 * This work illustrates the potential for DID-based technologies, such as Hyperledger Indy, to change for the better how data is handled on the Internet.
-
-For more information on Hyperledger Indy work being done by the BC Government, contact:
-
-**Email**: [john.jordan@gov.bc.ca](mailto:john.jordan@gov.bc.ca), [swcurran@cloudcompass.ca](mailto:swcurran@cloudcompass.ca), [ian@anon-solutions.ca](mailto:ian@anon-solutions.ca)
-
-**Hyperledger Chat**: [https://chat.hyperledger.org](https://chat.hyperledger.org/home)
-
-**Chat DM**: @jljordan_bcgov @swcurran @ianco
-
-**Website**: [https://vonx.io](https://vonx.io)
