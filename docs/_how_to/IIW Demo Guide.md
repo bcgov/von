@@ -15,7 +15,7 @@ tags:
 
 ## INTRODUCTION
 
-In late March 2019, the VON Team created [AgentBook](/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID based communications channels. Now, with **IIWBook** we've added a (literal) new layer by extending the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with StreetCred and Spark New Zeland we now have a [mobile agent](/news/2019-04-03-Mobile-Agent) (or two!).
+In late March 2019, the VON Team created [AgentBook](/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID based communications channels. Now, with **IIWBook** we've added a (literal) new layer by extending the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with StreetCred and Spark New Zealand we now have a [mobile agent](/news/2019-04-03-Mobile-Agent) (or two!).
 
 This IIWBook demo is one of the first examples of a full verifiable credential based exchange where participants will be able to establish digital trust. This will be accomplished via several verifiable credential issuing services and the ability of participants to connect to each other agent to agent and request proofs based on the credentials they have received from these issuing services. 
 
