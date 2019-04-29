@@ -42,10 +42,7 @@ The following illustration shows the process involved in obtaining verifiable cr
 1. On an IOS device, join the Streetcred agent Beta program: [https://testflight.apple.com/join/CX48LTno](https://testflight.apple.com/join/CX48LTno)
 2. Get an email address verifiable credential: [https://email-verification.vonx.io](https://email-verification.vonx.io)
 3. Get an IIW attendee verifiable credential: [https://iiwbook.vonx.io](https://iiwbook.vonx.io)
-4. Use Streetcred to connect with other compatible agents, and after connecting, request verification claims.
-   1. Go to the details of a connection.
-   2. Click on "Verifications"
-   3. Click on ...
+4. Use Streetcred to connect with other compatible agents, and after connecting, request verification claims. Refer to these [instructions](#connecting-to-peers).
 
 ## Installing Streetcred and Creating Your Agent
 
@@ -54,17 +51,17 @@ To get started, you'll need a compatible agent. For these instructions, you'll n
 1. Go to the following URL and download/install the Streetcred app onto your IOS phone or tablet from Apple's beta testing service:
 [https://testflight.apple.com/join/CX48LTno](https://testflight.apple.com/join/CX48LTno)
 
->**NOTE:** *Streetcred currently works with IOS devices only.*
+    >**NOTE:** *Streetcred currently works with IOS devices only.*
 
->**NOTE:** *Testflight is Apple’s Beta testing mechanism. If you don't have it,  you'll be prompted to download it first.*
+    >**NOTE:** *Testflight is Apple’s Beta testing mechanism. If you don't have it,  you'll be prompted to download it first.*
 
 2. Open Streetcred.
 
-The first time you run Streetcred you will be asked to setup a few things to get started.
+    The first time you run Streetcred you will be asked to setup a few things to get started.
 
 3. Click **Create My Agent** and follow the prompts.
 
-![You're All Set]({{ '/assets/images/IIWDemoScreenShots/IIWStreetcred_allset.png' | relative_url }}){: .align-center}
+    ![You're All Set]({{ '/assets/images/IIWDemoScreenShots/IIWStreetcred_allset.png' | relative_url }}){: .align-center}
 
  4. Click **Continue**.
 
@@ -80,34 +77,34 @@ To do this:
 
 1. In a browser, go to the following URL, read the instructions, input your email address and click **Submit**. 
  
- [https://email-verification.vonx.io](https://email-verification.vonx.io)
+    [https://email-verification.vonx.io](https://email-verification.vonx.io)
 
-![Email Verification]({{ '/assets/images/IIWDemoScreenShots/IIW_email_verification.png' | relative_url }}){: .align-center}
+      ![Email Verification]({{ '/assets/images/IIWDemoScreenShots/IIW_email_verification.png' | relative_url }}){: .align-center}
 
-You will receive an email from `noreply@gov.bc.ca` with an embedded one-time use link back to the Email Verification Service.
+      You will receive an email from `noreply@gov.bc.ca` with an embedded one-time use link back to the Email Verification Service.
 
 2. Click on the link provided in the email. This does two things:
    * Opens up a page on the Email Verification site with an invitation (in various forms) to connect to the Email Verification Service's agent.
    * Proves to the Email Verification Service that the current user controls the email address to which the message was sent.
 
->**NOTE:** *The latter point is important&mdash;this is the basis for the verifiable credential that the service will issue to the agent that connects to it via the invitation.*
+    >**NOTE:** *The latter point is important&mdash;this is the basis for the verifiable credential that the service will issue to the agent that connects to it via the invitation.*
 
-The following window is displayed:
+    The following window is displayed:
 
-![Get Verified]({{ '/assets/images/IIWDemoScreenShots/IIW_getverified_email.png' | relative_url }}){: .align-center}
+    ![Get Verified]({{ '/assets/images/IIWDemoScreenShots/IIW_getverified_email.png' | relative_url }}){: .align-center}
 
 3. Use one of the invitations:
    * If the invitation is on your IOS device, click the link to open Streetcred.
    * If the invitation is on a desktop device, use your Streetcred app to scan the QR code.
    * If you are using some other agent, copy the invitation and paste as appropriate into that agent.
 
-In the Streetcred app the following window is displayed:
+    In the Streetcred app the following window is displayed:
 
-![Accept Connection]({{ '/assets/images/IIWDemoScreenShots/IIW_accept_connection.png' | relative_url }}){: .align-center}
+    ![Accept Connection]({{ '/assets/images/IIWDemoScreenShots/IIW_accept_connection.png' | relative_url }}){: .align-center}
 
 4. Click **Accept** to complete the connection.
 
-You will receive a notification&mdash;the Email Verification Service has sent you an offer for a verifiable credential!
+    You will receive a notification&mdash;the Email Verification Service has sent you an offer for a verifiable credential!
 
 5. Click **Accept Offer**.
 
@@ -127,11 +124,11 @@ You have been issued one credential&mdash;let's use it to get another. This cred
 
 4. In Streetcred, click **Accept**.
 
-![Connect in StreetCred]({{ '/assets/images/IIWDemoScreenShots/IIW_invite_to_connect.png' | relative_url }}){: .align-center}
+    ![Connect in StreetCred]({{ '/assets/images/IIWDemoScreenShots/IIW_invite_to_connect.png' | relative_url }}){: .align-center}
 
-You will receive a new notification. Before you can be issued your attendance credential, you must present proof of your email  credential.
+    You will receive a new notification. Before you can be issued your attendance credential, you must present proof of your email  credential.
 
-![Presentation Request]({{ '/assets/images/IIWDemoScreenShots/IIW_request_for_proof.png' | relative_url }}){: .align-center}
+    ![Presentation Request]({{ '/assets/images/IIWDemoScreenShots/IIW_request_for_proof.png' | relative_url }}){: .align-center}
 
 5. Click **Present Proof**.
 
@@ -139,7 +136,7 @@ Now there's a wait. To respect the consent you provided in signing up for IIW, a
 
 If you are issued an IIW attendee verifiable credential, you will get a notification in Streetcred with the credential offer&mdash; just like when you received your verified email credential.
 
-## Verifying Connections
+## Connecting to Peers
 
 Now that you have both of your foundational credentials (email and IIW attendance), you can establish nearby connections with others at the conference and use those credentials to prove claims about yourself&mdash;as well as verify the claims of others.
 
@@ -147,31 +144,35 @@ Here's how:
 
 1. Click **Nearby**.
    
-   Nearby devices will be displayed.
+      Nearby devices will be displayed.
 2. Select the device to which you want to connect and click **Invite**.
+3. The person you invite will be asked to confirm that they want to connect.
 
-3. Both you and the person with whom you are connecting will be asked to send a proof of your email and IIW attendance credentials.
-4. Once you each have sent proof of your credentials, you will be able to start messaging with each other.
+>**NOTE:** *The Nearby feature may or may not work&mdash;beta and all. If it doesn't work, follow these steps (we've got you covered!*)
 
-   >**NOTE:** *The Nearby feature may or may not work&mdash;beta and all. If it doesn't work, follow these steps (we've got you covered!*)
+If **Nearby** doesn't work:
 
-   If **Nearby** doesn't work:
+1. Click **Connections**.
+2. Click **+**.
+3. Click **Create Invitation**.
 
-5. Click **Connections**.
-6. Click **+**.
-7. Click **Create Invitation**.
+    Have your contact scan the QR code provided or send it to them using messaging or email. 
 
-Have your contact scan the QR code provided or send it to them using messaging or email. 
+4. Click **Connect** to accept.
 
-8. Click **Connect** to accept.
+    > **NOTE:** *You are connected but not verified.* 
 
->**NOTE:** *You are connected but not verified.* 
+## Verifying Connections
 
-Verify your connection(s):
+You have a new connection, but do you really know who it is? To be sure, you should verify the connection by asking for verifiable claims. 
 
-9. Click on **Verifications** under the name of the person with whom you are connecting.
-10. Click on the pencil icon.
-11. Select the information you would like to request from this connection (for example, Name and Email).
-12. Click **Request Presentation**.  
+Here's how:
 
-Once your connection has presented proof of the claims you requested, they will be listed under the verifications for that contact.
+1. Click on **Verifications** under the name of the person with whom you are connecting.
+2. Click on the pencil icon (top right).
+3. Select the information you would like to request from this connection (for example, Name and Email).
+4. Click **Request Presentation**.  
+
+Once your connection has presented proof of the claims you requested, the claims will be listed under the verifications for that contact.
+
+If the claims you get back aren't what you expect, you should delete the connection.
