@@ -3,7 +3,7 @@ permalink: /how_to/iiwbook
 title:  "The VON IIW 28 Demonstration: IIWBook"
 header:
   teaser: "assets/images/Teal_Background.png"
-last_modified_at: 2019-04-26T18:15:00-07:00
+last_modified_at: 2019-04-30T18:15:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true
@@ -177,3 +177,25 @@ Here's how:
 Once your connection has presented proof of the claims you requested, the claims will be listed under the verifications for that contact.
 
 If the claims you get back aren't what you expect, you should delete the connection.
+
+## References
+
+IWWBook was coordinated by the [VON team](https://vonx.io) of the Government of British Columbia. The following GitHub repositories were created/used as the basis of the IIWBook demo:
+
+* The Streetcred Mobile Identity Agent is based on the open source [Agent-Framework](https://github.com/streetcred-id/agent-framework) project
+* The Email Verification Service and IIWBook are instances of the Agent part of the open source [Indy Catalyst](https://github.com/bcgov/indy-catalyst) project.
+* The repos for the services are:
+  * [Email Verification Service](https://github.com/bcgov/indy-email-verification)
+  * [IIWBook](https://github.com/bcgov/iiwbook)
+* The DIDComm message family protocols implemented by the different agents to implement IIWBook include:
+  * [Proposed DIDComm Explainer](https://github.com/hyperledger/indy-hipe/blob/b0708395fd1669df33a9619efa7770a20c97006e/text/0003-did-comm/README.md)
+    * [Pull Request](https://github.com/hyperledger/indy-hipe/pull/98)
+  * [Agent Messages](https://github.com/hyperledger/indy-hipe/tree/master/text/0017-agent-message-structure)
+  * [Message Threading](https://github.com/hyperledger/indy-hipe/tree/master/text/0027-message-id-and-threading)
+  * [Wire Message Format](https://github.com/hyperledger/indy-hipe/tree/master/text/0028-wire-message-format)
+  * [Connection Protocol - establishing peer-to-peer agents connection](https://github.com/hyperledger/indy-hipe/tree/master/text/0031-connection-protocol)
+  * [Trust Ping](https://github.com/hyperledger/indy-hipe/tree/master/text/0032-trust-ping)
+  * [Basic Message](https://github.com/hyperledger/indy-hipe/tree/master/text/0033-basic-message)
+  * [Credential Exchange - 0.1 Version](https://hackmd.io/s/HkklVzww4)
+  * [Proposed Credential Exchange - 1.0 Version](https://github.com/hyperledger/indy-hipe/blob/2e85595e9a948a2fbfd58400191d112caff5a14b/text/credential-exchange-message-family/README.md)
+    * [Pull Request](https://github.com/hyperledger/indy-hipe/pull/89)
