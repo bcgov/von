@@ -15,7 +15,7 @@ tags:
 
 ## Introduction
 
-In late March 2019, the VON team created [AgentBook](/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID-based communication channels. Now, with **IIWBook** we've added a (literal) new layer by extending the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with StreetCred and Spark New Zealand, we  have a [mobile agent](/news/2019-04-03-Mobile-Agent) (or two!).
+In late March 2019, the VON team created [AgentBook](/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID-based communication channels. Now, with **IIWBook**, we've added a (literal) new layer by extending the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with StreetCred and Spark New Zealand, we  have a [mobile agent](/news/2019-04-03-Mobile-Agent) (or two!).
 
 This IIWBook demo is one of the first examples of a full verifiable credential-based exchange where participants will be able to establish digital trust. This will be accomplished via two verifiable credential issuing services and the ability of participants to connect to each other, agent-to-agent, and request proofs based on the credentials they have received from these issuing services.
 
@@ -30,7 +30,7 @@ The goal of this demo is to show how Hyperledger Indy-based compatible agents ca
 * send proofs
 * establish connections between agents
 
-[Credentials](https://w3c.github.io/vc-data-model/#credentials) contain a set of claims that refer to a qualification, achievement, personal quality, or aspect of an entity that can be used to establish trust online in countless contexts - including identity. Using a mobile agent called **Streetcred: Identity Agent** (Streetcred), you will collect credentials (in particular, your email and IIW attendance record) and then use these credentials to verify connections with others at the conference.
+[Credentials](https://w3c.github.io/vc-data-model/#credentials) contain a set of claims that refer to a qualification, achievement, personal quality, or aspect of an entity that can be used to establish trust online in countless contexts&mdash;including identity. Using a mobile agent called **Streetcred: Identity Agent** (Streetcred), you will collect credentials (in particular, your email and IIW attendance record) and then use these credentials to verify connections with others at the conference.
 
 This demo steps you through the process of obtaining two credentials&mdash;that's pretty cool in itself. However, keep in mind that by obtaining verifiable credentials and establishing connections with your peers at the conference, you are demonstrating the power of self-sovereign identity. Your credentials prove things about you so others know for certain they are talking to you! Conversely, when you connect to others and they prove who they are, you can be certain they are who they say they are. That is powerful.
 
@@ -183,7 +183,7 @@ If the claims you get back aren't what you expect, you should delete the connect
 IWWBook was coordinated by the [VON team](https://vonx.io) of the Government of British Columbia. The following GitHub repositories were created/used as the basis of the IIWBook demo:
 
 * The Streetcred Mobile Identity Agent is based on the open source [Agent-Framework](https://github.com/streetcred-id/agent-framework) project
-* The Email Verification Service and IIWBook are instances of the Agent part of the open source [Indy Catalyst](https://github.com/bcgov/indy-catalyst) project.
+* The Email Verification Service and IIWBook are instances of the agent part of the open source [Indy Catalyst](https://github.com/bcgov/indy-catalyst) project.
 * The repos for the services are:
   * [Email Verification Service](https://github.com/bcgov/indy-email-verification)
   * [IIWBook](https://github.com/bcgov/iiwbook)
