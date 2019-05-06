@@ -23,7 +23,7 @@ The current team meets every second Wednesday at 10AM Pacific, 1PM Eastern for S
 
 * VON: [https://github.com/bcgov/von/issues](https://github.com/bcgov/von/issues)
 * OrgBook: [https://github.com/bcgov/TheOrgBook/issues](https://github.com/bcgov/TheOrgBook/issues)
-* dFlow: [https://github.com/bcgov/dFlow/issues](https://github.com/bcgov/dFlow/issues)
+* GreenLight: [https://github.com/bcgov/greenlight/issues](https://github.com/bcgov/greenlight/issues)
 * BC Registries VON Agent: [https://github.com/bcgov/von-bc-registries-agent/issues](https://github.com/bcgov/von-bc-registries-agent/issues)
 * VON Agent Start Kit: [https://github.com/bcgov/von-agent-template/issues](https://github.com/bcgov/von-agent-template/issues)
 
