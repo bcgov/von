@@ -11,7 +11,7 @@ Danube Tech GmbH – <https://danubetech.com/>
 Introduction
 =======================================
 
-As certain base technologies for self-sovereign identity are becoming more mature (e.g. [Decentralized Identifiers – DIDs](https://w3c-ccg.github.io/did-spec/), and [Verifiable Credentials](https://w3c.github.io/vc-data-model/)), there is now increasing interest in functionality and protocols such as authentication (“DID-Auth”) and authorization based on these core building blocks. The objective of this BCDevExchange opportunity was to design and implement – in collaboration with relevant communities – various DID-based authentication and authorization scenarios that can be integrated with [VON](https://github.com/bcgov/von) components such as [OrgBook](https://github.com/bcgov/TheOrgBook), [dFlow](https://github.com/bcgov/dFLow), and the [VON Issuer/Verifier Agent](https://github.com/bcgov/von-agent-template).
+As certain base technologies for self-sovereign identity are becoming more mature (e.g. [Decentralized Identifiers – DIDs](https://w3c-ccg.github.io/did-spec/), and [Verifiable Credentials](https://w3c.github.io/vc-data-model/)), there is now increasing interest in functionality and protocols such as authentication (“DID-Auth”) and authorization based on these core building blocks. The objective of this BCDevExchange opportunity was to design and implement – in collaboration with relevant communities – various DID-based authentication and authorization scenarios that can be integrated with [VON](https://github.com/bcgov/von) components such as [OrgBook](https://github.com/bcgov/TheOrgBook), [GreenLight](https://github.com/bcgov/greenlight), and the [VON Issuer/Verifier Agent](https://github.com/bcgov/von-agent-template).
 
 Throughout February and March 2018, we interacted with the following communites:
 
@@ -64,7 +64,7 @@ Upon successful verification of submitted Verifiable Credentials, a user’s DID
 
 # Scenarios
 
-The BCDevExchange opportunity defined four scenarios that make use of DID-based authentication and authorization for [VON](https://github.com/bcgov/von) components such as [OrgBook](https://github.com/bcgov/TheOrgBook), [dFLow](https://github.com/bcgov/dFlow), and the [VON agent](https://github.com/bcgov/von_agent).
+The BCDevExchange opportunity defined four scenarios that make use of DID-based authentication and authorization for [VON](https://github.com/bcgov/von) components such as [OrgBook](https://github.com/bcgov/TheOrgBook), [GreenLight](https://github.com/bcgov/greenlight), and the [VON agent](https://github.com/bcgov/von_agent).
 
 This section documents how the four scenarios can be met using the three components described in the previous section.
 

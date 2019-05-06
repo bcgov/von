@@ -76,10 +76,10 @@ AgentBook is a demo showing the interoperability of agents from three sources, B
 * [von-image](https://hub.docker.com/r/bcgovimages/von-image/)
 
 #### Run VON Components on your local computer
-* [Verified Organization Network Quick Start Guide](https://github.com/bcgov/dFlow/blob/master/docker/VONQuickStartGuide.md)
+* [Verified Organization Network Quick Start Guide](https://github.com/bcgov/greenlight/blob/master/docker/VONQuickStartGuide.md)
 * [VON-Network - Run your own Hyperledger Indy Network](https://github.com/bcgov/von-network)
 * [OrgBook](https://github.com/bcgov/TheOrgBook)
-* [GreenLight (formerly known as dFlow)](https://github.com/bcgov/dflow)
+* [GreenLight](https://github.com/bcgov/greenlight)
 
 #### DID Authentication Experimental Work
 * [DID-Auth](https://github.com/topics/did-auth)

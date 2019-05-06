@@ -38,7 +38,7 @@ Given that, as long as the verified claims are known to be about the right organ
 
 Note that the service still has to verify what organization is requesting the authorization, and that the person applying is authorized to act on behalf of the organization.
 
-Another improvement in the process can occur because the prerequisites for the application process can be declared in the form of Hyperledger Indy "proof requests". If the prerequisites are issued by services that are part of the VON ecosystem, the same sort of workflow optimizations here are available for those services as well. The demonstration app [dFlow (decentralized workFlow)](https://dflow.orgbook.gov.bc.ca) shows how this information can simplify the authorization maze that frustrates so many business owners today.
+Another improvement in the process can occur because the prerequisites for the application process can be declared in the form of Hyperledger Indy "proof requests". If the prerequisites are issued by services that are part of the VON ecosystem, the same sort of workflow optimizations here are available for those services as well. The demonstration app [GreenLight (decentralized workflow)](https://github.com/bcgov/greenlight) shows how this information can simplify the authorization maze that frustrates so many business owners today.
 
 And of course, the same benefits flow to other services that have this service's credentials as prerequisites in their applications. Those services can use OrgBook to prove data about organizations applying to them.
 
