@@ -1,5 +1,5 @@
 ---
-permalink: /news/2019-05-03-IIW28AVerfiyingSuccess
+permalink: /drafts/2019-05-03-IIW28AVerfiyingSuccess
 title:  "IIW&mdash;A Verifying Success"
 header:
   teaser: "assets/images/Teal_Background.png"
