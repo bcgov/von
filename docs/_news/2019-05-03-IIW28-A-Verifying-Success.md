@@ -26,7 +26,7 @@ Decidedly, the BC VON team isn’t just talking about concepts, they are showing
 
 <figure>
 
-  <img src="{{ '/assets/images/IIW28Photos/VON-IIW-Team.png' | relative_url }}" alt="The VON Team at IIW28">
+  <img src="{{ '/assets/images/IIW28Photos/VON-IIW-Team.jpg' | relative_url }}" alt="The VON Team at IIW28">
 
   <figcaption>The VON Team at IIW28</figcaption>
 
