@@ -67,7 +67,7 @@ Decidedly, the BC VON team isn’t just talking about concepts, they are showing
 
 <figure>
 
-  <img src="{{ '/assets/images/IIW28Photos/presentation-time.JPG' | relative_url }}" alt="Presentation Time">
+  <img src="{{ '/assets/images/IIW28Photos/presentation-time.jpg' | relative_url }}" alt="Presentation Time">
 
   <figcaption>Presentation Time</figcaption>
 
