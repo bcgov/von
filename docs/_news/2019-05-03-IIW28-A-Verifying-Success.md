@@ -24,52 +24,30 @@ Decidedly, the BC VON team isn’t just talking about concepts, they are showing
 
 ## Photos from IIW28
 
-<figure>
+<figure class="half">
 
   <img src="{{ '/assets/images/IIW28Photos/VON-IIW-Team.jpg' | relative_url }}" alt="The VON Team at IIW28">
 
-  <figcaption>The VON Team at IIW28</figcaption>
-
-</figure>
-
-<figure>
-
   <img src="{{ '/assets/images/IIW28Photos/the-coffee-guy.jpg' | relative_url }}" alt="The Coffee Guy">
 
-  <figcaption>The Coffee Guy&mdash; Comes Every Year!</figcaption>
+  <figcaption>The important people at IIW28 - the VON Team and the Coffee Guy</figcaption>
 
 </figure>
 
-<figure>
+<figure class="half">
 
   <img src="{{ '/assets/images/IIW28Photos/a-blank-slate.jpg' | relative_url }}" alt="A Blank Slate">
-
-  <figcaption>The Day Starts With A Blank Slate</figcaption>
-
-</figure>
-
-<figure>
-
   <img src="{{ '/assets/images/IIW28Photos/agenda-on-the-fly.jpg' | relative_url }}" alt="This is How the Agenda Happens">
 
-  <figcaption>How the Agenda Happens</figcaption>
+  <figcaption>A Blank Slate quickly becomes a Full Agenda</figcaption>
 
 </figure>
 
-
-<figure>
+<figure class="half">
 
   <img src="{{ '/assets/images/IIW28Photos/the-circle.jpg' | relative_url }}" alt="Circle Time">
-
-  <figcaption>Circle Time</figcaption>
-
-</figure>
-
-<figure>
-
   <img src="{{ '/assets/images/IIW28Photos/presentation-time.jpg' | relative_url }}" alt="Presentation Time">
-
-  <figcaption>Presentation Time</figcaption>
+  <figcaption>First Circle Time and then Presentation Time for the VON Team</figcaption>
 
 </figure>
 
@@ -77,7 +55,6 @@ Decidedly, the BC VON team isn’t just talking about concepts, they are showing
 
   <img src="{{ '/assets/images/IIW28Photos/IIW-Identity-folks.jpg' | relative_url }}" alt="IIW Identity Folks">
 
-  <figcaption>IIW28 Identity Folks</figcaption>
+  <figcaption>Beer Time! Identity Folks - post IIW28</figcaption>
 
 </figure>
-
