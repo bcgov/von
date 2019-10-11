@@ -30,7 +30,7 @@ The goal of this demo is to show how Hyperledger Indy-based compatible agents ca
 * send proofs
 * establish connections between agents
 
-[Credentials](https://w3c.github.io/vc-data-model/#credentials) contain a set of claims that refer to a qualification, achievement, personal quality, or aspect of an entity that can be used to establish trust online in countless contexts&mdash;including identity. Using a mobile agent called **Streetcred: Identity Agent** (Streetcred), you will collect credentials (in particular, your email and IIW attendance record) and then use these credentials to verify connections with others at the conference.
+[Credentials](https://w3c.github.io/vc-data-model/#credentials) contain a set of claims that refer to a qualification, achievement, personal quality, or aspect of an entity that can be used to establish trust online in countless contexts&mdash;including identity. Using a mobile agent called [**Streetcred: Identity Agent**](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728) (Streetcred), you will collect credentials (in particular, your email and IIW attendance record) and then use these credentials to verify connections with others at the conference.
 
 This demo steps you through the process of obtaining two credentials&mdash;that's pretty cool in itself. However, keep in mind that by obtaining verifiable credentials and establishing connections with your peers at the conference, you are demonstrating the power of self-sovereign identity. Your credentials prove things about you so others know for certain they are talking to you! Conversely, when you connect to others and they prove who they are, you can be certain they are who they say they are. That is powerful.
 
@@ -40,7 +40,7 @@ The following illustration shows the process involved in obtaining verifiable cr
 
 ## TL;DR
 
-1. On an IOS device, join the Streetcred agent Beta program: [https://testflight.apple.com/join/CX48LTno](https://testflight.apple.com/join/CX48LTno)
+1. On an IOS device, join the Streetcred agent Beta program: [https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728)
 2. Get an email address verifiable credential: [https://email-verification.vonx.io](https://email-verification.vonx.io)
 3. Get an IIW attendee verifiable credential: [https://iiwbook.vonx.io](https://iiwbook.vonx.io)
 4. Use Streetcred to connect with other compatible agents, and after connecting, request verification claims. Refer to these [instructions](#connecting-to-peers).
@@ -50,11 +50,9 @@ The following illustration shows the process involved in obtaining verifiable cr
 To get started, you'll need a compatible agent. For these instructions, you'll need to get the beta Streetcred mobile agent for IOS. It's possible that other agents could be used for this demonstration, but we'll only cover Streetcred here.
 
 1. Go to the following URL and download/install the Streetcred app onto your IOS phone or tablet from Apple's beta testing service:
-[https://testflight.apple.com/join/CX48LTno](https://testflight.apple.com/join/CX48LTno)
+[https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728)
 
     >**NOTE:** *Streetcred currently works with IOS devices only.*
-
-    >**NOTE:** *Testflight is Apple’s Beta testing mechanism. If you don't have it,  you'll be prompted to download it first.*
 
 2. Open Streetcred.
 
