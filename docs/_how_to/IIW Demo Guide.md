@@ -40,16 +40,16 @@ The following illustration shows the process involved in obtaining verifiable cr
 
 ## TL;DR
 
-1. On an IOS device, join the Streetcred agent Beta program: [https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728)
+1. On an IOS device, install the StreetCred Identity Agent app: [https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728)
 2. Get an email address verifiable credential: [https://email-verification.vonx.io](https://email-verification.vonx.io)
 3. Get an IIW attendee verifiable credential: [https://iiwbook.vonx.io](https://iiwbook.vonx.io)
 4. Use Streetcred to connect with other compatible agents, and after connecting, request verification claims. Refer to these [instructions](#connecting-to-peers).
 
 ## Installing Streetcred and Creating Your Agent
 
-To get started, you'll need a compatible agent. For these instructions, you'll need to get the beta Streetcred mobile agent for IOS. It's possible that other agents could be used for this demonstration, but we'll only cover Streetcred here.
+To get started, you'll need a compatible agent. For these instructions, you'll need to get theStreetcred mobile agent for IOS. It's possible that other agents could be used for this demonstration, but we'll only cover Streetcred here.
 
-1. Go to the following URL and download/install the Streetcred app onto your IOS phone or tablet from Apple's beta testing service:
+1. Go to the following URL and download/install the Streetcred app onto your IOS phone or tablet from the Apple App Store:
 [https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728)
 
     >**NOTE:** *Streetcred currently works with IOS devices only.*
@@ -62,7 +62,9 @@ To get started, you'll need a compatible agent. For these instructions, you'll n
 
     ![You're All Set]({{ '/assets/images/IIWDemoScreenShots/IIWStreetcred_allset.png' | relative_url }}){: .align-center}
 
- 4. Click **Continue**.
+4. Click **Continue**.
+
+5. For this demo, the StreetCred app must use the BC Government's test Hyperledger Indy network instance. To set the network, to go to the first tab (Scan) and tap the label "Sovrin MainNet" to go to the apps settings screen. On the settings screen, select from the list of networks "BCovrin Test Network".
 
 Here's what the various tabs in Streetcred are for:
 
@@ -70,7 +72,7 @@ Here's what the various tabs in Streetcred are for:
 
 ## Getting Your Email Credential
 
-With Streetcred up and running, the next thing you'll do is get your email verifiable credential. 
+With Streetcred up and running, the next thing you'll do is get your email verifiable credential.
 
 To do this:
 
