@@ -15,12 +15,12 @@ tags:
 
 ## Introduction
 
-In late March 2019, the VON team created [AgentBook](/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID-based communication channels. Now, with **IIWBook**, we've added a (literal) new layer by extending the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with StreetCred and Spark New Zealand, we  have a [mobile agent](/news/2019-04-03-Mobile-Agent) (or two!).
+In late March 2019, the VON team created [AgentBook](/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID-based communication channels. Now, with **IIWBook**, we've added a (literal) new layer by extending the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with Streetcred and Spark New Zealand, we  have a [mobile agent](/news/2019-04-03-Mobile-Agent) (or two!).
 
 This IIWBook demo is one of the first examples of a full verifiable credential-based exchange where participants will be able to establish digital trust. This will be accomplished via two verifiable credential issuing services and the ability of participants to connect to each other, agent-to-agent, and request proofs based on the credentials they have received from these issuing services.
 
 The following is a guide to get started with the IIWBook demo. Grab your IOS device (sorry Android users...soon!) and let's get started!
- 
+
 ## Demonstration Overview
 
 The goal of this demo is to show how Hyperledger Indy-based compatible agents can be used to:
@@ -40,17 +40,17 @@ The following illustration shows the process involved in obtaining verifiable cr
 
 ## TL;DR
 
-1. On an IOS device, install the StreetCred Identity Agent app: [https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728)
-2. Get an email address verifiable credential: [https://email-verification.vonx.io](https://email-verification.vonx.io)
-3. Get an IIW attendee verifiable credential: [https://iiwbook.vonx.io](https://iiwbook.vonx.io)
-4. Use Streetcred to connect with other compatible agents, and after connecting, request verification claims. Refer to these [instructions](#connecting-to-peers).
+1. On an IOS device, install the Streetcred Identity Agent app from the [Apple App Store](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728).
+2. Initialize the Streetcred app and then configure it to use the "BCovrin Test Network" instead of the default "Sovrin Network" by clicking the `Sovrin Network` link at the top of the Streetcred home screen and following the instructions to change the "Preferred Network" app settings to use `BCovrin Test`.
+3. Get an email address verifiable credential: [https://email-verification.vonx.io](https://email-verification.vonx.io)
+4. Get an IIW attendee verifiable credential: [https://iiwbook.vonx.io](https://iiwbook.vonx.io)
+5. Use Streetcred to connect with other compatible agents, and after connecting, request verification claims. Refer to these [instructions](#connecting-to-peers).
 
 ## Installing Streetcred and Creating Your Agent
 
-To get started, you'll need a compatible agent. For these instructions, you'll need to get theStreetcred mobile agent for IOS. It's possible that other agents could be used for this demonstration, but we'll only cover Streetcred here.
+To get started, you'll need a compatible agent. For these instructions, you'll need to get the Streetcred mobile agent for IOS. It's possible that other agents could be used for this demonstration, but we'll only cover Streetcred here.
 
-1. Go to the following URL and download/install the Streetcred app onto your IOS phone or tablet from the Apple App Store:
-[https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728)
+1. Go to the following URL and download/install the Streetcred app onto your IOS phone or tablet from the [Apple App Store](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728)
 
     >**NOTE:** *Streetcred currently works with IOS devices only.*
 
@@ -64,7 +64,7 @@ To get started, you'll need a compatible agent. For these instructions, you'll n
 
 4. Click **Continue**.
 
-5. For this demo, the StreetCred app must use the BC Government's test Hyperledger Indy network instance. To set the network, to go to the first tab (Scan) and tap the label "Sovrin MainNet" to go to the apps settings screen. On the settings screen, select from the list of networks "BCovrin Test Network".
+5. For this demo, the Streetcred app must use the BC Government's `BCovrin Test` Hyperledger Indy network instance. To set the network, to go to the StreetcCred Home tab ad tap the label "Sovrin Network" to go to the app's settings screen. On the settings screen, edit the `Preferred Network` setting and select from the list of networks "BCovrin Test".
 
 Here's what the various tabs in Streetcred are for:
 
@@ -76,8 +76,8 @@ With Streetcred up and running, the next thing you'll do is get your email verif
 
 To do this:
 
-1. In a browser, go to the following URL, read the instructions, input your email address and click **Submit**. 
- 
+1. In a browser, go to the following URL, read the instructions, input your email address and click **Submit**.
+
     [https://email-verification.vonx.io](https://email-verification.vonx.io)
 
       ![Email Verification]({{ '/assets/images/IIWDemoScreenShots/IIW_email_verification.png' | relative_url }}){: .align-center}
@@ -125,7 +125,7 @@ You have been issued one credential&mdash;let's use it to get another. This cred
 
 4. In Streetcred, click **Accept**.
 
-    ![Connect in StreetCred]({{ '/assets/images/IIWDemoScreenShots/IIW_invite_to_connect.png' | relative_url }}){: .align-center}
+    ![Connect in Streetcred]({{ '/assets/images/IIWDemoScreenShots/IIW_invite_to_connect.png' | relative_url }}){: .align-center}
 
     You will receive a new notification. Before you can be issued your attendance credential, you must present proof of your email  credential.
 
@@ -144,7 +144,7 @@ Now that you have both of your foundational credentials (email and IIW attendanc
 Here's how:
 
 1. Click **Nearby**.
-   
+
       Nearby devices will be displayed.
 2. Select the device to which you want to connect and click **Invite**.
 3. The person you invite will be asked to confirm that they want to connect.
@@ -182,20 +182,17 @@ If the claims you get back aren't what you expect, you should delete the connect
 
 IWWBook was coordinated by the [VON team](https://vonx.io) of the Government of British Columbia. The following GitHub repositories were created/used as the basis of the IIWBook demo:
 
-* The Streetcred Mobile Identity Agent is based on the open source [Agent-Framework](https://github.com/streetcred-id/agent-framework) project
-* The Email Verification Service and IIWBook are instances of the agent part of the open source [Indy Catalyst](https://github.com/bcgov/indy-catalyst) project.
+* The Streetcred Identity Agent is based on the open source [aries-framework-dotnet](https://github.com/hyperledger/aries-framework-dotnet) project
+* The Email Verification Service and IIWBook are instances of the open source [Aries Cloud Agent - Python](https://github.com/hyperledger/aries-cloudagent-python) project.
 * The repos for the services are:
   * [Email Verification Service](https://github.com/bcgov/indy-email-verification)
   * [IIWBook](https://github.com/bcgov/iiwbook)
 * The DIDComm message family protocols implemented by the different agents to implement IIWBook include:
-  * [Proposed DIDComm Explainer](https://github.com/hyperledger/indy-hipe/blob/b0708395fd1669df33a9619efa7770a20c97006e/text/0003-did-comm/README.md)
-    * [Pull Request](https://github.com/hyperledger/indy-hipe/pull/98)
-  * [Agent Messages](https://github.com/hyperledger/indy-hipe/tree/master/text/0017-agent-message-structure)
-  * [Message Threading](https://github.com/hyperledger/indy-hipe/tree/master/text/0027-message-id-and-threading)
-  * [Wire Message Format](https://github.com/hyperledger/indy-hipe/tree/master/text/0028-wire-message-format)
-  * [Connection Protocol - establishing peer-to-peer agents connection](https://github.com/hyperledger/indy-hipe/tree/master/text/0031-connection-protocol)
-  * [Trust Ping](https://github.com/hyperledger/indy-hipe/tree/master/text/0032-trust-ping)
-  * [Basic Message](https://github.com/hyperledger/indy-hipe/tree/master/text/0033-basic-message)
+  * [DIDComm Protocol](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0005-didcomm)
+  * [Agent Message Protocols](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0003-protocols)
+  * [Message Threading](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0008-message-id-and-threading)
+  * [Message Encryption Envelopes](https://github.com/hyperledger/aries-rfcs/tree/master/features/0019-encryption-envelope)
+  * [Connection Protocol - establishing peer-to-peer agents connection](https://github.com/hyperledger/aries-rfcs/tree/master/features/0160-connection-protocol)
+  * [Trust Ping](https://github.com/hyperledger/aries-rfcs/tree/master/features/0048-trust-ping)
+  * [Basic Message](https://github.com/hyperledger/aries-rfcs/tree/master/features/0095-basic-message)
   * [Credential Exchange - 0.1 Version](https://hackmd.io/s/HkklVzww4)
-  * [Proposed Credential Exchange - 1.0 Version](https://github.com/hyperledger/indy-hipe/blob/2e85595e9a948a2fbfd58400191d112caff5a14b/text/credential-exchange-message-family/README.md)
-    * [Pull Request](https://github.com/hyperledger/indy-hipe/pull/89)
