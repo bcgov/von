@@ -44,7 +44,7 @@ The following illustration shows the process involved in obtaining verifiable cr
 2. Initialize the Streetcred app and then configure it to use the "BCovrin Test Network" instead of the default "Sovrin Network" by clicking the `Sovrin Network` link at the top of the Streetcred home screen and following the instructions to change the "Preferred Network" app settings to use `BCovrin Test`.
 3. Get an email address verifiable credential: [https://email-verification.vonx.io](https://email-verification.vonx.io)
 4. Get an IIW attendee verifiable credential: [https://iiwbook.vonx.io](https://iiwbook.vonx.io)
-5. Use Streetcred to connect with other compatible agents, and after connecting, request verification claims. Refer to these [instructions](#connecting-to-peers).
+<!--- 5. Use Streetcred to connect with other compatible agents, and after connecting, request verification claims. Refer to these [instructions](#connecting-to-peers). -->
 
 ## Installing Streetcred and Creating Your Agent
 
@@ -137,6 +137,7 @@ Now there's a wait. To respect the consent you provided in signing up for IIW, a
 
 If you are issued an IIW attendee verifiable credential, you will get a notification in Streetcred with the credential offer&mdash; just like when you received your verified email credential.
 
+<!---
 ## Connecting to Peers
 
 Now that you have both of your foundational credentials (email and IIW attendance), you can establish nearby connections with others at the conference and use those credentials to prove claims about yourself&mdash;as well as verify the claims of others.
@@ -177,6 +178,8 @@ Here's how:
 Once your connection has presented proof of the claims you requested, the claims will be listed under the verifications for that contact.
 
 If the claims you get back aren't what you expect, you should delete the connection.
+
+-->
 
 ## References
 
