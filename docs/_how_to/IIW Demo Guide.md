@@ -15,11 +15,11 @@ tags:
 
 ## Introduction
 
-In late March 2019, the VON team created [AgentBook](/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID-based communication channels. Now, with **IIWBook**, we've added a (literal) new layer by extending the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with Streetcred and Spark New Zealand, we  have a [mobile agent](/news/2019-04-03-Mobile-Agent) (or two!).
+In late March 2019, the VON team created [AgentBook](/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID-based communication channels. Now, with **IIWBook**, we've added a (literal) new layer by extending the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with [Streetcred.id](https://Streetcred.id) and Spark New Zealand, we  have a [mobile agent](/news/2019-04-03-Mobile-Agent) (or two!).
 
 This IIWBook demo is one of the first examples of a full verifiable credential-based exchange where participants will be able to establish digital trust. This will be accomplished via two verifiable credential issuing services and the ability of participants to connect to each other, agent-to-agent, and request proofs based on the credentials they have received from these issuing services.
 
-The following is a guide to get started with the IIWBook demo. Grab your IOS device (sorry Android users...soon!) and let's get started!
+The following is a guide to get started with the IIWBook demo. Grab your phone and let's get started!
 
 ## Demonstration Overview
 
@@ -28,9 +28,8 @@ The goal of this demo is to show how Hyperledger Indy-based compatible agents ca
 * set up agent-to-agent communication
 * verify and issue credentials
 * send proofs
-* establish connections between agents
 
-[Credentials](https://w3c.github.io/vc-data-model/#credentials) contain a set of claims that refer to a qualification, achievement, personal quality, or aspect of an entity that can be used to establish trust online in countless contexts&mdash;including identity. Using a mobile agent called [**Streetcred: Identity Agent**](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728) (Streetcred), you will collect credentials (in particular, your email and IIW attendance record) and then use these credentials to verify connections with others at the conference.
+[Credentials](https://w3c.github.io/vc-data-model/#credentials) contain a set of claims that refer to a qualification, achievement, personal quality, or aspect of an entity that can be used to establish trust online in countless contexts&mdash;including identity. Using a mobile agent called **Streetcred: Identity Agent** (for [Apple](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728) or [Android](https://play.google.com/store/apps/details?id=id.streetcred.apps.mobile)), you can collect credentials (in particular, your email and IIW attendance record).
 
 This demo steps you through the process of obtaining two credentials&mdash;that's pretty cool in itself. However, keep in mind that by obtaining verifiable credentials and establishing connections with your peers at the conference, you are demonstrating the power of self-sovereign identity. Your credentials prove things about you so others know for certain they are talking to you! Conversely, when you connect to others and they prove who they are, you can be certain they are who they say they are. That is powerful.
 
@@ -40,19 +39,19 @@ The following illustration shows the process involved in obtaining verifiable cr
 
 ## TL;DR
 
-1. On an IOS device, install the Streetcred Identity Agent app from the [Apple App Store](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728).
-2. Initialize the Streetcred app and then configure it to use the "BCovrin Test Network" instead of the default "Sovrin Network" by clicking the `Sovrin Network` link at the top of the Streetcred home screen and following the instructions to change the "Preferred Network" app settings to use `BCovrin Test`.
+1. On your mobile device, install the Streetcred Identity Agent app from the [Apple App Store](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728) or [Google Play Store](https://play.google.com/store/apps/details?id=id.streetcred.apps.mobile).
+2. Initialize the Streetcred app and then configure it to use the "BCovrin Test" instead of the default "Sovrin" from the app "Settings" screen.
 3. Get an email address verifiable credential: [https://email-verification.vonx.io](https://email-verification.vonx.io)
 4. Get an IIW attendee verifiable credential: [https://iiwbook.vonx.io](https://iiwbook.vonx.io)
 <!--- 5. Use Streetcred to connect with other compatible agents, and after connecting, request verification claims. Refer to these [instructions](#connecting-to-peers). -->
 
 ## Installing Streetcred and Creating Your Agent
 
-To get started, you'll need a compatible agent. For these instructions, you'll need to get the Streetcred mobile agent for IOS. It's possible that other agents could be used for this demonstration, but we'll only cover Streetcred here.
+To get started, you'll need a compatible agent. For these instructions, you'll need to get the Streetcred mobile agent. It's possible that other agents could be used for this demonstration, but we'll only cover Streetcred here.
 
-1. Go to the following URL and download/install the Streetcred app onto your IOS phone or tablet from the [Apple App Store](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728)
+> **NOTE:** The images of the Streetcred app are from an older version, so won't look exactly the same as what you'll see on your phone.
 
-    >**NOTE:** *Streetcred currently works with IOS devices only.*
+1. Go to one of the following URLs and download/install the Streetcred app onto your phone or tablet from the [Apple App Store](https://apps.apple.com/ca/app/streetcred-identity-agent/id1475160728) or [Google Play Store](https://play.google.com/store/apps/details?id=id.streetcred.apps.mobile).
 
 2. Open Streetcred.
 
@@ -64,11 +63,7 @@ To get started, you'll need a compatible agent. For these instructions, you'll n
 
 4. Click **Continue**.
 
-5. For this demo, the Streetcred app must use the BC Government's `BCovrin Test` Hyperledger Indy network instance. To set the network, to go to the StreetcCred Home tab ad tap the label "Sovrin Network" to go to the app's settings screen. On the settings screen, edit the `Preferred Network` setting and select from the list of networks "BCovrin Test".
-
-Here's what the various tabs in Streetcred are for:
-
-![Streetcred Tabs]({{ '/assets/images/IIWDemoScreenShots/IIW_Streetcred_icons.png' | relative_url }}){: .align-center}
+5. For this demo, the Streetcred app must use the BC Government's `BCovrin Test` Hyperledger Indy network instance. To set the network, to go to the Streetcred Home tab and tap the "hamburger icon" (tree horizontal lines, top right) to go to the app's settings screen. On the settings screen, edit the `Network` setting and select from the list of networks "BCovrin Test".
 
 ## Getting Your Email Credential
 
@@ -85,6 +80,7 @@ To do this:
       You will receive an email from `noreply@gov.bc.ca` with an embedded one-time use link back to the Email Verification Service.
 
 2. Click on the link provided in the email. This does two things:
+
    * Opens up a page on the Email Verification site with an invitation (in various forms) to connect to the Email Verification Service's agent.
    * Proves to the Email Verification Service that the current user controls the email address to which the message was sent.
 
@@ -95,7 +91,7 @@ To do this:
     ![Get Verified]({{ '/assets/images/IIWDemoScreenShots/IIW_getverified_email.png' | relative_url }}){: .align-center}
 
 3. Use one of the invitations:
-   * If the invitation is on your IOS device, click the link to open Streetcred.
+   * If the invitation is on your mobile device, click the link to open the Streetcred app.
    * If the invitation is on a desktop device, use your Streetcred app to scan the QR code.
    * If you are using some other agent, copy the invitation and paste as appropriate into that agent.
 
@@ -105,7 +101,7 @@ To do this:
 
 4. Click **Accept** to complete the connection.
 
-    You will receive a notification&mdash;the Email Verification Service has sent you an offer for a verifiable credential!
+    You will receive a notification&mdash;the Email Verification Service has sent you an offer for a verifiable credential, and the website will update to show your progress.
 
 5. Click **Accept Offer**.
 
@@ -127,7 +123,7 @@ You have been issued one credential&mdash;let's use it to get another. This cred
 
     ![Connect in Streetcred]({{ '/assets/images/IIWDemoScreenShots/IIW_invite_to_connect.png' | relative_url }}){: .align-center}
 
-    You will receive a new notification. Before you can be issued your attendance credential, you must present proof of your email  credential.
+    You will receive a new notification and the browser screen will update to show your progress. Before you can be issued your attendance credential, you must present proof of your email  credential.
 
     ![Presentation Request]({{ '/assets/images/IIWDemoScreenShots/IIW_request_for_proof.png' | relative_url }}){: .align-center}
 
@@ -136,6 +132,8 @@ You have been issued one credential&mdash;let's use it to get another. This cred
 Now there's a wait. To respect the consent you provided in signing up for IIW, a staff member authorized to see the attendee list will manually verify your attendance at IIW based on your email address. Once that human step is complete, you will be issued an IIW attendance credential that includes your name&mdash;or not, if you are not registered using that email address.
 
 If you are issued an IIW attendee verifiable credential, you will get a notification in Streetcred with the credential offer&mdash; just like when you received your verified email credential.
+
+There you go! You have been issued a credential, had it verified and based on that verification, been offered another credential.
 
 <!---
 ## Connecting to Peers
@@ -197,5 +195,4 @@ IWWBook was coordinated by the [VON team](https://vonx.io) of the Government of 
   * [Message Encryption Envelopes](https://github.com/hyperledger/aries-rfcs/tree/master/features/0019-encryption-envelope)
   * [Connection Protocol - establishing peer-to-peer agents connection](https://github.com/hyperledger/aries-rfcs/tree/master/features/0160-connection-protocol)
   * [Trust Ping](https://github.com/hyperledger/aries-rfcs/tree/master/features/0048-trust-ping)
-  * [Basic Message](https://github.com/hyperledger/aries-rfcs/tree/master/features/0095-basic-message)
-  * [Credential Exchange - 0.1 Version](https://hackmd.io/s/HkklVzww4)
+  * [Present Proof][https://github.com/hyperledger/aries-rfcs/tree/master/features/0037-present-proof]
