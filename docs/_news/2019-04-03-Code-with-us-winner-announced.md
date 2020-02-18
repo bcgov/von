@@ -16,7 +16,7 @@ tags:
 
 **And The Winner Is...**
 
-On March 26, 2019, the BCDevExchange posted a [‘Code with Us’](https://bcdevexchange.org/codewithus) opportunity to build a [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy) mobile agent to be interoperable with the [Indy Catalyst Agent](https://github.com/bcgov/indy-catalyst). On April 3, 2019, Tomislav Markovski, Streetcred ID, LLC (@tmarkovski), was announced the winner of the opportunity, with work to commence on April 4, 2019. 
+On March 26, 2019, the BCDevExchange posted a [‘Code with Us’](https://bcdevexchange.org/codewithus) opportunity to build a [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy) mobile agent to be interoperable with the [Indy Catalyst Agent](https://github.com/bcgov/indy-catalyst). On April 3, 2019, Tomislav Markovski, [Streetcred.id](https://streetcred.id), LLC (@tmarkovski), was announced the winner of the opportunity, with work to commence on April 4, 2019. 
 
 Software agents built on decentralized identifiers (DIDs), self-sovereign identity (SSI) and DIDComm protocols establish the foundation of the Verifiable Organizations Network (VON). In the last few months, the Hyperledger Indy community has made great progress in defining protocols for messaging, implementing those protocols, and ensuring implementations of the protocols are interoperable.
 
