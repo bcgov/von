@@ -14,8 +14,6 @@ tags:
   - von
 ---
 
-<!----- Conversion time: 6.087 seconds.
-
 
 Using this Markdown file:
 
@@ -169,5 +167,3 @@ ConfBook was coordinated by the [VON team](https://vonx.io/) of the Government o
     *   [ConfBook](https://github.com/bcgov/iiwbook)
 *   The protocols used in the demo are part of Aries Interop Profile 1.0, as defined in the Aries RFC repository.
     *   [Aries Interop Profile 1.0](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0302-aries-interop-profile)
-
-<!-- Docs to Markdown version 1.0β18 -->
