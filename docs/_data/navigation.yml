@@ -20,6 +20,8 @@ footer_nav:
         url: /getting_started/get-started/
       - title: "A VON Overview"
         url: /getting_started/von-overview/
+      - title: "Verifiable Credentials Demo: ConfBook"
+        url: /how_to/confbook
   - title: Operating Components
     children:
       - title: "VON Issuer/Verifier Agent"
