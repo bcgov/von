@@ -14,22 +14,6 @@ tags:
   - von
 ---
 
-
-Using this Markdown file:
-
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β18
-* Wed Mar 04 2020 10:56:07 GMT-0800 (PST)
-* Source doc: https://docs.google.com/a/cloudcompass.ca/open?id=1n20BY-yxHZTnjW2QrO_ox9A2olq-83ZcVnMEeyYgcic
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server.
------>
-
 # Verifiable Credentials Demonstration: ConfBook
 
 ## Introduction
