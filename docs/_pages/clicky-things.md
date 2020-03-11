@@ -51,7 +51,7 @@ Want to see what we're working on?  Explore here ...
 
 ### AgentBook - Agent to Agent Messaging Technology Demonstrator
 
-AgentBook is a demo showing the interoperability of agents from three sources, BC Gov ([Indy Catalyst Agent](https://github.com/bcgov/indy-catalyst) - aka AgentBook), [StreetCred Agent Framework](https://github.com/streetcred-id/agent-framework) and the [Indy reference python agent](https://github.com/hyperledger/indy-agent)
+AgentBook is a demo showing the interoperability of agents from three sources, BC Gov ([Aries VCR Agent](https://github.com/hyperledger/aries-vcr) - aka AgentBook), [StreetCred Agent Framework](https://github.com/streetcred-id/agent-framework) and the [Indy reference python agent](https://github.com/hyperledger/indy-agent)
 
 * [AgentBook - Agent-to-Agent Messaging Demonstrator](https://bit.ly/ibc_ab) 
 

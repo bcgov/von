@@ -71,7 +71,7 @@ Integration Script:
 Environments:
   - [TheOrgBook](https://github.com/bcgov/TheOrgBook)
   - [von](https://github.com/bcgov/von)
-  - [indy-catalyst](https://github.com/bcgov/indy-catalyst)
+  - [aries-vcr](https://github.com/hyperledger/aries-vcr)
   - [von-network](https://github.com/bcgov/von-network)
   - [greenlight](https://github.com/bcgov/greenlight)
   - [von-x](https://github.com/PSPC-SPAC-buyandsell/von-x)
