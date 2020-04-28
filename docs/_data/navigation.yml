@@ -81,3 +81,15 @@ how_to:
         url: /how_to/generating-code-docs/
       - title: "Adding News Articles"
         url: /how_to/adding-news-articles/
+
+safeentry:
+  - title: The Safe Entry BC Demo
+    children:
+      - title: "Overview"
+        url: /safeentry/
+      - title: "Participants"
+        url: /safeentry/participants
+      - title: "Demo Guide"
+        url: /safeentry/guide
+      - title: "Verifiable Credentials&mdash;A Quick Overview"
+        url: /safeentry/vcs/

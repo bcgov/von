@@ -14,8 +14,6 @@ tags:
   - von
 ---
 
-# Verifiable Credentials Demonstration: ConfBook
-
 ## Introduction
 
 In March 2019, the [VON team](https://vonx.io/) created [AgentBook](https://vonx.io/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID-based communication channels. ConfBook Attendance Issuer (ConfBook), extends the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with [Streetcred.id](https://streetcred.id/) and Spark New Zealand, we have a [mobile agent](https://vonx.io/news/2019-04-03-Mobile-Agent).
