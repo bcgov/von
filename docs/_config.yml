@@ -137,6 +137,7 @@ include:
   - _getting_started
   - _how_to
   - _news
+  - _safeentry
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -194,6 +195,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   how_to:
+    output: true
+    permalink: /:collection/:path/
+  safeentry:
     output: true
     permalink: /:collection/:path/
   news:
@@ -254,6 +258,18 @@ defaults:
       comments: false
       sidebar:
         nav: "how_to"
+  # _safeentry
+  - scope:
+      path: "_safeentry"
+      type: safeentry
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "safeentry"
 
 # Sass/SCSS
 sass:
