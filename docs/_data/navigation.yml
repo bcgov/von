@@ -22,6 +22,8 @@ footer_nav:
         url: /getting_started/von-overview/
       - title: "Verifiable Credentials Demo: ConfBook"
         url: /how_to/confbook
+      - title: "Get a Mobile Wallet"
+        url: /getwallet
   - title: Operating Components
     children:
       - title: "VON Issuer/Verifier Agent"
