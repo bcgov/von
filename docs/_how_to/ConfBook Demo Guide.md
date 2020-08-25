@@ -16,7 +16,7 @@ tags:
 
 ## Introduction
 
-In March 2019, the [VON team](https://vonx.io/) created [AgentBook](https://vonx.io/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID-based communication channels. ConfBook Attendance Issuer (ConfBook), extends the core of AgentBook with the ability to exchange verifiable credentials. Even more exciting, through collaboration with [Trinsic.id](https://trinsic.id/) (formerly Streetcred.id) and [Mattr Global](https://mattr.global) New Zealand, we have a [mobile agent](https://vonx.io/news/2019-04-03-Mobile-Agent).
+In March 2019, the [VON team](https://vonx.io/) created [AgentBook](https://vonx.io/news/2019-03-28-Global-Connection) to demonstrate the interoperability of independently created agents. These agents were able to successfully establish DID-based communication channels. ConfBook Attendance Issuer (ConfBook), extends the core of AgentBook with the ability to exchange verifiable credentials. Even cooler, through collaboration with [Trinsic.id](https://trinsic.id/) (formerly Streetcred.id) and [Mattr Global](https://mattr.global) New Zealand, we have a [mobile agent](https://vonx.io/news/2019-04-03-Mobile-Agent).
 
 In this demo, you’ll see how ConfBook is used to issue a verifiable credential asserting a requester is a conference attendee based on their verified email address. The following is a guide to get started with the ConfBook demo. Grab your phone and let’s get started!
 
@@ -41,7 +41,7 @@ The following illustration shows the process involved in obtaining verifiable cr
 ## TL;DR
 
 1. On your mobile device, install a wallet following the instructions [here](/getwallet).
-2. Initialize the wallet and make sure it is configured to use the "Sovrin Test" network from the app “Settings” screen.
+2. Initialize the wallet and make sure it is configured to use the "Sovrin Staging" network from the app “Settings” screen.
 3. Get an email address verifiable credential: [https://email-verification.vonx.io](https://email-verification.vonx.io/)
 4. Get a conference (e.g. Hyperledger Global Forum) attendee verifiable credential: [https://confbook.vonx.io](https://confbook.vonx.io/)
 
