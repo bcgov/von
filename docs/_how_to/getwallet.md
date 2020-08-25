@@ -2,16 +2,20 @@
 title: "Get a Mobile Wallet"
 permalink: /getwallet
 excerpt: "Collaborating on the VON Project using Rocket.Chat."
-last_modified_at: 2020-06-28T16:36:00-07:00
+last_modified_at: 2020-08-24T16:36:00-07:00
 redirect_from:
   - /theme-setup/
 toc: true
 toc_sticky: true
 ---
 
-Need a mobile wallet app for working with BC Gov production and proof of concept applications? Use these instructions to get a compatible wallet on your phone that can receive, hold and prove your verifiable credentials. There are currently two options from [Trinsic](#trinsic-wallet) and [esatus](#esatus-wallet).
+Need a mobile wallet app for working with BC Gov production and proof of concept applications? Use these instructions to get a compatible wallet on your phone that can receive, hold and prove your verifiable credentials. There are currently three options:
 
-> Are you a wallet maker?  [Contact us](mailto:swcurran@cloudcompass.ca,john.jordan@gov.bc.ca?subject=Contributing to VON) about adding your wallet to this document.
+- [Trinsic Wallet](#trinsic-wallet)
+- [esatus Wallet](#esatus-wallet)
+- [Lissi Wallet](#lissi-wallet)
+
+> Are you a wallet maker?  [Contact us](mailto:swcurran@cloudcompass.ca,john.jordan@gov.bc.ca?subject=Contributing%20to%20VON) about adding your wallet to this document.
 
 ## Trinsic Wallet
 
@@ -52,3 +56,21 @@ After installing and opening the mobile wallet, follow the instructions to confi
 - Click the back arrow to return to the settings and again to return to the main app screen.
 
 That's it for the special instructions! Please return to the instructions for application you are using.
+
+## Lissi Wallet
+
+[Lissi](https://lissi.id/) by the [main incubator GmbH](https://main-incubator.com/) ([main incubator - EN](https://main-incubator.com/en/home/)) provides a compatible wallet for both iOS and Android. To use the app you need to install the app from the App- or Play Store. Please follow the setup instructions below for the initial setup:
+
+Links to download the Lissi Wallet:
+
+- [Apple iOS](https://apps.apple.com/de/app/lissi/id1501321092)
+- [Google Android](https://play.google.com/store/apps/details?id=io.lissi.mobile)
+
+After installing and opening the mobile wallet, follow the instructions in the onboarding screens to configure the wallet with appropriate permissions. After setup, you will be taken to the main app screen. Before continuing with a BC Gov identity service, you must do some additional setup, as followed:
+
+- Go to settings by clicking the cog icon in the top right
+- Click on the "Change Ledger" item and from the subsequent list select one of the following:
+  - If you are using a production service, select "Sovrin MainNet"
+  - If you are using a proof-of-concept service, select "Sovrin StagingNet"
+  - If you are using a proof-of-concept service that instructs you to use the BCovrin test ledger, select "BCGov Test Ledger"
+- Click the back arrow to return to the settings and again to return to the main app screen.
