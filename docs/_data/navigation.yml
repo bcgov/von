@@ -83,6 +83,14 @@ how_to:
         url: /how_to/generating-code-docs/
       - title: "Adding News Articles"
         url: /how_to/adding-news-articles/
+  - title: Demo Apps
+    children:
+      - title: "ConfBook"
+        url: /how_to/confbook
+      - title: "Chat Server"
+        url: /chatdemo
+      - title: "Safe Entry BC"
+        url: /safeentry
 
 safeentry:
   - title: The Safe Entry BC Demo
