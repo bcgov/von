@@ -36,7 +36,7 @@ issuers as of the time of writing.
 
 2. If you haven't been invited to get a Verified Person
 credential, you can get an Unverified Person credential from [this issuer](https://openvp-issuer.pathfinder.gov.bc.ca/). With
-an Unverified Person, you make up the data for the credential.  Its **VERY** unofficial!
+an Unverified Person, you make up the data for the credential.  It's **VERY** unofficial!
 
 ## Access the chat service
 
