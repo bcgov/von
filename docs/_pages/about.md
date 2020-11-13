@@ -47,13 +47,13 @@ Here's a simple picture of the system:
 
 * On the right are government services that organizations access to apply for a variety of credentials, including registrations, permits and licenses.
   * The services use instances of [VON issuer/verifier agents](https://github.com/bcgov/von-agent-template) to verify claims and issue credentials.
-  * Services could cross governmental jurisdications (provincial, regional, municipal) and could even involve commercial entities (banks, etc.).
+  * Services could cross governmental jurisdictions (provincial, regional, municipal) and could even involve commercial entities (banks, etc.).
 * In the middle, (The)OrgBook is a repository of public credentials issued by those services to OrgBook.
   * Credentials are equivalent to the "Permit to Operate" documents posted on businesses' walls.
   * (The)OrgBook's repository of public credentials is web-searchable, listing organizations, credentials and credential details (claims).
 * On the left is a representative of an organization that is applying for registrations, licences and permits from the services on the right.
 * The identity registry (represented by the file folders with links) underlies the system to infuse trust.
-  * The identity register is a decentralized, self-dovereign identity network built on blockchain/distributed ledger technology.
+  * The identity register is a decentralized, self-sovereign identity network built on blockchain/distributed ledger technology.
   * The initial VON implementation uses the [Sovrin Foundation](https://sovrin.org)'s Sovrin Network as the underlying Identity Registry Network.
 
 As an organization goes through the online application processes to acquire registrations, licenses or permits, the services get proofs (and their associated verified claims) from verifiable credentials already stored in OrgBook about the organization. Once a service completes the approval process and decides to issue the organization a registration, licence or permit, they issue that public verifiable credential digitally to OrgBook about the organization.
