@@ -11,7 +11,7 @@ Want to see what we're working on?  Explore here ...
 
 ### Webinars
 * [John Jordan (BC Gov) about VON, OrgBook BC and our vision](https://bc-von.s3.amazonaws.com/2018-06-VON-Webinar-for-Sovrin-Indy-Community.mp4)
-* John Jordan and Stephen Curran at the December 2018 Hyperledger Global Forum - [Verifiable Organizations Network: A Production Government Deployment of Hyperledger Indy](https://infominer.id/transcripts/VerifiableOrganizationsNetwork-HGF.html)
+* John Jordan and Stephen Curran at the December 2018 Hyperledger Global Forum - [Verifiable Organizations Network: A Production Government Deployment of Hyperledger Indy](https://decentralized-id.com/government/canada/bcgov/von/hgf-2018-production-government-deployment-hyperledger-indy/)
 
 ### Production Services
 
