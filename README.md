@@ -9,7 +9,7 @@ The goal of the Verifiable Organizations Network (VON) project is to explore the
 
 VON offers government digital service providers the possibility of dramatically improving their users' service experience. This is accomplished through open and simple access to authenticated organizational data so their users don't need to find and re-enter data the government already holds. Data is simply shared when its open, or shared with authorized consent.
 
-*Most up to date website* [https://vonx.io](https://vonx.io)
+*Most up to date website* [vonx.io](http://vonx.io)
 
 Objectives
 ----------
